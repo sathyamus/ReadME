@@ -16,4 +16,4 @@ Google Chrome 64-bit (x64):
 
 ### Firefox
 
-[Firefox standalone/offline installers] (https://www.mozilla.org/en-US/firefox/all/)
+[Firefox standalone/offline installers](https://www.mozilla.org/en-US/firefox/all/)

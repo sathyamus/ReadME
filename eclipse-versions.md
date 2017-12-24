@@ -6,7 +6,8 @@ https://www.eclipse.org/
  - Luna (4.4) Integrated Java 8 support 
  - Kepler (4.3) 
  - Juno (4.2) 
- ..
+ - ..
+ - ..
  - Indigo (3.7) 
  - Helios (3.6) 
  - Galileo (3.5) 

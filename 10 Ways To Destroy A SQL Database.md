@@ -1,9 +1,5 @@
 ## 10 Ways To Destroy A SQL Database
 
-Dear Techies,
-
-           Find the interesting and Informational links below.
-Hope this helps.........
 
 http://hungred.com/useful-information/best-way-log-details-database-or-file-log/
 

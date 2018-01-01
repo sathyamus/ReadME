@@ -6,6 +6,6 @@ RabbitMQ default port: 5672
 
 #### To Stop RabbitMQ
 	
-http://localhost:15672/ 
-  Username: guest 
-  Password: guest 
+	http://localhost:15672/ 
+	Username: guest 
+	Password: guest 

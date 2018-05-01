@@ -1,0 +1,49 @@
+pipeline {
+    agent any
+		
+	// populating environment variables
+	environment {
+        DISABLE_AUTH = 'true'
+        DB_ENGINE    = 'sqlite'
+    }
+	
+	parameters {
+        string(name: 'URL', defaultValue: 'https://github.com/jenkins-docs/simple-java-maven-app.git', description: 'Whats the github URL?')
+    }
+		
+    stages {
+		stage('Check versions') {
+            steps {
+                sh 'mvn --version'
+          
+                sh 'java -version'
+                
+                sh 'node --version'
+                
+                sh 'npm --version'
+            }            
+        }
+        stage('List environment variables') {
+            steps {
+				sh 'printenv'
+            }            
+        }
+
+		stage('Checkout Git repository') {
+			steps {
+				git branch: 'master', url: "${params.URL}"
+			}
+		}
+		stage('Build') {
+			steps {
+				sh 'mvn -B -DskipTests clean package'
+			}
+		}
+		stage('Deploy') {
+			steps {
+				sh 'echo ${POM_VERSION}'
+				sh 'java -jar ../target/${POM_VERSION}'
+			}
+		}		
+    }
+}

@@ -13,3 +13,7 @@
 
     Follow the instructions to complete the installation
 
+https://github.com/cvitter/jenkins-pipeline-examples
+https://jenkins.io/doc/pipeline/steps/pipeline-utility-steps/#code-readmavenpom-code-read-a-maven-project-file
+https://github.com/jenkinsci/pipeline-examples/blob/master/declarative-examples/jenkinsfile-examples/mavenDocker.groovy
+https://github.com/Jotschi/maven-release-workflow-test/blob/master/Jenkinsfile

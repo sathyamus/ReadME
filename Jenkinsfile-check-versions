@@ -12,8 +12,8 @@ pipeline {
     }
 	
 	parameters {
-        string(name: 'URL', defaultValue: 'https://github.com/jenkins-docs/simple-java-maven-app.git', description: 'Whats the github URL?')
-		string(name: 'ARTIFACT_ID', defaultValue: '$ARTIFACT_ID', description: 'ArtifactId')
+        string(name: 'URL', defaultValue: 'https://github.com/jenkins-docs/simple-java-maven-app.git', description: 'Github URL?')
+		string(name: 'ARTIFACT_ID', defaultValue: '$ARTIFACT_ID', description: 'Artifact Id')
 		string(name: 'APPL_VERSION', defaultValue: '$APPL_VERSION', description: 'Version')
     }
 		

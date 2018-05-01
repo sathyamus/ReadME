@@ -5,10 +5,16 @@ pipeline {
 	environment {
         DISABLE_AUTH = 'true'
         DB_ENGINE    = 'sqlite'
+        ARTIFACT_ID = readMavenPom().getArtifactId()
+        APPL_VERSION = readMavenPom().getVersion()
+		PACKAGING = readMavenPom().getPackaging()
+		APP_VERSION = "$ARTIFACT_ID-$APPL_VERSION.$PACKAGING"
     }
 	
 	parameters {
         string(name: 'URL', defaultValue: 'https://github.com/jenkins-docs/simple-java-maven-app.git', description: 'Whats the github URL?')
+		string(name: 'ARTIFACT_ID', defaultValue: '$ARTIFACT_ID', description: 'ArtifactId')
+		string(name: 'APPL_VERSION', defaultValue: '$APPL_VERSION', description: 'Version')
     }
 		
     stages {
@@ -41,8 +47,10 @@ pipeline {
 		}
 		stage('Deploy') {
 			steps {
+			    echo "$APPL_VERSION"
+			    echo "$ARTIFACT_ID-$APPL_VERSION.$PACKAGING"
 				sh 'echo ${POM_VERSION}'
-				sh 'java -jar ../target/${POM_VERSION}'
+				sh 'java -jar ./target/$APP_VERSION'
 			}
 		}		
     }

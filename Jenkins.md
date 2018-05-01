@@ -13,7 +13,12 @@
 
     Follow the instructions to complete the installation
 
+	
+	Blue Ocean ???
+	
 https://github.com/cvitter/jenkins-pipeline-examples
 https://jenkins.io/doc/pipeline/steps/pipeline-utility-steps/#code-readmavenpom-code-read-a-maven-project-file
 https://github.com/jenkinsci/pipeline-examples/blob/master/declarative-examples/jenkinsfile-examples/mavenDocker.groovy
 https://github.com/Jotschi/maven-release-workflow-test/blob/master/Jenkinsfile
+
+https://github.com/jenkins-docs/building-a-multibranch-pipeline-project/tree/master/jenkins/scripts

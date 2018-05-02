@@ -32,6 +32,10 @@ Finished: FAILURE
 
 ===========
 
+mvn help:evaluate -Dexpression=project.version
+
+============
+
 Seems invalid characters...
 
  > git.exe rev-list --no-walk 7303c99d7e621bae93e7423eccfb52179a3ef4f8 # timeout=10

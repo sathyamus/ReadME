@@ -1,6 +1,6 @@
 
 org.springframework.boot.context.ApplicationPidFileWriter
-        An ApplicationListener that saves application PID into file. 
+ - An ApplicationListener that saves application PID into file. 
 This application listener will be triggered exactly once per JVM, and the file name can be 
 overridden at runtime with a System property or environment variable named "PIDFILE" (or "pidfile") 
 or using a spring.pid.file property in the Spring Environment.

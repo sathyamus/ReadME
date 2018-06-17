@@ -5,9 +5,11 @@ This application listener will be triggered exactly once per JVM, and the file n
 overridden at runtime with a System property or environment variable named "PIDFILE" (or "pidfile") 
 or using a spring.pid.file property in the Spring Environment.
 
-SpringApplication springApplication = new SpringApplication(DemoApplication.class);
-springApplication.addListeners(new ApplicationPidFileWriter());
+```sh
+SpringApplication springApplication = new SpringApplication(DemoApplication.class); \
+springApplication.addListeners(new ApplicationPidFileWriter()); \
 springApplication.run(args);
+```
 
 https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
 
@@ -23,8 +25,9 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-instal
 ========
 
 When manifest file doesn't exists....
-
-+ java -jar ./target/UnitTests-1.0-SNAPSHOT.jar
+```sh
+ java -jar ./target/UnitTests-1.0-SNAPSHOT.jar
+```
 Error: Unable to access jarfile ./target/UnitTests-1.0-SNAPSHOT.jar
 .......
 ERROR: script returned exit code 1
@@ -32,8 +35,9 @@ Finished: FAILURE
 
 ===========
 
+```sh
 mvn help:evaluate -Dexpression=project.version
-
+```
 ============
 
 Seems invalid characters...

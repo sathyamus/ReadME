@@ -1,0 +1,75 @@
+
+http://search.cpan.org/search?query=DBD%3Apg&mode=all
+
+
+File-Slurp
+Simple and Efficient Reading/Writing/Modifying of Complete Files
+	Version:	9999.19
+	Released:	2011-06-07
+	Author:	Uri Guttman <uri@sysarch.com>
+	CPAN:	http://search.cpan.org/dist/File-Slurp-9999.19/
+
+Installed files:
+	E:/InstalledApps/perle-5-26-1/html/site/lib/File/Slurp.html
+	E:/InstalledApps/perle-5-26-1/site/lib/File/Slurp.pm
+	E:/InstalledApps/perle-5-26-1/site/lib/auto/File/Slurp/.packlist
+
+
+----------------
+
+File-Find-Rule
+unknown
+	Version:	0.34
+	Released:	2015-12-03
+	Author:	Richard Clamp <richardc@unixbeard.net>
+	CPAN:	http://search.cpan.org/dist/File-Find-Rule-0.34/
+
+Installed files:
+	E:/InstalledApps/perle-5-26-1/html/bin/findrule.html
+	E:/InstalledApps/perle-5-26-1/html/site/lib/File/Find/Rule.html
+	E:/InstalledApps/perle-5-26-1/html/site/lib/File/Find/Rule/Extending.html
+	E:/InstalledApps/perle-5-26-1/html/site/lib/File/Find/Rule/Procedural.html
+	E:/InstalledApps/perle-5-26-1/site/bin/findrule
+	E:/InstalledApps/perle-5-26-1/site/bin/findrule.bat
+	E:/InstalledApps/perle-5-26-1/site/lib/File/Find/Rule.pm
+	E:/InstalledApps/perle-5-26-1/site/lib/File/Find/Rule/Extending.pod
+	E:/InstalledApps/perle-5-26-1/site/lib/File/Find/Rule/Procedural.pod
+	E:/InstalledApps/perle-5-26-1/site/lib/auto/File/Find/Rule/.packlist
+	
+----------------
+
+Text-ASCIITable
+Create a nice formatted table using ASCII characters.
+	Version:	0.22
+	Released:	2016-12-29
+	Author:	Hakon Nessjoen <haakon.nessjoen@_gmail_>
+	CPAN:	http://search.cpan.org/dist/Text-ASCIITable-0.22/
+
+Installed files:
+	E:/InstalledApps/perle-5-26-1/html/site/lib/Text/ASCIITable.html
+	E:/InstalledApps/perle-5-26-1/html/site/lib/Text/ASCIITable/Wrap.html
+	E:/InstalledApps/perle-5-26-1/site/lib/Text/ASCIITable.pm
+	E:/InstalledApps/perle-5-26-1/site/lib/Text/ASCIITable/Wrap.pm
+	E:/InstalledApps/perle-5-26-1/site/lib/auto/Text/ASCIITable/.packlist
+
+----------------
+
+Config-General
+unknown
+	Version:	2.63
+	Released:	2016-07-29
+	Author:	T. Linden <tlinden@cpan.org>
+	CPAN:	http://search.cpan.org/dist/Config-General-2.63/
+
+Installed files:
+	E:/InstalledApps/perle-5-26-1/html/site/lib/Config/General.html
+	E:/InstalledApps/perle-5-26-1/html/site/lib/Config/General/Extended.html
+	E:/InstalledApps/perle-5-26-1/html/site/lib/Config/General/Interpolated.html
+	E:/InstalledApps/perle-5-26-1/site/lib/Config/General.pm
+	E:/InstalledApps/perle-5-26-1/site/lib/Config/General/Extended.pm
+	E:/InstalledApps/perle-5-26-1/site/lib/Config/General/Interpolated.pm
+	E:/InstalledApps/perle-5-26-1/site/lib/auto/Config/General/.packlist
+
+
+----------------
+

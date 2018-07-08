@@ -36,7 +36,7 @@ npm install
 ```
 
 Troubleshooting node-sass \
-https://github.com/sass/node-sass/blob/master/TROUBLESHOOTING.md
-
+https://github.com/sass/node-sass/blob/master/TROUBLESHOOTING.md \
+https://github.com/sass/node-sass#binary-configuration-parameters
 
 

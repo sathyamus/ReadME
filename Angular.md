@@ -14,7 +14,7 @@ npm install -g @angular/cli
 
 ```sh
 npm config ls
-```
+
 ; cli configs
 metrics-registry = "https://registry.npmjs.org/"
 scope = ""
@@ -25,6 +25,7 @@ user-agent = "npm/5.6.0 node/v8.9.4 win32 x64"
 ; HOME = C:\Users\SN
 ; "npm config ls -l" to show all defaults.
 
+```
 
 Troubleshooting Angular packages(Cleaning cache)
 ```sh
@@ -37,5 +38,5 @@ npm install
 Troubleshooting node-sass \
 https://github.com/sass/node-sass/blob/master/TROUBLESHOOTING.md
 
-\
+
 

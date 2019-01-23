@@ -45,3 +45,8 @@ Seems invalid characters...
  > git.exe rev-list --no-walk 7303c99d7e621bae93e7423eccfb52179a3ef4f8 # timeout=10
 java.nio.file.InvalidPathException: Trailing char < > at index 75: C:\Users\SN\.jenkins\workspace\hello-test@script\Jenkinsfile-check-versions 
 
+
+
+https://kinsta.com/knowledgebase/free-smtp-server/
+
+

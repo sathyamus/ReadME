@@ -14,3 +14,5 @@ https://www.eclipse.org/
  - Galileo (3.5) 
  - Ganymede (3.4) 
  - Europa (3.3) 
+
+Starting with version 4.9, the project has opted for dropping that naming convention in order to better align with new Simultaneous Release strategy and adopt a date-based naming convention to reflect the quarterly releases.

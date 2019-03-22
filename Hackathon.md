@@ -6,8 +6,8 @@
 
 
 DevOps
-	-> Git Pull Request
-		-> Generate the token and register that token in Jenkins 1.x, in Jenkins2 it has built in support
+	-> Git Pull Request \
+		-> Generate the token and register that token in Jenkins 1.x, in Jenkins2 it has built in support \
 		-> Add the Jenkins hook link in git
 		
 	-> Add Pull Request Template to mention the standards / key points to remind

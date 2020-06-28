@@ -42,3 +42,8 @@ An interesting thing to note is that phases and goals may be executed in sequenc
 
 This command will clean the project, copy dependencies, and package the project (executing all phases up to package, of course).
 
+
+#### Ensure pom is also uploaded to the repository along with the package jar and sources, this will allow you to get the transitive dependencies mentioned in pom. If not, then you will get only the dependency classes alone from that jar.
+```
+    mvn clean dependency:tree
+```

@@ -16,3 +16,11 @@ http://antonioleiva.com/kotlin/
 - Introducing Inheritance 
 - In Kotlin, all classes extend from Any, which is similar to Object in Java. By default, classes are closed, like final classes in Java. So, in order to extend a class, it has to be declared as *open* or *abstract*
 
+##### Functions
+-> Parameters are defined using Pascal notation.
+-> Parameters can have default values, This reduces a number of overloads compared to other languages.
+-> Named parameters
+-> Positional parameters
+-> Single-expression function
+-> infix
+-> Higher-Order functions and Lambdas 

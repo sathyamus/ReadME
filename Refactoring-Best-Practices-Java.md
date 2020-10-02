@@ -60,4 +60,8 @@ becomes
 
 ##### 12. Make use of Util classes like CollectionUtils, StringUtils etc
 
+##### 13. Avoid declaring collections with null, initialize them with Empty.
+
+
+
 

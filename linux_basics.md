@@ -6,25 +6,40 @@ mkdir dir1
 cd test
 mkdir -p dir1/dir2/dir3
 cd ~ => Navigates to User Home directory
+
 touch file1
+
 rm file1
 rm -r dir1
 rm -rf dir2 => Force delete, no confirmation
+
 nano myfirstfile.txt
+
 echo "He walked into his exile" > ~/myfirstfile.txt
+
 cp file1 file2
+
 cp -r dir1 dir2
+
 mv file2 file3
+
 cat file1
+
 more file1
+
 tail -20 file1
+
 head -20 file2
+
 find . -name '*.txt' => find all the text files in the current directory
 find / -name '*.txt' 
+
 grep word file1 file2
 grep -r word dir1
 grep -i word file1 file2
+
 wc -l
+
 Permissions => 
     file / directory Owner Group Others
     -/d rwx rwx rwx
@@ -33,11 +48,17 @@ Permissions =>
     4 is for Read, 2 is for Write and 1 is for Execute permission.
 
 sudoedit => list of sudoers can be edited with this command.
+
 chown => change the owner of a file 
+
 chgrp => change the group of a file 
+
 pstree, top, ps => find the information about all the processes
+
 ./startup.sh & => To run a program in the background
+
 kill -9 processid => To kill any running process
+
 jobs => list of jobs
 fg jobid => To bring a process to foreground
 

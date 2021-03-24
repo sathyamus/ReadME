@@ -52,3 +52,7 @@ Clean Architecture with Uncle Bob
 https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle-bob/
 
 
+### Hazalecast 
+
+-> Cache implementation to reduce the frequent data retrievals
+-> Noticed in cluster its slow in responding to requests

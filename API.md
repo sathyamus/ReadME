@@ -56,3 +56,8 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
 
 -> Cache implementation to reduce the frequent data retrievals
 -> Noticed in cluster its slow in responding to requests
+
+-> To reduce the API calls, if we can segregate the business process, then below ways to identify those are processed.
+=> Store the business process in a DB (dis-advantage, need to have the DB in the respective project / repo should be managing the DB )
+=> Store the business process in a message notification 
+=> Update the business process status to API call and store 

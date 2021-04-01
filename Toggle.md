@@ -29,5 +29,10 @@ Toggle approach
     -> Requires dedicated schema / DB and UI (optional)
 
 4. Config server
+   Pros:
+    -> Very useful, if you have a good number of micro services.
+   Cons:
+    -> Painful to maintain, if you have very minimal micro services.
+
 
 5. JavaScript toggle

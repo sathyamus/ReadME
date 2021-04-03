@@ -4,34 +4,35 @@ certlm.msc -> View Certificates
 
 #### Network Sniffing and Spoofing tools :
 
-- Hexinject \
-- Wireshark \
-- Burp Suite \
+- Hexinject 
+- Wireshark 
+- Burp Suite 
 - Bettercap 
 
 #### Top 10 ethical hacking tools till 2021 :
 
-- Acunetix \
-- Nmap -  Network Mapper \
-- Metasploit \
-- Wireshark \
-- Nikto \
-- John the Ripper \
-- Kismet \
-- SQLninja \
-- Wapiti \
+- Acunetix 
+- Nmap -  Network Mapper 
+- Metasploit 
+- Wireshark 
+- Nikto 
+- John the Ripper 
+- Kismet 
+- SQLninja 
+- Wapiti 
 - Canvas
 
 
-*Summary:*
+**Summary:**
     ABC technologiesis a start-up that develops web applications. 
     Recently ABC technologies observed that they are being a victim to various cyber attacks. 
     ABC technology is now worried about the security of their enterprise.
 
-*Situation:*
+**Situation:**
     To take care of that, they hire you to check for security loopholes in the enterprise architecture and suggest solutions. 
 
-*The enterprise architecture of ABC technologies is as follows.* \
+**The enterprise architecture of ABC technologies is as follows.** 
+
     1. All the data is stored in a single database named DB1 that resides on the Admin System hosted in AWS Cloud. \
     2. This database is accessed by various application servers which is also hosted in the cloud. \
     3. The application server accessed DB1 via API calls which included username and password for authentication. \
@@ -41,7 +42,8 @@ certlm.msc -> View Certificates
     7. Because ABC technologies allows working remotely, it allows employees to access the Admin System using a VPN. \
     8. Every employee is given the VPN access when they are hired without strict policies. \
 
-*For the above scenario, answer the following:* \
+**For the above scenario, answer the following:** 
+
     1. Which component(s) in the above architecture are most vulnerable to a cyberattack? \
        DB1, Admin System, VPN access
 

@@ -14,7 +14,13 @@
     - Inbound port rules, Outbound port rules (Allow / Deny)
   - Connect with RDP
   - Auto-shutdown
-  
+  - Cloud Shell (icon is at on top right corner of poral)
+
+- Virtual Machine scale set for creating and managing Load balanced VMs.
+  - Create Virtual Network
+  - Select a load balancer
+  - Select a backend pool
+  - Scaling -> Initial instance count 
 
 - LoadBalancer
   - Frontend IP configuration

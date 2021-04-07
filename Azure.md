@@ -22,6 +22,10 @@
   - Select a backend pool
   - Scaling -> Initial instance count 
 
+- Azure Storage
+  - Storage account
+  - Feeder 
+
 - LoadBalancer
   - Frontend IP configuration
   - Backend pools

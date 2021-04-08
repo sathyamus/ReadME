@@ -26,6 +26,9 @@
   - Storage account
   - Feeder 
 
+- Virtual Networking 
+  - Configure Azure DNS
+
 - LoadBalancer
   - Frontend IP configuration
   - Backend pools

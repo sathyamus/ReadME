@@ -29,6 +29,9 @@
 - Virtual Networking 
   - Configure Azure DNS
 
+- Monitoring 
+  - Azure Network Watcher
+
 - LoadBalancer
   - Frontend IP configuration
   - Backend pools

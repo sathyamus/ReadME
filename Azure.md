@@ -32,6 +32,9 @@
 - Monitoring 
   - Azure Network Watcher
 
+- Data Protection 
+  - Azure Site Recovery between Azure regions
+
 - LoadBalancer
   - Frontend IP configuration
   - Backend pools

@@ -49,3 +49,8 @@
    Performance : Standard
    Account kind : StorageV2 (general purpose v2)
    Replication : Locally redundant storage (LRS)
+
+  - Blob service
+     - Containers
+       Name : container1
+       Public access level : Private (no anonymous access)

@@ -54,3 +54,6 @@
      - Containers
        Name : container1
        Public access level : Private (no anonymous access)
+       - Upload
+       - Monitor the storage account
+         - Insights -> information on Failures, Performance, Availability, and Capacity

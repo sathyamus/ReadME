@@ -16,6 +16,29 @@
   - Auto-shutdown
   - Cloud Shell (icon is at on top right corner of poral)
 
+- Create a VM with a Template
+
+- Create a VM with PowerShell
+  - open the Azure Cloud Shell by clicking on the icon in the top right of the Azure Portal
+  - select either Bash or PowerShell, select PowerShell
+  - click Create storage, and wait for the Azure Cloud Shell to initialize
+  - Create a resource group and virtual machine
+    - Create a new resource group
+      ps =>  New-AzResourceGroup -Name myRGPS -Location EastUS
+    - Verify your new resource group
+      ps => Get-AzResourceGroup | Format-Table
+  - Create a virtual machine
+    - Provide the username and the password that will be configured as the local Administrator account on that virtual machines
+       New-AzVm `
+       -ResourceGroupName "myRGPS" `
+       -Name "myVMPS" `
+       -Location "East US" `
+       -VirtualNetworkName "myVnetPS" `
+       -SubnetName "mySubnetPS" `
+       -SecurityGroupName "myNSGPS" `
+       -PublicIpAddressName "myPublicIpPS"
+
+
 - Virtual Machine scale set for creating and managing Load balanced VMs.
   - Create Virtual Network
   - Select a load balancer

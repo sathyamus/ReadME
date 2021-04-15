@@ -37,7 +37,13 @@
        -SubnetName "mySubnetPS" `
        -SecurityGroupName "myNSGPS" `
        -PublicIpAddressName "myPublicIpPS"
-
+  - Execute commands in the Cloud Shell
+      - Retrieve information about your virtual machine including name, resource group, location, and status
+          Get-AzVM -name myVMPS -status | Format-Table -autosize
+      - Stop the virtual machine. When prompted confirm (Yes) to the action
+          Stop-AzVM -ResourceGroupName myRGPS -Name myVMPS
+      - Verify your virtual machine state. The PowerState should now be deallocated
+           Get-AzVM -name myVMPS -status | Format-Table -autosize
 
 - Virtual Machine scale set for creating and managing Load balanced VMs.
   - Create Virtual Network
@@ -80,3 +86,11 @@
        - Upload
        - Monitor the storage account
          - Insights -> information on Failures, Performance, Availability, and Capacity
+
+- Review Azure Advisor Recommendations
+  - Advisor blade, select Overview. Notice recommendations are grouped by High Availability, Security, Performance, and Cost
+  - Select All recommendations and take time to view each recommendation and suggested actions.
+
+  Note: Depending on your resources, your recommendations will be different.
+  Notice that you can download the recommendations as a CSV or PDF file.
+  Notice that you can create alerts.

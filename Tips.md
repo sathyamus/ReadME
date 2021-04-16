@@ -49,4 +49,16 @@ java.nio.file.InvalidPathException: Trailing char < > at index 75: C:\Users\SN\.
 
 https://kinsta.com/knowledgebase/free-smtp-server/
 
+--------------------------------------------------------------------
+
+Java Concurrent util -- Executor Service
+Executor Service -> Submit -> ThreadGroup 
+
+--------------------------------------------------------------------
+
+Git : Automatic deletion of head branches after the merge
+ - Git -> Repository -> Settings 
+ - select the checkbox to Automatic deletion of head branches after the merge
+
+--------------------------------------------------------------------
 

@@ -51,8 +51,40 @@ https://kinsta.com/knowledgebase/free-smtp-server/
 
 --------------------------------------------------------------------
 
-Java Concurrent util -- Executor Service
+Java Concurrent util -- Executor Service \
 Executor Service -> Submit -> ThreadGroup 
+
+Execute Runnable
+```sh
+ExecutorService executorService = Executors.newFixedThreadPool(10);
+
+executorService.execute(new Runnable() {
+    public void run() {
+        System.out.println("Asynchronous task");
+    }
+});
+
+executorService.shutdown();
+```
+
+Submit Runnable
+```sh
+Future future = executorService.submit(new Runnable() {
+    public void run() {
+        System.out.println("Asynchronous task");
+    }
+});
+
+future.get();  //returns null if the task has finished correctly.
+```
+
+```sh
+ExecutorService executorService1 = Executors.newSingleThreadExecutor();
+
+ExecutorService executorService2 = Executors.newFixedThreadPool(10);
+
+ExecutorService executorService3 = Executors.newScheduledThreadPool(10);
+```
 
 --------------------------------------------------------------------
 
@@ -61,4 +93,11 @@ Git : Automatic deletion of head branches after the merge
  - select the checkbox to Automatic deletion of head branches after the merge
 
 --------------------------------------------------------------------
+
+Git Tools :
+ - TortoiceGit
+ - Git bash
+ - sourcetreeapp
+
+ --------------------------------------------------------------------
 

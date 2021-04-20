@@ -101,6 +101,10 @@ Git Tools :
 
 --------------------------------------------------------------------
 
-Feign Retryer -> If APIs are not accessible, to retry x times
+Feign Retryer -> If APIs are not accessible, to retry x times for getting the response
+
+--------------------------------------------------------------------
+
+Feign ErrorDecoder -> For capturing error message and enrich 
 
 --------------------------------------------------------------------

@@ -110,4 +110,7 @@ Feign ErrorDecoder -> For capturing error message and enrich
 response.isError() --> handles both 4xx, 5xx  
 respose.status() --> Status Code
 
+response.request.url() 
+response.request.requestBody().asString() 
+
 --------------------------------------------------------------------

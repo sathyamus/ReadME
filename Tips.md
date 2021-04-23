@@ -113,4 +113,6 @@ respose.status() --> Status Code
 response.request.url() 
 response.request.requestBody().asString() 
 
+Util.toString(response.body().asReader())
+
 --------------------------------------------------------------------

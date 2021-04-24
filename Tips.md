@@ -107,8 +107,11 @@ Feign Retryer -> If APIs are not accessible, to retry x times for getting the re
 
 Feign ErrorDecoder -> For capturing error message and enrich 
 
-response.isError() --> handles both 4xx, 5xx  
 respose.status() --> Status Code
+HttpStatus.valueOf(response.status()).isError() --> handles both 4xx, 5xx  
+HttpStatus.valueOf(response.status()).is4xxClientError()
+HttpStatus.valueOf(response.status()).is5xxServerError()
+
 
 response.request.url() 
 response.request.requestBody().asString() 

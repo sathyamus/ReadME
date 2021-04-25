@@ -112,10 +112,19 @@ HttpStatus.valueOf(response.status()).isError() --> handles both 4xx, 5xx
 HttpStatus.valueOf(response.status()).is4xxClientError()
 HttpStatus.valueOf(response.status()).is5xxServerError()
 
-
 response.request.url() 
 response.request.requestBody().asString() 
 
 Util.toString(response.body().asReader())
 
 --------------------------------------------------------------------
+
+HttpStatus
+ 1xx - Informational 
+ 2xx - Sucessful 
+ 3xx - Redirection 
+ 4xx - Client Error 
+ 5xx - Server Error
+
+--------------------------------------------------------------------
+

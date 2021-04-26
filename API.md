@@ -62,6 +62,10 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
 => Store the business process in a message notification 
 => Update the business process status to API call and store 
 
+### Caffeine
+
+-> In-memory cache using a Google Guava inspired API https://github.com/ben-manes/caffeine
+
 ### Scalability
 
 -> Service instances

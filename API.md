@@ -72,3 +72,8 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
 -> Load Balancers
 -> Message queue / brokers
 -> Local cache
+
+### Monitoring
+-> Health check 
+-> Infra (CPU, RAM, Disk usage) 
+-> Log 

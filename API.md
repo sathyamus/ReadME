@@ -77,3 +77,4 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
 -> Health check 
 -> Infra (CPU, RAM, Disk usage) 
 -> Log 
+-> API monitoring (spans, status, corelation_id, inputs) 

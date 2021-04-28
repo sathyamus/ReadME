@@ -76,5 +76,5 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
 ### Monitoring
 -> Health check 
 -> Infra (CPU, RAM, Disk usage) 
--> Log 
+-> Log (ELK - Elastic search, Logstash, Kibana / Grafana)
 -> API monitoring (spans, status, corelation_id, inputs) 

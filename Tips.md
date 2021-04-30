@@ -101,6 +101,15 @@ Git Tools :
 
 --------------------------------------------------------------------
 
+Git Tag :
+`
+   git tags
+   git tag wiki-1.0.5-20210430
+   git push origin wiki-1.0.5-20210430
+`
+
+--------------------------------------------------------------------
+
 Feign Retryer -> If APIs are not accessible, to retry x times for getting the response
 
 --------------------------------------------------------------------

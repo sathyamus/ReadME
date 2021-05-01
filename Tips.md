@@ -103,7 +103,7 @@ Git Tools :
 
 Git Tag :
 `
-   git tags
+   git tag
    git tag wiki-1.0.5-20210430
    git push origin wiki-1.0.5-20210430
 `

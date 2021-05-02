@@ -80,4 +80,6 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
    - Context (common parameters to identify / differentiate the logs)
    - Standardization (common pattern when logging) (Start events, OnError events, Completion events etc)
 -> API monitoring (spans, status, corelation_id, inputs) 
-
+-> Filebeats
+-> ElastAlert
+-> Index setup, maintenance 

@@ -74,6 +74,7 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
 -> Local cache
 
 ### Monitoring
+
 -> Health check 
 -> Infra (CPU, RAM, Disk usage) 
 -> Log (ELK - Elastic search, Logstash, Kibana / Grafana)
@@ -83,3 +84,12 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
 -> Filebeats
 -> ElastAlert
 -> Index setup, maintenance 
+
+### Dashboards
+
+ -> Wiki
+ -> Services Heath status
+ -> Infrastructure 
+ -> Open PRs
+ -> Active Branches 
+ 

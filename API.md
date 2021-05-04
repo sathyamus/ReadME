@@ -92,4 +92,7 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
  -> Infrastructure 
  -> Open PRs
  -> Active Branches 
- 
+ -> Jenkins / Pipeline
+    - Job status
+ -> SONAR statistcs
+ -> Security voilations (thirdparty tools like Checkmarx for analysing)   

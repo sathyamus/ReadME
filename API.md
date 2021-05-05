@@ -76,6 +76,9 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
 ### Monitoring
 
 -> Health check 
+   - Actuator 
+   - Spring Admin Console
+   - Mail alerts, if service is DOWN / UP
 -> Infra (CPU, RAM, Disk usage) 
 -> Log (ELK - Elastic search, Logstash, Kibana / Grafana)
    - Context (common parameters to identify / differentiate the logs)

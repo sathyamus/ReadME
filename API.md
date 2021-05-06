@@ -81,6 +81,7 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
    - Mail alerts, if service is DOWN / UP
 -> Infra (CPU, RAM, Disk usage) 
 -> Log (ELK - Elastic search, Logstash, Kibana / Grafana)
+   - Slf4j
    - Context (common parameters to identify / differentiate the logs)
    - Standardization (common pattern when logging) (Start events, OnError events, Completion events etc)
 -> API monitoring (spans, status, corelation_id, inputs) 

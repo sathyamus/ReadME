@@ -47,6 +47,8 @@ Spring Boot best practices
     Use a logging framework
     Use testing slices to make your testing easier and more focused
         https://spring.io/blog/2016/08/30/custom-test-slice-with-spring-boot-1-4
+    ConfigOnProperty
+        Dynamically instantiate the class based on a toggle 
 
 Clean Architecture with Uncle Bob
 https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle-bob/

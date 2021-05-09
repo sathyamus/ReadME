@@ -47,8 +47,11 @@ Spring Boot best practices
     Use a logging framework
     Use testing slices to make your testing easier and more focused
         https://spring.io/blog/2016/08/30/custom-test-slice-with-spring-boot-1-4
-    ConfigOnProperty
-        Dynamically instantiate the class based on a toggle 
+    @ConditionalOnProperty
+        - Need to create some beans conditionally based on the presence and the value of a configuration property.
+        - Dynamically instantiate the class based on a toggle.
+        - @ConditionalOnProperty(prefix = "notification", name = "xapi.fallback", havingValue = "true")
+        - matchIfMissing attribute, specifies whether the condition should match in case the property is not available.
 
 Clean Architecture with Uncle Bob
 https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle-bob/

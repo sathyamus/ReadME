@@ -105,3 +105,21 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
     - Job status
  -> SONAR statistcs
  -> Security voilations (thirdparty tools like Checkmarx for analysing)   
+
+
+### Reading the properties from application.yml
+
+`
+@Value(${single-path:xyz})
+private String singlePath; 
+
+@Value(${next-path:abc})
+private String nextPath;
+
+oozie-submit.sh
+--files singlePath.json, nextPath.json
+
+workflow.xml
+   <file>singlePath.json</file>
+   <file>nextPath.json</file>
+`

@@ -137,3 +137,9 @@ HttpStatus
 
 --------------------------------------------------------------------
 
+   spark.shuffle.service.enabled=true
+   spark.dynamicAllocation.enabled=true
+   spark.dynamicAllocation.minExecutors=0
+   spark.dynamicAllocation.minExecutors=6
+
+--------------------------------------------------------------------

@@ -143,3 +143,15 @@ HttpStatus
    spark.dynamicAllocation.minExecutors=6
 
 --------------------------------------------------------------------
+
+#### Json String to Object
+
+`
+import com.google.gson.Gson;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+new Gson().fromJson(responseBody, Response.class);
+JsonNode node = new ObjectMapper().readTree(string);
+`
+
+--------------------------------------------------------------------

@@ -154,4 +154,11 @@ new Gson().fromJson(responseBody, Response.class);
 JsonNode node = new ObjectMapper().readTree(string);
 `
 
+JsonPropertyOrder({
+  "access_token",
+  "scope",
+  "token_type",
+  "expires_in"
+})
+
 --------------------------------------------------------------------

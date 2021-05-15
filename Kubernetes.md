@@ -12,6 +12,7 @@
   - After container deployment
 
 
+## CLI
 
 az login
 kubectl get pods

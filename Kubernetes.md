@@ -10,6 +10,16 @@
   - Infrastructure for managing multiple containers
   - Automated scheduling and management of application containers
   - After container deployment
+  - Pod
+    - Smallest Unit
+    - Abstraction over container
+    - Usually 1 application per Pod
+    - Each Pod gets its own IP
+  - Service
+    - Permanent IP address
+    - Load Balancer
+    - Life cycle of Pod and service NOT connected
+
 
 
 ## CLI
@@ -25,7 +35,7 @@
     - kubectl cluster-info
   - Containers to be deployed onto the cluster
   `
-    - kubectl create deployment first-deployment --image=katacoda/docker-http-server
+      kubectl create deployment first-deployment --image=katacoda/docker-http-server
   `
   - container can be exposed via different networking options, depending on requirements. One possible solution is NodePort, that provides a dynamic port to a container.
   `

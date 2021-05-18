@@ -19,7 +19,18 @@
     - Permanent IP address
     - Load Balancer
     - Life cycle of Pod and service NOT connected
-
+  - Ingress
+    - Routes traffic into the cluster
+  - ConfigMap
+    - External configuration of application
+    - No credentials
+    - We can use these as environment variables or as a properties file
+  - Secret
+    - To store secret data
+    - We can use these as environment variables or as a properties file
+  - Volumes
+    - local
+    - remote (outside of K8s cluster)
 
 
 ## CLI

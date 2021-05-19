@@ -31,7 +31,15 @@
   - Volumes
     - local
     - remote (outside of K8s cluster)
-
+  - Deployments
+    - Blueprint of pods
+    - Abstraction of pods
+    - create deployments
+    - scale up, scale down
+    - replicas
+    - for stateLESS apps
+  - StatefulSet
+    - for STATEFUL apps like Databases
 
 ## CLI
   * az login

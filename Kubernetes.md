@@ -41,6 +41,21 @@
   - StatefulSet
     - for STATEFUL apps like Databases
 
+
+### Kubernetes Architecture
+#### Nodes processes
+
+    - Worker servers / Nodes 
+    - each node has multiple pods
+    - 3 processes must be installed on every node
+      - container runtime
+      - kubelet 
+        - interacts with both the container and node
+        - starts the pod with a container inside
+      - kube proxy (communication / load balancer / forward requests)
+
+
+
 ## CLI
   * az login
   * kubectl get pods

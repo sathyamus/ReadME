@@ -54,6 +54,19 @@
         - starts the pod with a container inside
       - kube proxy (communication / load balancer / forward requests)
 
+#### Master processes
+    - 4 processes must be installed on every master node
+      - API server
+        - cluster gateway
+        - acts as a gatekeeper for authentication
+      - Scheduler
+        - where to put the pod based on the available resources ?
+      - Controller manager
+        - detects the state changes
+      - etcd
+        - cluster brain
+        - cluster changes gets stored in key value pair
+
 
 
 ## CLI

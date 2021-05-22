@@ -52,6 +52,20 @@ Spring Boot best practices
         - Dynamically instantiate the class based on a toggle.
         - @ConditionalOnProperty(prefix = "notification", name = "xapi.fallback", havingValue = "true")
         - matchIfMissing attribute, specifies whether the condition should match in case the property is not available.
+    Spring Profiles
+        - @Profile("dev")
+        - @Profile("!dev")
+        - <beans profile="dev">
+        - servletContext.setInitParameter("spring.profiles.active", "dev");
+        - @Autowired
+          private ConfigurableEnvironment env;
+          ...
+          env.setActiveProfiles("someProfile");
+        - -Dspring.profiles.active=dev
+        - Context Parameter in web.xml
+        - spring.profiles.active configuration property
+
+
 
 Clean Architecture with Uncle Bob
 https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle-bob/

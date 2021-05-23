@@ -64,7 +64,12 @@ Spring Boot best practices
         - -Dspring.profiles.active=dev
         - Context Parameter in web.xml
         - spring.profiles.active configuration property
-
+    @ConditionalOnExpression("${module.enabled:true} and ${module.sub-module.enabled:true}")
+    @ConditionalOnBean
+    @ConditionalOnMissingBean
+    @ConditionalOnClass
+    @ConditionalOnMissingClass
+    @ConditionalOnJava(JavaVersion.EIGHT)
 
 
 Clean Architecture with Uncle Bob

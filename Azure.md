@@ -1,5 +1,9 @@
 ### Azure
 
+=> DevEnv
+=> RDG (Remote Desktop Gateway)
+=> APIM 
+
 - Virtual Machines
   - Create a resource -> search 'Windows Server'
   - Choose the Subscription -> Resource group

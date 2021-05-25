@@ -3,6 +3,10 @@
 => DevEnv
 => RDG (Remote Desktop Gateway)
 => APIM 
+=> PaaS Subscription (Firewall, API mgmt, Key Vaults)
+=> Data Subscription (RAW file system, LAKE file system)
+=> Project Subscription (BigData Resources, AKS running applications, Private storage)
+=> Feed Subscription (Private storage, KAFKA) 
 
 - Virtual Machines
   - Create a resource -> search 'Windows Server'

@@ -64,6 +64,7 @@ Spring Boot best practices
         - -Dspring.profiles.active=dev
         - Context Parameter in web.xml
         - spring.profiles.active configuration property
+        - * Avoid using of environment specific property injection in code, rather introduce the property and inject based on this property.
     @ConditionalOnExpression("${module.enabled:true} and ${module.sub-module.enabled:true}")
     @ConditionalOnBean
     @ConditionalOnMissingBean

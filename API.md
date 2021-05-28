@@ -78,6 +78,10 @@ Spring Boot best practices
         @ResponseStatus
         @ExceptionHandler
 
+    Traceability of logs with Spring Sleuth
+        - Activated by default, once the dependency is added
+        - zipkin (BigBrotherBird) UI
+
 Clean Architecture with Uncle Bob
 https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle-bob/
 

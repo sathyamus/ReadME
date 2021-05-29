@@ -7,6 +7,7 @@
 => Data Subscription (RAW file system, LAKE file system)
 => Project Subscription (BigData Resources, AKS running applications, Private storage)
 => Feed Subscription (Private storage, KAFKA) 
+=> Filter (Roles selection)
 
 - Virtual Machines
   - Create a resource -> search 'Windows Server'

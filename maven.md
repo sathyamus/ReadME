@@ -45,5 +45,5 @@ This command will clean the project, copy dependencies, and package the project 
 
 #### Ensure pom is also uploaded to the repository along with the package jar and sources, this will allow you to get the transitive dependencies mentioned in pom. If not, then you will get only the dependency classes alone from that jar.
 ```
-    mvn clean dependency:tree
+    mvn clean dependency:tree -Dverbose=true
 ```

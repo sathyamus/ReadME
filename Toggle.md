@@ -9,28 +9,28 @@ How do you use them?
 
 Toggle approach
 
-1. Property Based (Key, value) 
+1. Property Based (Key, value) \
    Pros: \
-    -> Easy to configure and use
+    -> Easy to configure and use \
    Cons: \
     -> Requires re-start of application, if properties loaded at startup
-2. Database 
+2. Database \
    Pros: \
     -> Easy to configure and use
     -> No need of restart of application to reflect the changes
    Cons: \
     -> Requires dedicated UI / script to update the entires
-3. Toggle service (micro service) 
+3. Toggle service (micro service) \
    Pros: \
-    -> Easy to configure and use
-    -> No need of restart of application to reflect the changes
-    -> Simple API can be used to enable updations
+    -> Easy to configure and use 
+    -> No need of restart of application to reflect the changes 
+    -> Simple API can be used to enable updations \
    Cons: \
     -> Requires dedicated schema / DB and UI (optional)
 
-4. Config server
+4. Config server \
    Pros: \
-    -> Very useful, if you have a good number of micro services.
+    -> Very useful, if you have a good number of micro services. \
    Cons: \
     -> Painful to maintain, if you have very minimal micro services.
 

@@ -7,7 +7,10 @@
 => Data Subscription (RAW file system, LAKE file system)
 => Project Subscription (BigData Resources, AKS running applications, Private storage)
 => Feed Subscription (Private storage, KAFKA) 
-=> Filter (Roles selection)
+=> Directory and Subscription Filter
+  - Easily manage the resources
+  - select the default subscriptions
+  - set the subscriptions that you use frequently and unselect the ones that you rarely use
 
 - Virtual Machines
   - Create a resource -> search 'Windows Server'
@@ -24,6 +27,9 @@
   - Connect with RDP
   - Auto-shutdown
   - Cloud Shell (icon is at on top right corner of poral)
+  - Monitoring
+    - CPU (average), Network (total), and Disk bytes (total)
+    - Activity log
 
 - Create a VM with a Template
 

@@ -1,5 +1,18 @@
+# Microservice Architecture
+
+ - Increasing delivery speed
+ - Improving evolvability 
+ - Scalability
+
+
 # API
 
+API is just the interface, and even more important to remember that the 
+service consumer views the API as a contract, and they don’t care what’s 
+behind it as long as they get what they need.
+
+ - OpenAPI (Not Swagger)
+ 
 
 SpringBoot application
  - Performance

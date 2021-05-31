@@ -4,6 +4,8 @@
  - Improving evolvability 
  - Scalability
 
+# API Gateway
+ - 
 
 # API
 

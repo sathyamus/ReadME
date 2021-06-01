@@ -8,6 +8,14 @@
    - Deployment of application
    - Maintained on the server
 
+Blue Green
+ - Traffic Manager
+ - SLB 
+ - Blue Cycle
+   - Once we reach end of support, then switch to Green Cycle
+ - Green Cycle
+   - Once we reach end of support, then switch to Blue Cycle
+
 
     * [DevOps Roadmap 2021 - How to become a DevOps Engineer?](https://www.youtube.com/watch?v=9pZ2xmsSDdo&list=RDCMUCdngmbVKX1Tgre699-XLlUA&index=5)
 

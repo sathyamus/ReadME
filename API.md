@@ -5,7 +5,12 @@
  - Scalability
 
 # API Gateway
- - 
+ - Intelligent Routing
+ - Security and Filter
+ - Auditing and Logging requests
+ - Request Enhacement
+ - Load Balancing
+ - Different APIs for diff clients, based on Client we can perform routing
 
 # API
 
@@ -132,7 +137,7 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
 -> Log (ELK - Elastic search, Logstash, Kibana / Grafana)
    - Slf4j
    - Context (common parameters to identify / differentiate the logs)
-   - Standardization (common pattern when logging) (Start events, OnError events, Completion events etc)
+   - Standardization (common pattern when logging) (Start events, Error events, Completion events etc)
 -> API monitoring (spans, status, corelation_id, inputs) 
 -> Filebeats
 -> ElastAlert
@@ -141,7 +146,7 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
 ### Dashboards
 
  -> Wiki
- -> Services Heath status
+ -> Services Health status
  -> Infrastructure 
  -> Open PRs
  -> Active Branches 

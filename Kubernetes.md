@@ -76,6 +76,9 @@
   * To view the nodes in the cluster
      - kubectl get nodes
   * kubectl get deployments
+  * kubectl get services
+  * kubectl describe pod pod-name
+  * kubectl describe node node-name
 
 #### Deploy Containers
   - Details of the cluster and its health status can be discovered
@@ -98,3 +101,4 @@ curl host01:$PORT
   `  
   kubectl apply -f /opt/kubernetes-dashboard.yaml
   `
+

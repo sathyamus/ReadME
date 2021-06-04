@@ -102,3 +102,5 @@ curl host01:$PORT
   kubectl apply -f /opt/kubernetes-dashboard.yaml
   `
 
+#### Scaling Resources
+  * kubectl scale --replicas=3 pod-name

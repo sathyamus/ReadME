@@ -71,6 +71,7 @@
 
 ## CLI
   * az login
+  * kubectl config view
   * kubectl get pods
   * kubectl logs pod-label > logs.txt
   * To view the nodes in the cluster
@@ -78,6 +79,7 @@
   * kubectl get deployments
   * kubectl get services
   * kubectl describe pod pod-name
+  * kubectl describe deployment deployment-name
   * kubectl describe node node-name
 
 #### Deploy Containers

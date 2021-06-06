@@ -8,7 +8,7 @@
    - Deployment of application
    - Maintained on the server
 
-Blue Green
+### Blue Green
  - Traffic Manager
  - SLB 
  - Blue Cycle

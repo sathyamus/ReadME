@@ -8,6 +8,12 @@
    - Deployment of application
    - Maintained on the server
 
+### Orchestration tools
+ - High availability or no downtime
+ - Scalability or high performance
+ - Disaster recovery - backup and restore
+
+
 ### Blue Green
  - Traffic Manager
  - SLB 

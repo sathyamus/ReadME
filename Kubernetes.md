@@ -10,15 +10,20 @@
   - Infrastructure for managing multiple containers
   - Automated scheduling and management of application containers
   - After container deployment
+  - Worker Node / Node
   - Pod
     - Smallest Unit
     - Abstraction over container
     - Usually 1 application per Pod
     - Each Pod gets its own IP
+    - Only interacts with Kubernetes layer
+    - New IP address on re-creation
   - Service
     - Permanent IP address
     - Load Balancer
     - Life cycle of Pod and service NOT connected
+    - External service (Ingress)
+    - Internal service
   - Ingress
     - Routes traffic into the cluster
   - ConfigMap
@@ -27,34 +32,39 @@
     - We can use these as environment variables or as a properties file
   - Secret
     - To store secret data
+    - Base64 encoded
     - We can use these as environment variables or as a properties file
   - Volumes
-    - local
+    - Storage on local machine
     - remote (outside of K8s cluster)
+    - K8s doesn't manage the data persistance
   - Deployments
     - Blueprint of pods
     - Abstraction of pods
     - create deployments
-    - scale up, scale down
     - replicas
+    - scale up, scale down
     - for stateLESS apps
   - StatefulSet
-    - for STATEFUL apps like Databases
+    - for stateFUL apps or Databases
 
 
 ### Kubernetes Architecture
+
+
 #### Nodes processes
 
     - Worker servers / Nodes 
     - each node has multiple pods
     - 3 processes must be installed on every node
-      - container runtime
       - kubelet 
         - interacts with both the container and node
         - starts the pod with a container inside
       - kube proxy (communication / load balancer / forward requests)
+      - container runtime (Docker / Kube etc)
 
 #### Master processes
+
     - 4 processes must be installed on every master node
       - API server
         - cluster gateway

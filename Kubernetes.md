@@ -50,7 +50,11 @@
 
 
 ### Kubernetes Architecture
-
+    - 2 types of nodes
+    - master node
+       - less resources (RAM, CPU, Storage)
+    - worker node / slave node
+       - more resources (RAM. CPU, Storage)
 
 #### Nodes processes
 

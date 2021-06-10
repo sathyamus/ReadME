@@ -68,7 +68,10 @@
       - container runtime (Docker / Kube etc)
 
 #### Master processes
-
+    - Schedule pod
+    - Monitor pod
+    - Re-schedule / restart pod
+    - Joining a new node
     - 4 processes must be installed on every master node
       - API server
         - cluster gateway

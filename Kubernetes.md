@@ -88,6 +88,9 @@
     - For Test / local cluster setup
     - Master processes and Worker processes in 1 Node
     - Docker pre-installed
+    - https://minikube.sigs.k8s.io/docs/start/
+    - https://kubernetes.io/docs/tasks/tools/
+    - https://gitlab.com/nanuchi/youtube-tutorial-series/-/blob/master/basic-kubectl-commands/cli-commands.md
 
 ## CLI / kubectl
   * az login

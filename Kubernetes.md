@@ -84,9 +84,12 @@
         - cluster brain
         - cluster changes gets stored in key value pair
 
+#### Minikube
+    - For Test / local cluster setup
+    - Master processes and Worker processes in 1 Node
+    - Docker pre-installed
 
-
-## CLI
+## CLI / kubectl
   * az login
   * kubectl config view
   * kubectl get pods

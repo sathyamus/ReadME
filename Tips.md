@@ -12,6 +12,7 @@ springApplication.run(args);
 ```
 
 https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
+
 ```sh
   <plugin>
   	<groupId>org.springframework.boot</groupId>
@@ -22,7 +23,7 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-instal
   </plugin>
 ```
 
-========
+--------------------------------------------------------------------
 
 When manifest file doesn't exists....
 ```sh
@@ -33,12 +34,13 @@ Error: Unable to access jarfile ./target/UnitTests-1.0-SNAPSHOT.jar
 ERROR: script returned exit code 1
 Finished: FAILURE
 
-===========
+--------------------------------------------------------------------
 
 ```sh
 mvn help:evaluate -Dexpression=project.version
 ```
-============
+
+--------------------------------------------------------------------
 
 Seems invalid characters...
 
@@ -160,5 +162,17 @@ JsonPropertyOrder({
   "token_type",
   "expires_in"
 })
+
+--------------------------------------------------------------------
+
+Display JSON object in JavaScript / TypeScript
+
+  console.log(JSON.stringify(obj)) 
+    or 
+  console.dir(obj)
+
+  str = JSON.stringify(obj);
+  str = JSON.stringify(obj, null, 4); // (Optional) beautiful indented output
+  console.log(str); // Logs output to dev tools console
 
 --------------------------------------------------------------------

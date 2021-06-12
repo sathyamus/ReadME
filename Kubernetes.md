@@ -88,12 +88,17 @@
     - For Test / local cluster setup
     - Master processes and Worker processes in 1 Node
     - Docker pre-installed
+    - create, destroy pods, create services etc 
+    - minikube kubectl -- get po -A 
+      - will download kubectl if not available in minikube
     - https://minikube.sigs.k8s.io/docs/start/
     - https://kubernetes.io/docs/tasks/tools/
     - https://gitlab.com/nanuchi/youtube-tutorial-series/-/blob/master/basic-kubectl-commands/cli-commands.md
 
 ## CLI / kubectl
   * az login
+  * kubectl version --client
+  * kubectl cluster-info
   * kubectl config view
   * kubectl get pods
   * kubectl logs pod-label > logs.txt
@@ -101,6 +106,7 @@
      - kubectl get nodes
   * kubectl get deployments
   * kubectl get services
+  * kubectl get replicaset
   * kubectl describe pod pod-name
   * kubectl describe deployment deployment-name
   * kubectl describe node node-name

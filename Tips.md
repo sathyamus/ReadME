@@ -12,15 +12,15 @@ springApplication.run(args);
 ```
 
 https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
-
-<plugin>
-	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-maven-plugin</artifactId>
-	<configuration>
-		<executable>true</executable>
-	</configuration>
-</plugin>
-
+```sh
+  <plugin>
+  	<groupId>org.springframework.boot</groupId>
+  	<artifactId>spring-boot-maven-plugin</artifactId>
+  	<configuration>
+  		<executable>true</executable>
+  	</configuration>
+  </plugin>
+```
 
 ========
 
@@ -102,11 +102,11 @@ Git Tools :
 --------------------------------------------------------------------
 
 Git Tag :
-`
+```sh
    git tag
    git tag wiki-1.0.5-20210430
    git push origin wiki-1.0.5-20210430
-`
+```
 
 --------------------------------------------------------------------
 

@@ -5,7 +5,7 @@ This application listener will be triggered exactly once per JVM, and the file n
 overridden at runtime with a System property or environment variable named "PIDFILE" (or "pidfile") 
 or using a spring.pid.file property in the Spring Environment.
 
-```sh
+```java
 SpringApplication springApplication = new SpringApplication(DemoApplication.class); \
 springApplication.addListeners(new ApplicationPidFileWriter()); \
 springApplication.run(args);
@@ -13,7 +13,7 @@ springApplication.run(args);
 
 https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
 
-```sh
+```java
   <plugin>
   	<groupId>org.springframework.boot</groupId>
   	<artifactId>spring-boot-maven-plugin</artifactId>
@@ -57,7 +57,7 @@ Java Concurrent util -- Executor Service \
 Executor Service -> Submit -> ThreadGroup 
 
 Execute Runnable
-```sh
+```java
 ExecutorService executorService = Executors.newFixedThreadPool(10);
 
 executorService.execute(new Runnable() {
@@ -70,7 +70,7 @@ executorService.shutdown();
 ```
 
 Submit Runnable
-```sh
+```java
 Future future = executorService.submit(new Runnable() {
     public void run() {
         System.out.println("Asynchronous task");
@@ -80,7 +80,7 @@ Future future = executorService.submit(new Runnable() {
 future.get();  //returns null if the task has finished correctly.
 ```
 
-```sh
+```java
 ExecutorService executorService1 = Executors.newSingleThreadExecutor();
 
 ExecutorService executorService2 = Executors.newFixedThreadPool(10);
@@ -139,22 +139,23 @@ HttpStatus
 
 --------------------------------------------------------------------
 
-   spark.shuffle.service.enabled=true
-   spark.dynamicAllocation.enabled=true
-   spark.dynamicAllocation.minExecutors=0
-   spark.dynamicAllocation.minExecutors=6
-
+```sh
+   spark.shuffle.service.enabled=true 
+   spark.dynamicAllocation.enabled=true 
+   spark.dynamicAllocation.minExecutors=0 
+   spark.dynamicAllocation.minExecutors=6 
+```
 --------------------------------------------------------------------
 
 #### Json String to Object
 
-`
+```java
 import com.google.gson.Gson;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 new Gson().fromJson(responseBody, Response.class);
 JsonNode node = new ObjectMapper().readTree(string);
-`
+```
 
 JsonPropertyOrder({
   "access_token",
@@ -167,6 +168,7 @@ JsonPropertyOrder({
 
 Display JSON object in JavaScript / TypeScript
 
+```javascript
   console.log(JSON.stringify(obj)) 
     or 
   console.dir(obj)
@@ -174,5 +176,6 @@ Display JSON object in JavaScript / TypeScript
   str = JSON.stringify(obj);
   str = JSON.stringify(obj, null, 4); // (Optional) beautiful indented output
   console.log(str); // Logs output to dev tools console
+```
 
 --------------------------------------------------------------------

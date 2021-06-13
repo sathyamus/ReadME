@@ -95,6 +95,10 @@
     - https://kubernetes.io/docs/tasks/tools/
     - https://gitlab.com/nanuchi/youtube-tutorial-series/-/blob/master/basic-kubectl-commands/cli-commands.md
 
+    - Deployment manages the ReplicaSet
+    - ReplicaSet manages the Pods
+    - Pods is an abstactions of container
+
 ## CLI / kubectl
   * az login
   * kubectl version --client
@@ -110,6 +114,12 @@
   * kubectl describe pod pod-name
   * kubectl describe deployment deployment-name
   * kubectl describe node node-name
+  * kubectl create deployment sn-nginx-depl --image=nginx
+  * kubectl edit deployment sn-nginx-depl
+  * kubectl exec -it sn-nginx-depl-864fc9589b-82hps -- bin/bash
+  * kubectl delete deployment sn-nginx-depl
+  * kubectl apply -f sn-nginx-deployment.yml
+  
 
 #### Deploy Containers
   - Details of the cluster and its health status can be discovered

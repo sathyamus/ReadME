@@ -119,7 +119,8 @@
   * kubectl exec -it sn-nginx-depl-864fc9589b-82hps -- bin/bash
   * kubectl delete deployment sn-nginx-depl
   * kubectl apply -f sn-nginx-deployment.yml
-  
+  * kubectl delete -f sn-nginx-deployment.yml
+
 
 #### Deploy Containers
   - Details of the cluster and its health status can be discovered

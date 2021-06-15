@@ -120,12 +120,15 @@
   * kubectl delete deployment sn-nginx-depl
   * kubectl apply -f sn-nginx-deployment.yml
   * kubectl delete -f sn-nginx-deployment.yml
+  * kubectl get pod -o wide
 
 #### K8s config YAML file
   - metadata
   - specification
   - status (automatically generated and added by Kuberenetes)
   - etcd holds the status of any k8s component
+  - connecting deployments to pods
+  - connecting services to deployments
 
 #### Deploy Containers
   - Details of the cluster and its health status can be discovered

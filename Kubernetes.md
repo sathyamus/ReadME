@@ -104,10 +104,10 @@
   * kubectl version --client
   * kubectl cluster-info
   * kubectl config view
+  * kubectl get all
   * kubectl get pods
   * kubectl logs pod-label > logs.txt
-  * To view the nodes in the cluster
-     - kubectl get nodes
+  * kubectl get nodes
   * kubectl get deployments
   * kubectl get services
   * kubectl get replicaset

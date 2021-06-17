@@ -100,12 +100,14 @@
     - Pods is an abstactions of container
 
 ## CLI / kubectl
+
   * az login
   * kubectl version --client
   * kubectl cluster-info
   * kubectl config view
   * kubectl get all
   * kubectl get pods
+  * kubectl get pod -o wide
   * kubectl logs pod-label > logs.txt
   * kubectl get nodes
   * kubectl get deployments
@@ -120,7 +122,6 @@
   * kubectl delete deployment sn-nginx-depl
   * kubectl apply -f sn-nginx-deployment.yml
   * kubectl delete -f sn-nginx-deployment.yml
-  * kubectl get pod -o wide
 
 #### K8s config YAML file
   - metadata

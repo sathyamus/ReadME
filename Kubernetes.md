@@ -95,9 +95,6 @@
     - https://kubernetes.io/docs/tasks/tools/
     - https://gitlab.com/nanuchi/youtube-tutorial-series/-/blob/master/basic-kubectl-commands/cli-commands.md
 
-    - Deployment manages the ReplicaSet
-    - ReplicaSet manages the Pods
-    - Pods is an abstactions of container
 
 ## CLI / kubectl
 
@@ -115,6 +112,7 @@
   * kubectl get replicaset
   * kubectl describe pod pod-name
   * kubectl describe deployment deployment-name
+  * kubectl describe service service-name
   * kubectl describe node node-name
   * kubectl create deployment sn-nginx-depl --image=nginx
   * kubectl edit deployment sn-nginx-depl
@@ -122,6 +120,7 @@
   * kubectl delete deployment sn-nginx-depl
   * kubectl apply -f sn-nginx-deployment.yml
   * kubectl delete -f sn-nginx-deployment.yml
+  * kubectl get deployment sn-nginx-depl -o yaml
 
 #### K8s config YAML file
   - metadata
@@ -130,6 +129,14 @@
   - etcd holds the status of any k8s component
   - connecting deployments to pods
   - connecting services to deployments
+
+    - Deployment manages the ReplicaSet
+    - ReplicaSet manages the Pods
+    - Pods is an abstactions of container
+    - Template is the blueprint for pod
+    - Template has its own metadata and spec section
+    - Deployment metadata has label, which is connected to its spec selector
+    - Deployment metadata lable is also connected with service spec selector and deployment template metadata label
 
 #### Deploy Containers
   - Details of the cluster and its health status can be discovered

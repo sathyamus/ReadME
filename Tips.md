@@ -112,6 +112,15 @@ Git Tag :
 
 --------------------------------------------------------------------
 
+Git fork management :
+```sh
+   git remote -v
+   git fetch origin
+   git fetch upstream
+   git merge upstream/main
+```
+
+--------------------------------------------------------------------
 Feign Retryer -> If APIs are not accessible, to retry x times for getting the response
 
 --------------------------------------------------------------------

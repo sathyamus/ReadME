@@ -14,6 +14,14 @@
  - Disaster recovery - backup and restore
 
 
+#### Docker
+ - Standalone deployments
+ - In built load balancer
+
+#### Kuberenetes
+ - Automatic status management
+ - Replicas 
+
 ### Blue Green
  - Traffic Manager
  - SLB 

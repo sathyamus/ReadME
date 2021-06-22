@@ -117,6 +117,7 @@
   * kubectl create deployment sn-nginx-depl --image=nginx
   * kubectl edit deployment sn-nginx-depl
   * kubectl exec -it sn-nginx-depl-864fc9589b-82hps -- bin/bash
+  * kubectl delete pod pod-name
   * kubectl delete deployment sn-nginx-depl
   * kubectl apply -f sn-nginx-deployment.yml
   * kubectl delete -f sn-nginx-deployment.yml

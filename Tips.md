@@ -148,6 +148,10 @@ HttpStatus
 
 --------------------------------------------------------------------
 
+Custom Http Headers
+ - avoid underscore(_) in the header names to be able to get the header values properly, use names like run-id, context-label
+
+--------------------------------------------------------------------
 ```sh
    spark.shuffle.service.enabled=true 
    spark.dynamicAllocation.enabled=true 

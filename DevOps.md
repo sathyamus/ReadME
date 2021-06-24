@@ -1,6 +1,6 @@
 # DevOps
 
- - Develoment
+ - Development
    - Developing of application
    - Testing
 
@@ -9,16 +9,22 @@
    - Maintained on the server
 
 ### Orchestration tools
- - High availability or no downtime
+ - Infrastructure more robust and High availability or no downtime
  - Scalability or high performance
  - Disaster recovery - backup and restore
 
 
 #### Docker
+ - Runs on a single node
+ - Docker Engine - runtime environment
+ - Docker Swarm
+ - Docker Hub
  - Standalone deployments
  - In built load balancer
 
 #### Kuberenetes
+ - Runs across a cluster
+ - Kuberenetes service
  - Automatic status management
  - Replicas 
 

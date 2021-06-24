@@ -13,6 +13,14 @@
  - Scalability or high performance
  - Disaster recovery - backup and restore
 
+### Tools
+ - Jenkins
+ - Docker
+ - Kuberenetes
+ - Ansible - open-source tool to automate apps and IT infrastructure
+ - Prometheus - open-source metrics and alerting monitoring solution
+ - Imperva
+ - CyberArk
 
 #### Docker
  - Runs on a single node
@@ -26,7 +34,7 @@
  - Runs across a cluster
  - Kuberenetes service
  - Automatic status management
- - Replicas 
+ - Auto-scaling 
 
 ### Blue Green
  - Traffic Manager
@@ -38,6 +46,11 @@
 
 
     * [DevOps Roadmap 2021 - How to become a DevOps Engineer?](https://www.youtube.com/watch?v=9pZ2xmsSDdo&list=RDCMUCdngmbVKX1Tgre699-XLlUA&index=5)
+
+
+### Disaster Recovery (DR)
+ - Failover
+ - Failback
 
 ### AWS
 

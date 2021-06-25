@@ -14,13 +14,18 @@
  - Disaster recovery - backup and restore
 
 ### Tools
+ - Deploy IT from XL Deploy
+ - Autosys from CA - Scheduling tool
  - Jenkins
  - Docker
+ - Vault
  - Kuberenetes
  - Ansible - open-source tool to automate apps and IT infrastructure
  - Prometheus - open-source metrics and alerting monitoring solution
  - Imperva
  - CyberArk
+ - Terraform
+
 
 #### Docker
  - Runs on a single node

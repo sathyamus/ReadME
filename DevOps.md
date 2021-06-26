@@ -54,6 +54,8 @@
 
 
 ### Disaster Recovery (DR)
+ - Active - Active
+ - Active - Passive
  - Failover
  - Failback
 

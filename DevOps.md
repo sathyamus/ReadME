@@ -3,6 +3,11 @@
  - Development
    - Developing of application
    - Testing
+   - Tools
+     - IDE (Eclipse, IntelliJ)
+     - JIRA
+     - Tomcat
+     - Spring 
 
  - Operations
    - Deployment of application

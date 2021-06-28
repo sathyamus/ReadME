@@ -196,3 +196,10 @@ Display JSON object in JavaScript / TypeScript
 --- New document separation in YAML file
 
 --------------------------------------------------------------------
+
+Base64 encoding
+    ```sh 
+    echo -n 'username' | base64
+    ```
+
+--------------------------------------------------------------------

@@ -1,0 +1,52 @@
+Name:         mongodb-7f79c5f88f-6lchl
+Namespace:    default
+Priority:     0
+Node:         minikube/192.168.99.100
+Start Time:   Mon, 28 Jun 2021 07:43:00 +0530
+Labels:       app=mongodb
+              pod-template-hash=7f79c5f88f
+Annotations:  <none>
+Status:       Running
+IP:           172.17.0.6
+IPs:
+  IP:           172.17.0.6
+Controlled By:  ReplicaSet/mongodb-7f79c5f88f
+Containers:
+  mongodb:
+    Container ID:   docker://fc4d271b47a20dda3ee325ead120a7d6ff34a1b0562c7c5f2361ccb93a128b4d
+    Image:          mongo
+    Image ID:       docker-pullable://mongo@sha256:fe44eb6a2ea2bb1548718ec05eb9cb165f1bded37595ebea507bddc413ab99ae
+    Port:           27017/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 28 Jun 2021 07:46:00 +0530
+    Ready:          True
+    Restart Count:  0
+    Environment:
+      MONGO_INITDB_ROOT_USERNAME:  <set to the key 'username' in secret 'mongodb-secret'>  Optional: false
+      MONGO_INITDB_ROOT_PASSWORD:  <set to the key 'password' in secret 'mongodb-secret'>  Optional: false
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-t2xbx (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             True 
+  ContainersReady   True 
+  PodScheduled      True 
+Volumes:
+  default-token-t2xbx:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-t2xbx
+    Optional:    false
+QoS Class:       BestEffort
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                 node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  15m   default-scheduler  Successfully assigned default/mongodb-7f79c5f88f-6lchl to minikube
+  Normal  Pulling    15m   kubelet            Pulling image "mongo"
+  Normal  Pulled     12m   kubelet            Successfully pulled image "mongo" in 2m57.560694586s
+  Normal  Created    12m   kubelet            Created container mongodb
+  Normal  Started    12m   kubelet            Started container mongodb

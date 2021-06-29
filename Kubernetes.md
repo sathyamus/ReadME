@@ -94,6 +94,8 @@
     - https://minikube.sigs.k8s.io/docs/start/
     - https://kubernetes.io/docs/tasks/tools/
     - https://gitlab.com/nanuchi/youtube-tutorial-series/-/blob/master/basic-kubectl-commands/cli-commands.md
+    - minikube service mongo-express-service
+    - kubernetes-dashboard --- only for minikube
 
 
 ## CLI / kubectl
@@ -103,25 +105,33 @@
   * kubectl cluster-info
   * kubectl config view
   * kubectl get all
+  * kubectl get all | grep nginx
+
   * kubectl get pods
   * kubectl get pod -o wide
   * kubectl logs pod-label > logs.txt
-  * kubectl get nodes
-  * kubectl get deployments
-  * kubectl get services
-  * kubectl get replicaset
   * kubectl describe pod pod-name
-  * kubectl describe deployment deployment-name
-  * kubectl describe service service-name
+  * kubectl exec -it sn-nginx-depl-864fc9589b-82hps -- bin/bash
+
+  * kubectl get nodes
   * kubectl describe node node-name
+  * kubectl delete pod pod-name
+
+  * kubectl get deployments
+  * kubectl get deployment sn-nginx-depl -o yaml
+  * kubectl describe deployment deployment-name
   * kubectl create deployment sn-nginx-depl --image=nginx
   * kubectl edit deployment sn-nginx-depl
-  * kubectl exec -it sn-nginx-depl-864fc9589b-82hps -- bin/bash
-  * kubectl delete pod pod-name
   * kubectl delete deployment sn-nginx-depl
+
+  * kubectl get services
+  * kubectl describe service service-name
+
+  * kubectl get replicaset
   * kubectl apply -f sn-nginx-deployment.yml
   * kubectl delete -f sn-nginx-deployment.yml
-  * kubectl get deployment sn-nginx-depl -o yaml
+
+  * kubectl get secrets
 
 #### K8s config YAML file
   - metadata

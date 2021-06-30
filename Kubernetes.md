@@ -89,8 +89,11 @@
     - Master processes and Worker processes in 1 Node
     - Docker pre-installed
     - create, destroy pods, create services etc 
+    - minikube start
+    - minikube status
     - minikube kubectl -- get po -A 
       - will download kubectl if not available in minikube
+    - minikube stop
     - https://minikube.sigs.k8s.io/docs/start/
     - https://kubernetes.io/docs/tasks/tools/
     - https://gitlab.com/nanuchi/youtube-tutorial-series/-/blob/master/basic-kubectl-commands/cli-commands.md
@@ -133,6 +136,17 @@
 
   * kubectl get secrets
 
+  * kubectl get configmap
+  * kubectl get configmap -n default
+  * kubectl get configmap -o yaml
+  * kubectl apply -f mongodb-configmap.yaml --namespace=my-namespace
+
+  * kubectl get namespaces
+  * kubectl get namespaces -n default
+
+  * install kubectx --
+  * kubens my-namespace
+
 #### K8s config YAML file
   - metadata
   - specification
@@ -148,6 +162,16 @@
     - Template has its own metadata and spec section
     - Deployment metadata has label, which is connected to its spec selector
     - Deployment metadata lable is also connected with service spec selector and deployment template metadata label
+
+#### Namespaces
+  - Structure your components
+  - Avoid conflicts between teams
+  - Shares services between different environments
+  - Access and Resource Limits
+    - Limit resources like CPU, RAM etc
+  - Vol, Node components can't be created with in a Namespace
+  - kubectl api-resources --namespaced=false
+  - kubectl api-resources --namespaced=true
 
 #### Deploy Containers
   - Details of the cluster and its health status can be discovered

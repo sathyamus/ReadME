@@ -173,6 +173,13 @@
   - kubectl api-resources --namespaced=false
   - kubectl api-resources --namespaced=true
 
+#### External service vs Ingress
+  - External service
+    - Used for tests and quick checks 
+  - Ingress
+    - IP address, port are not opened
+    - Routing rules (spec .. rules)
+
 #### Deploy Containers
   - Details of the cluster and its health status can be discovered
     - kubectl cluster-info

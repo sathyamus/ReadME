@@ -132,6 +132,8 @@ The seven rules of a great Git commit message
     Wrap the body at 72 characters
     Use the body to explain what and why vs. how
 
+Credit: https://chris.beams.io/posts/git-commit/
+
 --------------------------------------------------------------------
 Feign Retryer -> If APIs are not accessible, to retry x times for getting the response
 
@@ -164,12 +166,14 @@ Custom Http Headers
  - avoid underscore(_) in the header names to be able to get the header values properly, use names like run-id, context-label
 
 --------------------------------------------------------------------
+
 ```sh
    spark.shuffle.service.enabled=true 
    spark.dynamicAllocation.enabled=true 
    spark.dynamicAllocation.minExecutors=0 
    spark.dynamicAllocation.minExecutors=6 
 ```
+
 --------------------------------------------------------------------
 
 #### Json String to Object

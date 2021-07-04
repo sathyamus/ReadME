@@ -118,6 +118,8 @@ Git fork management :
    git fetch origin
    git fetch upstream
    git merge upstream/main
+
+   git remote show
 ```
 
 --------------------------------------------------------------------

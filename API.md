@@ -158,7 +158,7 @@ https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle
 
 ### Reading the properties from application.yml
 
-`
+```
 @Value(${single-path:xyz})
 private String singlePath; 
 
@@ -171,4 +171,9 @@ oozie-submit.sh
 workflow.xml
    <file>singlePath.json</file>
    <file>nextPath.json</file>
-`
+```
+
+--------------------------------------------
+
+Samples
+    https://github.com/GoogleCloudPlatform/microservices-demo

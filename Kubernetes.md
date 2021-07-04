@@ -204,3 +204,11 @@ curl host01:$PORT
 
 #### Scaling Resources
   * kubectl scale --replicas=3 pod-name
+
+----------------------------------------------------------
+
+Sample Docker Images
+
+  https://console.cloud.google.com/gcr/images/google-samples/GLOBAL/shippingservice@sha256:ed43c1e9c515ec440e95d99357e91087d92a1ecc9b9ed799335b4b9e147c1248/details?tab=info
+
+  

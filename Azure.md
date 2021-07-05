@@ -109,3 +109,9 @@
   Note: Depending on your resources, your recommendations will be different.
   Notice that you can download the recommendations as a CSV or PDF file.
   Notice that you can create alerts.
+
+
+- Azure Synapse Analytics
+  - data integration
+  - enterprise data warehousing 
+  - big data analytics

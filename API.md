@@ -102,6 +102,17 @@ Spring Boot best practices
         - Activated by default, once the dependency is added
         - zipkin (BigBrotherBird) UI
 
+    Content negotiation
+        - Add below dependency for xml support
+        - XML is the first precedence over JSON, if we have below dependency
+        - Usually, if we have only jackson-json dependency in classpath then JSON is the default
+```Java
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-xml</artifactId>
+    </dependency>
+```
+
 Clean Architecture with Uncle Bob
 https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle-bob/
 

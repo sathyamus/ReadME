@@ -30,6 +30,7 @@
   - Monitoring
     - CPU (average), Network (total), and Disk bytes (total)
     - Activity log
+  - Attaching a disk with the snapshot disk image (We will not loose the data, incase of VM is destroyed)
 
 - Create a VM with a Template
 

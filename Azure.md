@@ -103,6 +103,10 @@
        - Monitor the storage account
          - Insights -> information on Failures, Performance, Availability, and Capacity
 
+- Azure Key Vault
+  - We can set an activation and expiration date. 
+  - We can also disable the secret.
+
 - Review Azure Advisor Recommendations
   - Advisor blade, select Overview. Notice recommendations are grouped by High Availability, Security, Performance, and Cost
   - Select All recommendations and take time to view each recommendation and suggested actions.

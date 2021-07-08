@@ -106,6 +106,7 @@
 - Azure Key Vault
   - We can set an activation and expiration date. 
   - We can also disable the secret.
+  - Show Secret Value
 
 - Review Azure Advisor Recommendations
   - Advisor blade, select Overview. Notice recommendations are grouped by High Availability, Security, Performance, and Cost

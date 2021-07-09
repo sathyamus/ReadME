@@ -4,3 +4,9 @@
   - Agrregation
   - Sub-aggregation
   - Terms
+
+- Kibana
+  - Saved search
+  - apply filters
+- Visualizations
+- 

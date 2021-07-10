@@ -63,5 +63,22 @@ becomes
 ##### 13. Avoid declaring collections with null, initialize them with Empty.
 
 
+https://github.com/cxxr/better-java
 
+https://github.com/shshankar1/ebooks
+
+https://github.com/sanigo/books
+https://github.com/yejg2017/Go-Books/tree/master/concurrency
+https://github.com/stormtrooper96/books
+https://github.com/stormtrooper96/books/tree/master/tdd%20%2B%20bdd
+
+
+https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#defense-option-4-escaping-all-user-supplied-input
+
+https://jsparrow.github.io/tags/#readability
+
+SpringBoot application default threads
+https://www.e4developer.com/2018/08/06/spring-boot-best-practices/
+https://www.e4developer.com/2018/05/09/effective-java-microservices-require-effective-java/
+https://en.wikipedia.org/wiki/GRASP_(object-oriented_design)#Controller
 

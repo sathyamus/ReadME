@@ -112,6 +112,10 @@ Spring Boot best practices
       <artifactId>jackson-dataformat-xml</artifactId>
     </dependency>
 ```
+    ComponentScan - wild card
+     - Use wildcards to selectively include package names starting or ending with a certain string
+     - 
+    When you specify basePackageClasses, Spring will scan the package (and subpackages) of the classes you specify.
 
 Clean Architecture with Uncle Bob
 https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle-bob/

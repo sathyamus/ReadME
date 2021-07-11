@@ -117,6 +117,12 @@ Spring Boot best practices
      - 
     When you specify basePackageClasses, Spring will scan the package (and subpackages) of the classes you specify.
 
+    ConfigurationProperties
+     - @ConfigurationProperties(prefix="com.snsystems")
+     - @EnableConfigurationProperties(MailProperties.class)
+     - @PropertySource("myproperties.properties")
+
+
 Clean Architecture with Uncle Bob
 https://www.e4developer.com/2018/07/14/discovering-clean-architecture-with-uncle-bob/
 

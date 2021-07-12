@@ -209,6 +209,12 @@ curl host01:$PORT
 
 Sample Docker Images
 
-  https://console.cloud.google.com/gcr/images/google-samples/GLOBAL/shippingservice@sha256:ed43c1e9c515ec440e95d99357e91087d92a1ecc9b9ed799335b4b9e147c1248/details?tab=info
 
+  docker pull gcr.io/google-samples/shippingservice:v0.1.2
+  docker pull gcr.io/google-samples/shippingservice@sha256:ed43c1e9c515ec440e95d99357e91087d92a1ecc9b9ed799335b4b9e147c1248
+
+  gcr.io/google-samples/paymentservice@sha256:509bff857bd6f2db727cb50322ed0de6a62bddd82ffad35c9603ac4d98acbc3f
+  gcr.io/google-samples/currencyservice
+  gcr.io/google-samples/emailservice
   
+

@@ -1,0 +1,53 @@
+D:\Workspace\git\ReadME\k8s-configuration>kubectl get all
+NAME                                 READY   STATUS    RESTARTS   AGE
+pod/mongo-express-9f6944c74-jqxvc    1/1     Running   0          4m46s
+pod/mongodb-7f79c5f88f-6lchl         1/1     Running   1          24h
+pod/sn-nginx-depl-864fc9589b-82hps   1/1     Running   2          15d
+
+NAME                            TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+service/kubernetes              ClusterIP      10.96.0.1       <none>        443/TCP          16d
+service/mongo-express-service   LoadBalancer   10.105.246.64   <pending>     8081:30000/TCP   56s
+service/mongodb-service         ClusterIP      10.96.200.51    <none>        27017/TCP        23h
+
+NAME                            READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/mongo-express   1/1     1            1           4m46s
+deployment.apps/mongodb         1/1     1            1           24h
+deployment.apps/sn-nginx-depl   1/1     1            1           15d
+
+NAME                                       DESIRED   CURRENT   READY   AGE
+replicaset.apps/mongo-express-9f6944c74    1         1         1       4m46s
+replicaset.apps/mongodb-7f79c5f88f         1         1         1       24h
+replicaset.apps/sn-nginx-depl-864fc9589b   1         1         1       15d
+replicaset.apps/sn-nginx-depl-c459bd6f6    0         0         0       15d
+
+D:\Workspace\git\ReadME\k8s-configuration>kubectl get all
+NAME                                 READY   STATUS    RESTARTS   AGE
+pod/mongo-express-9f6944c74-jqxvc    1/1     Running   0          4m53s
+pod/mongodb-7f79c5f88f-6lchl         1/1     Running   1          24h
+pod/sn-nginx-depl-864fc9589b-82hps   1/1     Running   2          15d
+
+NAME                            TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+service/kubernetes              ClusterIP      10.96.0.1       <none>        443/TCP          16d
+service/mongo-express-service   LoadBalancer   10.105.246.64   <pending>     8081:30000/TCP   63s
+service/mongodb-service         ClusterIP      10.96.200.51    <none>        27017/TCP        23h
+
+NAME                            READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/mongo-express   1/1     1            1           4m53s
+deployment.apps/mongodb         1/1     1            1           24h
+deployment.apps/sn-nginx-depl   1/1     1            1           15d
+
+NAME                                       DESIRED   CURRENT   READY   AGE
+replicaset.apps/mongo-express-9f6944c74    1         1         1       4m53s
+replicaset.apps/mongodb-7f79c5f88f         1         1         1       24h
+replicaset.apps/sn-nginx-depl-864fc9589b   1         1         1       15d
+replicaset.apps/sn-nginx-depl-c459bd6f6    0         0         0       15d
+
+D:\Workspace\git\ReadME\k8s-configuration>minikube service mongo-express-service
+|-----------|-----------------------|-------------|-----------------------------|
+| NAMESPACE |         NAME          | TARGET PORT |             URL             |
+|-----------|-----------------------|-------------|-----------------------------|
+| default   | mongo-express-service |        8081 | http://192.168.99.100:30000 |
+|-----------|-----------------------|-------------|-----------------------------|
+* Opening service default/mongo-express-service in default browser...
+
+D:\Workspace\git\ReadME\k8s-configuration>

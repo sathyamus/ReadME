@@ -106,6 +106,7 @@
   * az login
   * kubectl version --client
   * kubectl cluster-info
+  * kubectl get events
   * kubectl config view
   * kubectl get all
   * kubectl get all | grep nginx

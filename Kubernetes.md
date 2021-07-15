@@ -128,6 +128,11 @@
   * kubectl edit deployment sn-nginx-depl
   * kubectl delete deployment sn-nginx-depl
 
+  Expose the Pod to the public internet using the kubectl expose command: 
+  --type=LoadBalancer flag indicates that you want to expose your Service outside of the cluster 
+  * kubectl expose deployment hello-node --type=LoadBalancer --port=8080
+
+
   * kubectl get services
   * kubectl describe service service-name
 

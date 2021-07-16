@@ -116,6 +116,7 @@
   * kubectl logs pod-label > logs.txt
   * kubectl describe pod pod-name
   * kubectl exec -it sn-nginx-depl-864fc9589b-82hps -- bin/bash
+  * kubectl get pod,svc -n kube-system
 
   * kubectl get nodes
   * kubectl describe node node-name

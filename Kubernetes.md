@@ -84,6 +84,10 @@
         - cluster brain
         - cluster changes gets stored in key value pair
 
+#### kind
+    - kind lets you run Kubernetes on your local computer. 
+    - This tool requires that you have Docker installed and configured.
+    
 #### Minikube
     - For Test / local cluster setup
     - Master processes and Worker processes in 1 Node

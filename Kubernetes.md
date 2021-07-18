@@ -87,7 +87,7 @@
 #### kind
     - kind lets you run Kubernetes on your local computer. 
     - This tool requires that you have Docker installed and configured.
-    
+
 #### Minikube
     - For Test / local cluster setup
     - Master processes and Worker processes in 1 Node
@@ -98,6 +98,8 @@
     - minikube kubectl -- get po -A 
       - will download kubectl if not available in minikube
     - minikube stop
+    - minikube dashboard
+    - minikube dashboard --url
     - https://minikube.sigs.k8s.io/docs/start/
     - https://kubernetes.io/docs/tasks/tools/
     - https://gitlab.com/nanuchi/youtube-tutorial-series/-/blob/master/basic-kubectl-commands/cli-commands.md

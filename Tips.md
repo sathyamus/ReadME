@@ -137,6 +137,18 @@ The seven rules of a great Git commit message
 Credit: https://chris.beams.io/posts/git-commit/
 
 --------------------------------------------------------------------
+
+Git merge vs rebase :
+
+  - Never use rebase for public branches.
+  - rebase will not retain the commit history where merge does
+
+```sh
+   git checkout feature_branch
+   git rebase release_branch
+```
+
+--------------------------------------------------------------------
 Feign Retryer -> If APIs are not accessible, to retry x times for getting the response
 
 --------------------------------------------------------------------

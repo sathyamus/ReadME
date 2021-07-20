@@ -2,13 +2,13 @@ https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 #### Maven
 
-```
+```sh
 mvn archetype:generate -DgroupId=com.snsystems -DartifactId=UnitTest -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
 ## Build the Project
 
-```
+```sh
     mvn package
 ```
 	
@@ -36,7 +36,7 @@ Phases are actually mapped to underlying goals. The specific goals executed per 
 
 An interesting thing to note is that phases and goals may be executed in sequence.
 
-```
+```sh
     mvn clean dependency:copy-dependencies package
 ```
 
@@ -44,6 +44,12 @@ This command will clean the project, copy dependencies, and package the project 
 
 
 #### Ensure pom is also uploaded to the repository along with the package jar and sources, this will allow you to get the transitive dependencies mentioned in pom. If not, then you will get only the dependency classes alone from that jar.
-```
+
+```sh
     mvn clean dependency:tree -Dverbose=true
+```
+
+#### Prepare the package by Ignoring the Tests
+```sh
+mvn clean install -DskipTests -Dmaven.test.skip=true -Dmaven.test.failure.ignore=true
 ```

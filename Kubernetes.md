@@ -218,6 +218,13 @@ curl host01:$PORT
 #### Scaling Resources
   * kubectl scale --replicas=3 pod-name
 
+
+#### Features
+  * Pre-start
+  * Post-start
+  * Readiness probe
+  * Affinity / Anti-affinity
+
 ----------------------------------------------------------
 
 Sample Docker Images

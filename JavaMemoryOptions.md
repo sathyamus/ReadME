@@ -4,8 +4,12 @@
 
 In Windows:
 
+```
 set _JAVA_OPTIONS=-Xms256m -Xmx1324m -Djava.io.tmpdir=C:\\temp
+```
 
 In Linux:
-
+ 
+```sh
 export _JAVA_OPTIONS='Xms256m -Xmx1324m -Djava.io.tmpdir=$HOME/tmp'
+```

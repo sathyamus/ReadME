@@ -4,7 +4,8 @@
    - Developing of application
    - Testing
    - Tools
-     - IDE (Eclipse, IntelliJ)
+     - IDE (Eclipse, STS, IntelliJ, VS Code, Atom)
+     - Text Editors (Notepad++, Sublime Text) :: Install plug-ins for addon behaviours
      - JIRA
      - Tomcat
      - Spring 
@@ -19,6 +20,8 @@
  - Disaster recovery - backup and restore
 
 ### Tools
+ - Liquibase - Track, Version, and Deploy database schema changes
+ - Business Objects
  - Deploy IT from XL Deploy
  - Autosys from CA - Scheduling tool
  - Jenkins

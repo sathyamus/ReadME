@@ -47,7 +47,9 @@
  - Runs across a cluster
  - Kuberenetes service
  - Automatic status management
- - Auto-scaling 
+ - Auto-scaling
+ - Prestart / Poststart 
+ - Readiniess probes
 
 ### Blue Green
  - Traffic Manager

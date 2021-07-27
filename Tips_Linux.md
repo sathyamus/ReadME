@@ -15,28 +15,29 @@ Finally save it
 :x! or :wq!
 
 ### cURL GET
-`
+```sh
 curl https://jsonplaceholder.typicode.com/users
 curl https://www.boredapi.com/api/activity
 curl -X GET https://api.exchangeratesapi.io/latest
 curl -H "Accept: application/json" -H "Content-Type: application/json" https://api.frankfurter.app/currencies
-`
+```
+
 ### cURL POST
-`
+```sh
 curl --data "param1=value1&param2=value2" http://hostname/resource
 curl -X POST -d @filename http://hostname/resource
-`
+```
 
 ### ssh
-`
+```sh
 ssh username@hostname
-`
+```
 
 
 ### sftp
-`
+```sh
 sftp username@hostname
 get *
 quit
-`
+```
 

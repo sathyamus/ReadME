@@ -233,3 +233,26 @@ Base64 encoding
     ```
 
 --------------------------------------------------------------------
+
+DirtiesContext in Spring
+ -- Clearing the test interaction when testing
+ -- Tells the testing framework to close and recreate the context for later tests.
+
+@DirtiesContext.ClassMode
+@DirtiesContext(methodMode = MethodMode.AFTER_METHOD)
+
+Class Level (ClassMode options for a test class define when the context is reset)
+
+  - BEFORE_CLASS: Before current test class
+  - BEFORE_EACH_TEST_METHOD: Before each test method in the current test class
+  - AFTER_EACH_TEST_METHOD: After each test method in the current test class
+  - AFTER_CLASS: After the current test class
+
+
+Method Level (MethodMode options for an individual method define when the context is reset)
+
+  - BEFORE_METHOD: Before the current test method
+  - AFTER_METHOD: After the current test method
+
+
+--------------------------------------------------------------------

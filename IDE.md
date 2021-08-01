@@ -26,3 +26,11 @@ Starting with version 4.9, the project has opted for dropping that naming conven
 ### IntelliJ (Good support for Spring / Boot, Kotlin)
   - Community Edition (Basic, without Spring support)
   - Ultimate Edition 
+
+### WebStorm
+
+### Visual Studio Code (VS Code)
+
+### Angular IDE
+
+### Atom

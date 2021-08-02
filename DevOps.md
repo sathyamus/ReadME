@@ -5,7 +5,7 @@
    - Testing
    - Tools
      - IDE (Eclipse, STS, IntelliJ, VS Code, Atom)
-     - Text Editors (Notepad++, Sublime Text) :: Install plug-ins for addon behaviours
+     - Text Editors (Notepad++, Sublime Text, Bracket) :: Install plug-ins for addon behaviours
      - JIRA
      - Tomcat
      - Spring 

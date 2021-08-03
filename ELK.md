@@ -9,4 +9,5 @@
   - Saved search
   - apply filters
 - Visualizations
-- 
+
+- Grafana

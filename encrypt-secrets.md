@@ -1,11 +1,10 @@
-### secure secrets and passwords in SpringBoot?
+### Secure secrets and passwords in SpringBoot
 
 ```yml
 spring:
  datasource:
  password: secret@abc
 ``` 
-
 
 
 ##### jasypt-maven-dependency

@@ -256,3 +256,10 @@ Method Level (MethodMode options for an individual method define when the contex
 
 
 --------------------------------------------------------------------
+
+```java
+String.format("Hello %s", "Sathya");
+MessageFormat.format("Hello {0}", "Sathya");
+org.apache.commons.lang3.StringUtils.replace("'%(string)'", "string", "Sathya");
+```
+--------------------------------------------------------------------

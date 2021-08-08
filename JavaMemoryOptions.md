@@ -17,5 +17,7 @@ export _JAVA_OPTIONS='Xms256m -Xmx1324m -Djava.io.tmpdir=$HOME/tmp'
 ### Profiling Tools
 
 --> JVisualVM (comes with JDK)
---> JConsole
+--> JConsole  (comes with JDK)
+--> Java Flight Control
+--> JProfiler (Licensed tool)
 

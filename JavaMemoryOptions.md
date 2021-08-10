@@ -17,9 +17,9 @@ export _JAVA_OPTIONS='Xms256m -Xmx1324m -Djava.io.tmpdir=$HOME/tmp'
 ### Profiling Tools
 
 --> Java VisualVM (comes with JDK) (jvisualvm.exe) -- From Java9, we need to download this separately
---> JConsole  (comes with JDK) (jconsole.exe)
---> Java Mission Control (jmc.exe) 
---> Diagnostic Command Tool (jcmd.exe)
+--> JConsole (comes with JDK) (jconsole.exe)
+--> Java Mission Control (comes with JDK) (jmc.exe) 
+--> Diagnostic Command Tool (comes with JDK) (jcmd.exe)
 --> Java Flight Recorder (JFR)
 --> JProfiler (Licensed tool)
 --> YProfiler (YourKit profiler, Licensed tool)

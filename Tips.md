@@ -177,7 +177,8 @@ HttpStatus
 --------------------------------------------------------------------
 
 Custom Http Headers
- - avoid underscore(_) in the header names to be able to get the header values properly, use names like run-id, context-label
+ - avoid underscore(_) in the header names to be able to get the header values properly
+ - use names like run-id, context-label, Application-Name, Application-Type etc
 
 --------------------------------------------------------------------
 

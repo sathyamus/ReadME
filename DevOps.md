@@ -24,7 +24,7 @@
  - Business Objects
  - Deploy IT from XL Deploy
  - Autosys from CA - Scheduling tool
- - Jenkins
+ - Jenkins, ArgoCD
  - Docker
  - Vault
  - Kuberenetes

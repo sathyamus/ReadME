@@ -3,6 +3,7 @@
  - Client (Consumer) - To use the protected the application, resources
  -- Client ID and the Client Secret
  -- Scope
+ -- Type (Implicit -- API to API, client_secret -- From Web / User session)
 
 ## Server 
 ```Java

@@ -6,4 +6,8 @@
    - Stop Application - cron pattern
       - Spark  
       - Coordinator
-      - Spring level 
+      - Spring level
+   - spark.yarn.maxAppAttempts
+      - maximum number of attempts that will be made to submit the application. 
+      - should be no larger than the global number of max attempts in the YARN configuration.
+

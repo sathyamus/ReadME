@@ -34,6 +34,11 @@
  - CyberArk
  - Terraform
 
+#### Deployment Pipeline
+ - Spark HDI Cluster
+  - source (Git) --> prepare package (Jenkins) --> Repository (Nexus) --> Provisioning Engine (Azure storage) --> Deployment (Toolbox)
+ - AKS
+  - source (Git) --> prepare package (Jenkins) --> Repository (Harbor) --> Provisioning Engine (Pull image, Deployment)
 
 #### Docker
  - Runs on a single node

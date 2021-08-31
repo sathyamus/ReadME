@@ -20,6 +20,8 @@ behind it as long as they get what they need.
 
  - OpenAPI (Not Swagger)
  
+### Major, minor versions
+ - Its recomended not to maintain more than 2 major versions to keep maintenance / testing effort to ideal time.
 
 SpringBoot application
  - Performance

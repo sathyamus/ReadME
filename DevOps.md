@@ -40,6 +40,11 @@
  - AKS
   - source (Git) --> prepare package (Jenkins) --> Repository (Harbor) --> Provisioning Engine (Pull image, Deployment)
 
+#### GitOps
+  - GitOps
+  - ArgoCD
+  - Kuberneties
+
 #### Docker
  - Runs on a single node
  - Docker Engine - runtime environment

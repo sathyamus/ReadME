@@ -1,5 +1,6 @@
 # BigData
 
+ - Hadoop file system (HDFS)
  - Yarn (Yet Another Resource Negotiator)
  - Oozie (workflow, coordinator)
    - Oozie wait = true / false

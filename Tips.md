@@ -264,6 +264,10 @@ MessageFormat.format("Hello {0}", "Sathya");
 org.apache.commons.lang3.StringUtils.replace("'%(string)'", "string", "Sathya");
 ```
 
+```java
+ReflectionTestUtils.setField("className", "propertyName", propertyValue);
+```
+
 --------------------------------------------------------------------
 
 https://crontab.cronhub.io/

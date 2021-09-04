@@ -264,8 +264,23 @@ MessageFormat.format("Hello {0}", "Sathya");
 org.apache.commons.lang3.StringUtils.replace("'%(string)'", "string", "Sathya");
 ```
 
+--------------------------------------------------------------------
+
+Mockito :: 
+In order to enable Mockito annotations (such as @Spy, @Mock, … ), we need to do one of the following:
+
+ - Call the method MockitoAnnotations.initMocks(this) to initialize annotated fields
+ - Use the built-in runner @RunWith(MockitoJUnitRunner.class)
+
+--------------------------------------------------------------------
+
+Mockito :: Set a Value of a Non-Public Field
+
 ```java
-ReflectionTestUtils.setField("className", "propertyName", propertyValue);
+ReflectionTestUtils.setField(object, "propertyName", propertyValue);
+
+Example:
+ReflectionTestUtils.setField(resultsController, "resultsService", resultsService);
 ```
 
 --------------------------------------------------------------------

@@ -26,3 +26,6 @@
 
      - spark.driver.memoryOverhead
      - spark.executor.memoryOverhead
+
+   - Dataset .. persist / unpersist 
+     - For making available to share with nodes for that thread

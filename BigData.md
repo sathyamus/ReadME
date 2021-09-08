@@ -1,5 +1,8 @@
 # BigData
 
+ - Ambari
+   - Memory view
+   - Node health
  - Hadoop file system (HDFS)
  - Yarn (Yet Another Resource Negotiator)
  - Oozie (workflow, coordinator)

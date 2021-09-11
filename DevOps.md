@@ -60,6 +60,7 @@
  - Auto-scaling
  - Prestart / Poststart 
  - Readiniess probes
+ - Helm - Packaging manager
 
 ### Blue Green
  - Traffic Manager

@@ -21,3 +21,19 @@ After the exe installation is complete,
 	 import sklearn
 	```
 
+	Search for "Anaconda Prompt" in the programs and click on it.
+
+	(base) C:\Users\sathyamus>python
+
+	Python 3.8.8 (default, Apr 13 2021, 15:08:03) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
+	Type "help", "copyright", "credits" or "license" for more information.
+
+	>>> 2 + 3
+	5
+	>>> x = 29
+	>>> x
+	29
+	>>> import numpy
+	>>> import pandas
+	>>> import sklearn
+	>>>

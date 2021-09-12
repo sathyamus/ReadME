@@ -21,6 +21,8 @@ After the exe installation is complete,
 	 import sklearn
 	```
 
+	Shift + enter => to execute the line
+
 	Search for "Anaconda Prompt" in the programs and click on it.
 
 	(base) C:\Users\sathyamus>python
@@ -37,3 +39,5 @@ After the exe installation is complete,
 	>>> import pandas
 	>>> import sklearn
 	>>>
+
+ Ctrl + D ==> exit

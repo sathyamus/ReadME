@@ -41,3 +41,18 @@ After the exe installation is complete,
 	>>>
 
  Ctrl + D ==> exit
+
+  print('Sathya')
+  Sathya
+ 
+  print(5//2)
+  2
+
+  print(5/2)
+  2.5
+  
+  1 + 2 ** 3 // 4 * 5
+  11
+
+  1 + 2 ** 3 / 4 * 5
+  11.0

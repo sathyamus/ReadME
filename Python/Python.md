@@ -56,3 +56,20 @@ After the exe installation is complete,
 
   1 + 2 ** 3 / 4 * 5
   11.0
+
+ age = 34                       # Integer
+ interest = 6.90                # Float
+ greeting = 'Hello World !!!'   # String
+ isEnabled = True               # Boolean
+
+ print(age)
+ age = age + 1
+ print(age)
+
+
+ touch helloWorld.py
+
+  greeting = 'Hello World !!!'   # String
+  print(greeting)
+
+python helloWorld.py

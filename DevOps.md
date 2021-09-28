@@ -10,6 +10,11 @@
      - Tomcat
      - Spring 
 
+- Support structure
+  - L1 - Managed by PRD (Health check)
+  - L2 - Investigation on issues
+  - L3 - Bug fix (on Core feature Team)
+
  - Operations
    - Deployment of application
    - Maintained on the server

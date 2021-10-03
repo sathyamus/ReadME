@@ -12,3 +12,16 @@
         Read-access geo-zone-redundant storage (RA-GZRS)
  --> Access Tier : Hot / Cold / Archive
  --> connectivity method
+
+ --> Two default keys (root level -- full access)
+ --> access to entire storage account (Blob, File, tables, Queues)
+ --> container --> change access level
+ --> Settings tab , access keys .. 2 copies, can re-generate too
+
+ --> Shared Access Signature (SAS) .. Allowed services, Start and expiry date/time
+
+ --> Azure AD .. Data layer level, Resource level
+    --> Access control (IAM)
+
+ --> Network access control
+    --> Storage account -> container --> Firewall and virtual networks --> selected networks --> Virtual networks --> subnets

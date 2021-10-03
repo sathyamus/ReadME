@@ -25,3 +25,20 @@
 
  --> Network access control
     --> Storage account -> container --> Firewall and virtual networks --> selected networks --> Virtual networks --> subnets
+
+--> Configuring File storage
+
+ --> Azure file sync management
+   -> Cloud Endpoint Azure file share
+   -> server endpoint
+   -> Sync group
+      -> Only 1 cloud endpoint, multiple server endpoints are allowed to create for 1 sync group
+
+
+----------
+
+--> Configuring Blob storage
+  -> Block
+  -> Append
+  -> Page (8TB in size)
+  -> Life cycle management

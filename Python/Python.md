@@ -2,6 +2,14 @@
  - scikit learn documentation
  - Hands-on machine learning with Scikit-learn and TensorFlow
 
+https://www.py4e.com/lessons
+http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf
+
+
+Python for Informatics
+http://www.py4inf.com/book.php
+http://do1.dr-chuck.net/py4inf/EN-us/book.pdf
+
 
 ## Python
 

@@ -1,0 +1,106 @@
+
+
+CIDR(Classless Inter-Domain Routing) notation : 
+	192.168.0.0/24 => 192.168.0.0 to 192.168.0.255 => 255
+	192.168.0.0/16 =>  192.168.0.0 to 192.168.255.255 => 255
+
+DDoS ..  standard -- 
+
+Create Visio Diagram (spoke hub azure image)
+----------------------------------
+
+Demo-hub-vnet = 10.0.0.0/16
+         default = 10.0.0.0/24
+       GatewaySubnet* = 10.0.1.0/24
+AzureFirewallSubnet* = 10.0.2.0/24
+
+eastus-vnet = 10.1.0.0/16
+     	Frontend-subnet = 10.1.1.0/24
+           Frontend-nsg
+		InBound Rules
+			AllowRDP = 3389
+			AllowHTTP = 80
+			AllowHTTPS = 443 (not used in demo, as it requures certificate)
+		Web1-vm (IP = 10.1.1.4)
+			Subnet = Frontend
+			No VM level nsg (Subnet NSG will be used)
+			Public IP = Web1-vm-ip (Basic/Static)
+			
+		Add Servers ... install IIS ... inetpub/wwwroot/
+
+		Web2-vm (IP = 10.1.1.5)
+	Backend-subnet = 10.1.2.0/24
+	   Backend-nsg
+		InBound Rules
+			AllowRDP = 3389
+			AllowSQL = 1433
+		Oubound Rules
+			DenyInternet = ServiceTag = Internet
+		Database-vm
+
+	AzureBastionSubnet* = 10.1.3.0/24
+		Bastion service -> with public IP
+	VirtualAppliance-subnet = 10.1.4.0/24
+		VM : EastUS-va (10.1.4.4) -- No public IP required, as it used for routing internal traffic
+			No NSG
+			Networking -> NIC -> IP configuration --> IP forwarding enable..
+			RDP : PS cmd as admin
+
+		Routetables :
+			FrontendSubnet-To-BackendSubnet, Address prefix : destination port range(backend subnet) 10.1.2.4/16
+			Next hop type: Virual appliance
+			Next hop IP : 10.1.4.4
+
+		verification :
+			tracert Database-vm
+
+		Network watcher --> next hop
+
+	ApplicationGateway-subnet = 10.1.5.0/24
+
+westus-vnet = 10.2.0.0/16
+     	default = 10.2.1.0/24
+
+
+NSG .. can be created at subnet level / vm (NIC) level
+ICMP = is for ping protocol
+
+
+with Pass	4 cores only .. 4 vms can be started parallely
+
+If we delete VM, then publicIP, disks will not be deleted, we need to delete them manually.
+
+Subnet-level - NSG rules ... are preferred
+
+
+
+Application security groups
+
+Network watcher --> IP flow verify
+
+Microsoft Visio .... license ... 
+
+DNS Zone... Record set ... 
+
+Private DNS zones
+
+Virtual appliance 
+ --> Route table --> assiciate vnet, subnet
+
+tracert Database-vm
+
+
+Windows 2016 server data center -> Local server -> IE server config -> disable  (off)
+
+Create Point-to-Site VPN:
+	Virtual network gateway -> demo-hub-gateway-> Address pool  .... tunnel type = IKEv2 and SSTP ,
+	authentication type = Azure certificate
+	root certificate = paste the root certificate
+
+	Download VPN client
+
+
+	how can we connect to Spoke RM to Spoke 
+
+
+certmgr

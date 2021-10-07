@@ -294,3 +294,10 @@ The cron expression is made of five fields. Each field can have the following va
 minute (0-59) hour (0 - 23) day of the month (1 - 31) month (1 - 12)  day of the week (0 - 6)
 
 --------------------------------------------------------------------
+
+log4j level order / priority
+
+TRACE < DEBUG < INFO < WARN < ERROR < FATAL 
+
+--------------------------------------------------------------------
+

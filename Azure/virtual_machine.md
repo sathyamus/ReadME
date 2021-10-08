@@ -30,6 +30,12 @@
   --> Redeployment is not allowed, need to re-create fresh
 
 
+--> Re-size VM
+
+--> Add disks
+
+--> Redeploy (will deploy VM in to a different node in Azure) + reapply ... 
+
 az interactive
 az account list
 az group list

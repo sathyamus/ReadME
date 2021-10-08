@@ -36,6 +36,8 @@
 
 --> Redeploy (will deploy VM in to a different node in Azure) + reapply ... 
 
+--> Encryption of disks
+
 az interactive
 az account list
 az group list

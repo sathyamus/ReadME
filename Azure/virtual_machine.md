@@ -26,6 +26,10 @@
  - group of load balanced VMs
  - automatic / manual
 
+--> Dedicated Hosts
+  --> Redeployment is not allowed, need to re-create fresh
+
+
 az interactive
 az account list
 az group list

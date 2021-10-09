@@ -36,7 +36,9 @@
 
 --> Redeploy (will deploy VM in to a different node in Azure) + reapply ... 
 
---> Encryption of disks
+--> Encryption of disks / Azure Disk Encryption (ADE) provides volume encryption for the OS and data disks.
+ --> Disks -> Additional settings -> 
+
 
 az interactive
 az account list

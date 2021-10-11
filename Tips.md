@@ -124,6 +124,14 @@ Git fork management :
 
 --------------------------------------------------------------------
 
+Git user management :
+```sh
+   git config --global unset credential.helper
+   git config --global credential.helper wincred 
+```
+
+--------------------------------------------------------------------
+
 The seven rules of a great Git commit message
 
     Separate subject from body with a blank line

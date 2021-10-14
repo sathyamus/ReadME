@@ -124,7 +124,8 @@ Git fork management :
 
 --------------------------------------------------------------------
 
-Git user management :
+Git user management  / Git Personal Access token(PAT) : 
+
 ```sh
    git config --global unset credential.helper
    git config --global credential.helper wincred 

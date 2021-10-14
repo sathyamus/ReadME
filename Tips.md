@@ -25,6 +25,29 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-instal
 
 --------------------------------------------------------------------
 
+@Value annotation will not map the property value for Static variables.
+
+ --> If it has to be used for static methods, there is no way to get the value, as static methods will call before the Bean Initialization completion.
+ --> If it has to be used in non-static methods, then below approach.
+
+public class Toggle {
+ @Value("{com.snsystems.toggle.enable})
+ private boolean isToggleEnabled; 
+
+ private static boolean toggleEnabled;
+
+ @Value("{com.snsystems.toggle.enable})
+ private boolean setToggle(boolean isToggleEnabled) {
+   this.toggleEnabled = isToggleEnabled;
+ } 
+ 
+ public void displayToggle() {
+ // Toggle.toggleEnabled
+ }
+
+}
+--------------------------------------------------------------------
+
 When manifest file doesn't exists....
 ```sh
  java -jar ./target/UnitTests-1.0-SNAPSHOT.jar

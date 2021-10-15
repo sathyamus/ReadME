@@ -156,6 +156,15 @@ Git user management  / Git Personal Access token(PAT) :
 
 --------------------------------------------------------------------
 
+GitLab : 
+
+cd existing_repo
+git remote add origin https://gitlab.com/sathyamus/ReadME.git
+git branch -M main
+git push -uf origin main
+
+--------------------------------------------------------------------
+
 The seven rules of a great Git commit message
 
     Separate subject from body with a blank line

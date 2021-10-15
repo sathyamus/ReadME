@@ -121,3 +121,11 @@
   - data integration
   - enterprise data warehousing 
   - big data analytics
+
+- Bastion service
+  - Allows to connect Virtual Machines
+    - RDP(3389)
+    - SSH(22)
+  - Connects to VMs using HTTP / HTTPS
+  - No need for the VMs to expose public IPs, which are vulenarable to attack
+  

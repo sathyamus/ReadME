@@ -221,5 +221,7 @@ for word in splits:
 . = Many times
 + = One or more times
 \S = Match any non-white space characters
+[0-9]+ = atleat 1 digits
+
 ^X.*
 ^X-\S+

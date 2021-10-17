@@ -217,3 +217,9 @@ print(splits)
 for word in splits:
     print(word)
 
+^ = Match start of the line
+. = Many times
++ = One or more times
+\S = Match any non-white space characters
+^X.*
+^X-\S+

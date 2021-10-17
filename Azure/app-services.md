@@ -64,3 +64,27 @@ Not enabled / Set up after app creation
 
 
 
+--------
+
+Summary
+Function App
+by Microsoft
+
+Details
+Subscription : ab89f89a-xxx
+Resource Group : sathya-func-apps-rg
+Name : snsystems
+Runtime stack : Java 8.0
+
+Hosting : 
+Storage (New)
+Storage account : sathyafuncstoreac
+Plan (New)
+Plan type : Consumption (Serverless)
+Name 	: ASP-sathyafuncappsrg-a71e
+Operating System : Linux
+Region 			: East US
+SKU 			: Dynamic
+
+Monitoring
+Application Insights : Not enabled

@@ -19,6 +19,33 @@ App Types:
 App Service Environments
 
 
+------------------------------------------------------
+
+https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions
+
+https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-java
+
+VS Code
+Java 11
+
+Error : func.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies
+
+Solution : 
+
+1. Open PowerShell, Run the following command: 
+
+	Set-ExecutionPolicy RemoteSigned -Scope CurrentUser 
+
+	OR 
+
+	Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+
+	(Remove -Scope CurrentUser to apply to all users)
+
+2. Switch to cmd
+
+-------------------------------------------------------
+
 
 Create Web App
 

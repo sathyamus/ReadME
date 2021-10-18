@@ -26,7 +26,7 @@ https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefu
 https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-java
 
 VS Code
-Java 11
+Java 11 -- https://github.com/redhat-developer/vscode-java/wiki/JDK-Requirements#java.configuration.runtimes
 
 Error : func.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies
 
@@ -46,6 +46,21 @@ Solution :
 
 -------------------------------------------------------
 
+
+
+http://localhost:7071/api/HttpTriggerJava-SayHello?name=Sathya
+
+
+-------------------------------------------------------
+
+Home -> Function App -> snsystems | Advanced Tools -> Go
+	https://snsystems.scm.azurewebsites.net/
+
+-------------------------------------------------------
+
+
+
+-------------------------------------------------------
 
 Create Web App
 

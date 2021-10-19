@@ -28,6 +28,14 @@ https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-
 VS Code
 Java 11 -- https://github.com/redhat-developer/vscode-java/wiki/JDK-Requirements#java.configuration.runtimes
 
+	Disable telemetry reporting
+	Disable experiments
+	Disable crash reporting
+		Open the Command Palette (Ctrl+Shift+P).
+		Run the Preferences: Configure Runtime Arguments command.
+		This command will open a argv.json file to configure runtime arguments.
+		Edit "enable-crash-reporter": false.
+
 Error : func.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies
 
 Solution : 

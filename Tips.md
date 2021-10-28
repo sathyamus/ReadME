@@ -232,6 +232,13 @@ Custom Http Headers
 
 --------------------------------------------------------------------
 
+```sh
+   ln -s kafka.keytab mainkey.keytab
+   --keytab "mainkey.keytab"
+   --principal "${USER}" 
+```
+--------------------------------------------------------------------
+
 #### Json String to Object
 
 ```java

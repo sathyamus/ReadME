@@ -32,3 +32,9 @@
 
    - Dataset .. persist / unpersist 
      - For making available to share with nodes for that thread
+
+
+
+#### 502 Gateway issues
+  - Reverse proxy issue with Azure cloud and onprem
+  

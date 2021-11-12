@@ -38,3 +38,12 @@
 #### 502 Gateway issues
   - Reverse proxy issue with Azure cloud and onprem
   
+
+#### Authentication issue
+   GSSException: No valid credentials provided (Mechanism level: Failed to find any Kerberos tgt)
+   
+  Update below in oozie-submit.sh
+    ln -s key.keytab main.keytab
+    --keytab main.keytab
+    --principal "${USER}" 
+

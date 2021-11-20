@@ -23,6 +23,8 @@
     - @timestamp < "2021-01-02T21:55:59" 
     - @timestamp < "2021-01"
     - machine.os:win*
+    - "Trade rejected for"
+    - level.keyword: ERROR
 
 
 - Visualizations

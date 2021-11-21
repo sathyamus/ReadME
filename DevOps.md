@@ -44,6 +44,9 @@
   - source (Git) --> prepare package (Jenkins) --> Repository (Nexus) --> Provisioning Engine (Azure storage) --> Deployment (Toolbox)
  - AKS
   - source (Git) --> prepare package (Jenkins) --> Repository (Harbor) --> Provisioning Engine (Pull image, Deployment)
+ - DeployIT
+  - source (Git) --> prepare package (Jenkins) --> Repository (Nexus) --> Deployment Archive (DAR) --> DeployIT UI
+  - Dictionaries, Infrastructure, Environments, Packages
 
 #### GitOps
   - GitOps

@@ -30,3 +30,8 @@
 - Visualizations
 
 - Grafana
+
+- Beats
+  - FileBeat
+  - MetricBeat
+  - HeartBeat

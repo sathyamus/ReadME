@@ -33,6 +33,12 @@
    - Dataset .. persist / unpersist 
      - For making available to share with nodes for that thread
 
+%livy2 -- Zeppelin Notebook
+    val trades = spark.read.json("trades.json")
+    trades.count
+
+    val trades = spark.read.parquet("trades.parquet")
+    trades.count
 
 
 #### 502 Gateway issues

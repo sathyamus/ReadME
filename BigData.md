@@ -53,3 +53,7 @@
     --keytab main.keytab
     --principal "${USER}" 
 
+#### HDI cluster issues
+
+ - Oozie is not able to authenticate to send the request to spark
+   Solution : AD connection was lost and could not restore, restart NameNode for the fix.

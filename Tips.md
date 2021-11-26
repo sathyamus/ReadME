@@ -113,6 +113,12 @@ ExecutorService executorService3 = Executors.newScheduledThreadPool(10);
 
 --------------------------------------------------------------------
 
+Git : SSL setup
+ - Download Certificate from Certificate Authority 
+ - git config --global --add http.sslcainfo /c/Homeware/cacerts/cacerts-2.0.cer
+
+--------------------------------------------------------------------
+
 Git : Automatic deletion of head branches after the merge
  - Git -> Repository -> Settings 
  - select the checkbox to Automatic deletion of head branches after the merge

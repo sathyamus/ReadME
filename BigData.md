@@ -57,3 +57,8 @@
 
  - Oozie is not able to authenticate to send the request to spark
    Solution : AD connection was lost and could not restore, restart NameNode for the fix.
+   
+   
+#### HDFS
+
+   * hdfs dfs -ls abfss://sn00private.dfs.core.windows.net/sathya/jobs/dev/email-api .

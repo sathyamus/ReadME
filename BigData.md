@@ -62,3 +62,4 @@
 #### HDFS
 
    * hdfs dfs -ls abfss://sn00private.dfs.core.windows.net/sathya/jobs/dev/email-api .
+   * hdfs dfs -get abfss://sn00private.dfs.core.windows.net/sathya/jobs/dev/email-api .

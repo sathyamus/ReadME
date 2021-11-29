@@ -17,7 +17,10 @@
 
    - We can add custom stop configuration to check, if any spark job is processing a task, 
      and restart will happen only after the task completion, so that task will be un-interrupted.
-
+	 
+ - RAW -- ReadOnly
+ - Parquet -- Post Normalization (Modifying columns, removing, updaing data etc)
+   - Metadata, occupies less memory 
 
  - Spark
    - Heap space

@@ -73,3 +73,6 @@
   - Produce message
   - Consume message
 
+#### Kafka Issues
+  - Not able to deliver messages
+    Fix : Update the group, then all the messages in that topic will deliver again (PS)

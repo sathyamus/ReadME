@@ -1,5 +1,8 @@
 # ELK
 
+  - Distributed Tracing
+  - ProcessId / ClientId / SpanId to trace among services
+
 #### Elastic search
   - Agrregation
   - Sub-aggregation

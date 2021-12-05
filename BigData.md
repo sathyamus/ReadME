@@ -64,8 +64,13 @@
    
 #### HDFS
 
-   * hdfs dfs -ls abfss://sn00private.dfs.core.windows.net/sathya/jobs/dev/email-api .
-   * hdfs dfs -get abfss://sn00private.dfs.core.windows.net/sathya/jobs/dev/email-api .
+   * hdfs dfs -ls abfss://app@sn00private.dfs.core.windows.net/sathya/jobs/dev/email-api .
+   * hdfs dfs -get abfss://app@sn00private.dfs.core.windows.net/sathya/jobs/dev/email-api .
+   
+   - sn00private/app/sathya/jobs/dev/email-api
+   
+   * hdfs dfs -get abfss://raw@sn00private.dfs.core.windows.net/sathya/trades/product_type=email/date=20211205/email.json .
+   * hdfs dfs -get abfss://lake@sn00private.dfs.core.windows.net/sathya/trades/product_type=email/date=20211205/email.parquet .
 
 #### Kafka
   - Group

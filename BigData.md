@@ -35,6 +35,9 @@
 
    - Dataset .. persist / unpersist 
      - For making available to share with nodes for that thread
+	 
+   - Partition
+   - Configuration
 
 %livy2 -- Zeppelin Notebook
     val trades = spark.read.json("trades.json")

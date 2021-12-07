@@ -225,6 +225,17 @@ curl host01:$PORT
   * Readiness probe
   * Affinity / Anti-affinity
 
+
+----------------------------------------------------------
+
+  resources:
+   limits:
+    cpu: 100m
+	memory: 200Mi
+   requests:
+    cpu: 10m
+	memory: 200Mi
+	
 ----------------------------------------------------------
 
 Sample Docker Images

@@ -106,4 +106,7 @@
  - Runtime
  - Running processes
  - Traceability of each request by Business process, date, id etc for Unique params
+ - Retention of the data
+   - Functional - No limit
+   - Technical - purge data depending on need, size
  

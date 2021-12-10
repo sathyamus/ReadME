@@ -109,4 +109,5 @@
  - Retention of the data
    - Functional - No limit
    - Technical - purge data depending on need, size
+ - Central storage of Logs (ELK)
  

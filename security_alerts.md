@@ -1,4 +1,10 @@
 
+# Vulnerabilities
+
+### Log4j
+  -> log4j-core --> 2.15.0 (fix for JNDI explotation) 
+
+
 Dependabot alerts
 GitHub security alert digest
 

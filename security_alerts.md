@@ -3,7 +3,7 @@
 
 ### Log4j
   -> log4j-core --> 2.15.0 (fix for JNDI explotation) 
-
+  -> log4j-core is not used then exclude log4j during package preparation
 
 Dependabot alerts
 GitHub security alert digest

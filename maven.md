@@ -53,3 +53,8 @@ This command will clean the project, copy dependencies, and package the project 
 ```sh
 mvn clean install -DskipTests -Dmaven.test.skip=true -Dmaven.test.failure.ignore=true
 ```
+
+#### Effective POM
+```sh
+mvn help:effective-pom -Dverbose=true > effectivePom-email-api.txt
+```

@@ -58,3 +58,16 @@ mvn clean install -DskipTests -Dmaven.test.skip=true -Dmaven.test.failure.ignore
 ```sh
 mvn help:effective-pom -Dverbose=true > effectivePom-email-api.txt
 ```
+
+
+
+
+#### Relocating dependency in shaded jars
+
+ <relocations>
+   <relocation>
+     <pattern>com.fasterxml.jackson</pattern>
+	 <sharedPattern>repackaged.com.fasterxml.jackson</sharedPattern>
+   </relocation>
+ </relocations>
+

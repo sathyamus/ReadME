@@ -129,7 +129,14 @@ Git Tools :
  - TortoiceGit
  - Git bash
  - sourcetreeapp
+ 
+--------------------------------------------------------------------
 
+Git Fetch / Merge :
+```sh
+   git fetch --all
+   git merge origin/master
+```
 --------------------------------------------------------------------
 
 Git Tag :

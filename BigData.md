@@ -38,6 +38,13 @@
 	 
    - Partition
    - Configuration
+   
+   - Metrics
+     - spark.metrics.conf.*.sink.sgmon.class=MonitoringSink
+     - spark.metrics.conf.*.sink.sgmon.period=15
+	 - spark.metrics.conf.*.sink.sgmon.unit=seconds
+	 - spark.metrics.conf.*.sink.sgmon.configurationFile=sgmon-spark.properties
+	 - spark.metrics.conf.*.source.jvm.class=org.apache.spark.metrics.source.JvmSource
 
 %livy2 -- Zeppelin Notebook
     val trades = spark.read.json("trades.json")

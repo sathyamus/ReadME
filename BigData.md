@@ -71,6 +71,8 @@
  - Oozie is not able to authenticate to send the request to spark
    Solution : AD connection was lost and could not restore, restart NameNode for the fix.
    
+   oozie job -oozie http://namenodeip:11000/oozie -info 0000101-1234-oozie-oozi-W
+   
    
 #### HDFS
 

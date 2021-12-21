@@ -72,6 +72,7 @@
    Solution : AD connection was lost and could not restore, restart NameNode for the fix.
    
    oozie job -oozie http://namenodeip:11000/oozie -info 0000101-1234-oozie-oozi-W
+   oozie job -oozie http://namenodeip:11000/oozie -log 0000101-1234-oozie-oozi-W
    
    
 #### HDFS

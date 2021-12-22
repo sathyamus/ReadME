@@ -73,6 +73,7 @@
    
    oozie job -oozie http://namenodeip:11000/oozie -info 0000101-1234-oozie-oozi-W
    oozie job -oozie http://namenodeip:11000/oozie -log 0000101-1234-oozie-oozi-W
+   oozie job -oozie http://namenodeip:11000/oozie -config job.properties -run
    
    
 #### HDFS

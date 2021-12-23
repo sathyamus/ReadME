@@ -74,7 +74,9 @@
    oozie job -oozie http://namenodeip:11000/oozie -info 0000101-1234-oozie-oozi-W
    oozie job -oozie http://namenodeip:11000/oozie -log 0000101-1234-oozie-oozi-W
    oozie job -oozie http://namenodeip:11000/oozie -config job.properties -run
-   
+
+ - Oozie is not able to show the log and getting 500 Internal Server Error
+   Solution : Re-start Oozie service
    
 #### HDFS
 

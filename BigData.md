@@ -78,6 +78,10 @@
  - Oozie is not able to show the log and getting 500 Internal Server Error
    Solution : Re-start Oozie service
    
+ - Head Node 
+  /var/log/oozie
+  /var/log/spark2
+   
 #### HDFS
 
    * hdfs dfs -ls abfss://app@sn00private.dfs.core.windows.net/sathya/jobs/dev/email-api .

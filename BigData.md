@@ -81,6 +81,8 @@
  - Head Node 
   /var/log/oozie
   /var/log/spark2
+  ps -ef | grep oozie
+  ps -ef | grep spark
    
 #### HDFS
 

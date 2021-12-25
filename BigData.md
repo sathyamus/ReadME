@@ -37,6 +37,8 @@
      - For making available to share with nodes for that thread
 	 
    - Partition
+     - Default no of partition for spark is 200 
+     - Default partitions can be changed using spark.sql.shuffle.partitions configuration setting
    - Configuration
    
    - Metrics

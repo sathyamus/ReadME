@@ -1,6 +1,9 @@
 
 ## Azure BigData services
-  -> HDInsight
+  -> Azure Data Lake
+     - Azure Data Lake Store
+	 - Azure Data Lake Analytics
+	 - Azure HDInsight
   -> Databricks
      - Dataframe
 	 - Managed table

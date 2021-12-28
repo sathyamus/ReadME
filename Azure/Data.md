@@ -17,6 +17,13 @@
    2. Azure Blob storage connectivity
         wsab[s]://containername@account_name.dfs.core.windows.net/<folder1>/<folder2
 
+    Windows Azure Storage Blob driver (WASB), the original support for Azure Blob Storage.
+    Azure Blob Filesystem driver (ABFS), A dedicated Azure Storage driver for Hadoop
+	
+	The ABFS driver was designed to overcome the inherent deficiencies of WASB.
+    Refer: https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-abfs-driver
+
+
 #### Labs
   -> Single Node cluster
   -> Auto Terminate or 120m idle time .. charged per hr by Microsoft

@@ -129,3 +129,7 @@
   - Connects to VMs using HTTP / HTTPS
   - No need for the VMs to expose public IPs, which are vulenarable to attack
   
+  
+### Getting the list of Resources registered for respective subscription  
+  az provider list > provider_list.txt
+  az provider list --query "[].namespace" -o tsv | ForEach-Object { az provider register -n $_}

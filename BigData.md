@@ -44,9 +44,11 @@
    - Metrics
      - spark.metrics.conf.*.sink.sgmon.class=MonitoringSink
      - spark.metrics.conf.*.sink.sgmon.period=15
-	 - spark.metrics.conf.*.sink.sgmon.unit=seconds
-	 - spark.metrics.conf.*.sink.sgmon.configurationFile=sgmon-spark.properties
-	 - spark.metrics.conf.*.source.jvm.class=org.apache.spark.metrics.source.JvmSource
+	   - spark.metrics.conf.*.sink.sgmon.unit=seconds
+	   - spark.metrics.conf.*.sink.sgmon.configurationFile=sgmon-spark.properties
+	   - spark.metrics.conf.*.source.jvm.class=org.apache.spark.metrics.source.JvmSource 
+
+#### Zeppelin Notebook
 
 %livy2 -- Zeppelin Notebook
     val trades = spark.read.json("trades.json")
@@ -103,5 +105,5 @@
   - Consume message
 
 #### Kafka Issues
-  - Not able to deliver messages
-    Fix : Update the group, then all the messages in that topic will deliver again (PS)
+  - Not able to consume / deliver messages 
+    Fix : Update the group (id / name), then all the messages in that topic will deliver again (PS)

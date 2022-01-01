@@ -101,11 +101,13 @@
       * https://pages.awscloud.com/awsmp-whitepaper-dev-continuous-quality-testing-to-accelerate-development-ty.html
       * https://pages.awscloud.com/rs/112-TZM-766/images/aws-marketplace-continuous-quality-and-testing-whitepaper.pdf
 
-### Azure DevOps
- - Repo
- - Pipeline
- - Wiki Board
+### Azure DevOps (https://dev.azure.com/)
+ - Boards
    - Issue management
+ - Repos
+ - Pipelines
+ - Test Plans
+ - Artifacts
 
 ### Key Points for Monitoring Chain Applications
  - Monitoring Dashboard to view applications

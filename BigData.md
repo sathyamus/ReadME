@@ -57,6 +57,15 @@
     val trades = spark.read.parquet("trades.parquet")
     trades.count
 
+``` python
+import pandas as pd ##import pandas, its used for data analysis
+moviecsv = pd.read_csv('https://raw.githubusercontent.com/Dayobam/Data-Literacy-Azure-Databrick-Essentials/main/movies.csv')
+print("Displaying my First Databricks Table")
+display(moviecsv)
+
+##how long is the movie csv length
+len(moviecsv)
+```
 
 #### 502 Gateway issues
   - Reverse proxy issue with Azure cloud and onprem

@@ -1,5 +1,6 @@
 
 ## Azure BigData services
+
   -> Azure Data Lake
      - Azure Data Lake Store
 	 - Azure Data Lake Analytics
@@ -9,7 +10,13 @@
 	 - Managed table
 	 - Un-managed table
   -> Synapses Analytics
-   
+ 
+
+ -> Batch data
+   - Periodically transfer data to another database for analytical querying
+ -> Stream Data
+   - Continously calculate new analytical query results when data is added or updated
+
    
 #### URI scheme to reference data
 
@@ -34,7 +41,24 @@
    Input (Structured / Unstructured Data source) --> Ingest --> Storage --> Transform & Enrich --> Model & serve
 
 #### Labs
+
   -> Single Node cluster
   -> Auto Terminate or 120m idle time .. charged per hr by Microsoft
 
-https://app.pluralsight.com/library/courses/building-first-data-lakehouse-azure-synapse-analytics
+
+#### Links
+
+ ARM Template 
+ - https://dkutemplates.blob.core.windows.net/fleet-manager-templates/10.0.2/fleet-manager-network.json
+
+ - https://app.pluralsight.com/paths/certificate/microsoft-dp-900-azure-data-fundamentals
+
+ - https://app.pluralsight.com/library/courses/data-literacy-essentials-azure-synapse-analytics/    
+ - https://app.pluralsight.com/library/courses/building-first-data-lakehouse-azure-synapse-analytics
+
+ - https://docs.microsoft.com/en-us/azure/data-factory/tutorial-data-flow
+ - https://docs.microsoft.com/en-us/azure/data-factory/data-flow-select
+ - https://docs.microsoft.com/en-us/azure/data-factory/data-flow-transformation-overview
+
+ - https://github.com/MicrosoftLearning/DP-200-Implementing-an-Azure-Data-Solution/blob/master/instructions/dp-200-07_instructions.md
+ - https://www.dataplatformschool.com/blog/synapse-databricks-benchmark/

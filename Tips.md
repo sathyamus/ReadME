@@ -169,12 +169,26 @@ Git user management  / Git Personal Access token(PAT) :
 
 --------------------------------------------------------------------
 
+Git
+
+```sh
+   git config --global -add http.sslVersion tlsv1.2
+   git config --global -l
+   git config -l
+```
+
+In TortoiceGit, if the git Version is not good in the path then Settings --> General -> select the right git binary location.
+This will fix any SSL issues.
+
+--------------------------------------------------------------------
+
 GitLab : 
 
 cd existing_repo
 git remote add origin https://gitlab.com/sathyamus/ReadME.git
 git branch -M main
 git push -uf origin main
+
 
 --------------------------------------------------------------------
 

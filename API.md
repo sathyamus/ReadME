@@ -200,6 +200,8 @@ workflow.xml
 
 ### Spring RetryTemplate
 
+### Ribbon
+  - Rule based load balancing
 --------------------------------------------
 
 Samples

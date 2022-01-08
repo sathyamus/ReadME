@@ -359,3 +359,18 @@ TRACE < DEBUG < INFO < WARN < ERROR < FATAL
 
 --------------------------------------------------------------------
 
+KeyGen
+
+```sh
+ ssh-keygen -b 2048 -t rsa
+```
+
+SSH private key is id_rsa, 
+SSH public key would be id_rsa.pub
+
+Then files will be generated in default path
+
+Windows: C:/User/user_name/.ssh/id_rsa
+Unix :  /home/user_name/.ssh/id_rsa 
+
+--------------------------------------------------------------------

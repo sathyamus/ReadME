@@ -116,3 +116,21 @@ len(moviecsv)
 #### Kafka Issues
   - Not able to consume / deliver messages 
     Fix : Update the group (id / name), then all the messages in that topic will deliver again (PS)
+
+#### Cost Optimization for HD Insights
+  - Batch --> Apache Hadoop
+  - Batch + Streaming --> Apache Spark
+
+ Scaling to meet the demands :
+  - On Demand
+  - Schedule
+    - Before 9
+      - 50% of worker nodes to be terminated
+    - After 9
+      - 50% of worker nodes to be scaled up
+    - After 6
+      - 70% of worker nodes to be running
+
+ VM Instances 
+  - Spot
+  - Pay-as-you-use (On Demand)

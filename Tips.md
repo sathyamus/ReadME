@@ -359,6 +359,13 @@ TRACE < DEBUG < INFO < WARN < ERROR < FATAL
 
 --------------------------------------------------------------------
 
+log4j2 config :
+
+ log4j2 --> -Dlog4jConfigurationFile
+ log4j  --> -Dlog4jConfiguration=file://
+ 
+--------------------------------------------------------------------
+
 KeyGen
 
 ```sh

@@ -5,6 +5,7 @@
      - Azure Data Lake Store
 	 - Azure Data Lake Analytics
 	 - Azure HDInsight
+       - Provision cloud Hadoop, Spark, R Server, HBase, and Storm clusters
   -> Databricks
      - Dataframe
 	 - Managed table

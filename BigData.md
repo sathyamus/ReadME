@@ -48,6 +48,7 @@
 	   - spark.metrics.conf.*.sink.sgmon.configurationFile=sgmon-spark.properties
 	   - spark.metrics.conf.*.source.jvm.class=org.apache.spark.metrics.source.JvmSource 
 
+
 #### Zeppelin Notebook
 
 %livy2 -- Zeppelin Notebook
@@ -66,6 +67,10 @@ display(moviecsv)
 ##how long is the movie csv length
 len(moviecsv)
 ```
+
+#### Jupyter Notebook
+  - Python
+  - Spark
 
 #### 502 Gateway issues
   - Reverse proxy issue with Azure cloud and onprem

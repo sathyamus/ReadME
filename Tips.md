@@ -363,6 +363,8 @@ log4j2 config :
 
  log4j2 --> -Dlog4jConfigurationFile
  log4j  --> -Dlog4jConfiguration=file://
+
+ -Dlog4j2.debug = true
  
 --------------------------------------------------------------------
 

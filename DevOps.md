@@ -6,8 +6,8 @@
    - Tools
      - IDE (Eclipse, STS, IntelliJ, VS Code, Atom)
      - Text Editors (Notepad++, Sublime Text, Bracket) :: Install plug-ins for addon behaviours
-     - JIRA
-     - Tomcat
+     - JIRA, Asana
+     - Tomcat, JBoss, Websphere
      - Spring 
 
 - Support structure

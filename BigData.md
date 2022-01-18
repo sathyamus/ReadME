@@ -72,6 +72,8 @@ len(moviecsv)
   - Python
   - Spark
 
+#### Zookeeper
+
 #### 502 Gateway issues
   - Reverse proxy issue with Azure cloud and onprem
   

@@ -343,6 +343,18 @@ ReflectionTestUtils.setField(resultsController, "resultsService", resultsService
 
 --------------------------------------------------------------------
 
+Trim Time (from Timestamp (in millies to get only the date)
+ - To avoid timezone differences in various regions (for tests etc)
+
+```java
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+Calendar cal = Calendar.getInstance();
+cal.setTimeInMillies(timeInMillies);
+sdf.format(cal.getTime);
+```
+
+--------------------------------------------------------------------
+
 https://crontab.cronhub.io/
 
 0 00 1 * * *

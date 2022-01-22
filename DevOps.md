@@ -38,6 +38,12 @@
  - Imperva
  - CyberArk
  - Terraform
+ - SQL Editors
+   - Oracle SQL Developer
+   - MySQL Workbench
+   - Azure Data Studio
+   - SQL Server Management studio 
+   - Toad
 
 #### Deployment Pipeline
  - Spark HDI Cluster

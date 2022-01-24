@@ -130,7 +130,10 @@
   - No need for the VMs to expose public IPs, which are vulenarable to attack
  
 - Azure Data Studio
-  - Able to connect to PostGRESQL, SQL server in clould / onprem DBs 
+  - Able to connect to PostGRESQL, SQL server in clould / onprem DBs
+  
+- Power BI tools
+  - Premium service to prepare paginated reports
   
 ### Getting the list of Resources registered for respective subscription  
   az provider list > provider_list.txt

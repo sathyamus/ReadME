@@ -132,8 +132,15 @@
 - Azure Data Studio
   - Able to connect to PostGRESQL, SQL server in clould / onprem DBs
   
-- Power BI tools
+- Power BI
+  - Clean, Transform and Model data
   - Premium service to prepare paginated reports
+  - DAX - Data Analytics Expression
+  - Sharing Reports
+    - Power BI service
+	- Power BI report server
+  - Power BI Desktop
+  - Power BI Mobile apps
   
 ### Getting the list of Resources registered for respective subscription  
   az provider list > provider_list.txt

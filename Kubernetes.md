@@ -127,6 +127,7 @@
   * kubectl get nodes
   * kubectl describe node node-name
   * kubectl delete pod pod-name
+  * kubectl delete pod pod-name --grace-period 0 --force
 
   * kubectl get deployments
   * kubectl get deployment sn-nginx-depl -o yaml

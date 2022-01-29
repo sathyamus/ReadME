@@ -395,3 +395,12 @@ Windows: C:/User/user_name/.ssh/id_rsa
 Unix :  /home/user_name/.ssh/id_rsa 
 
 --------------------------------------------------------------------
+
+Unsupported protocol 
+    ERROR_SSL_VERSION_OR_CIPHER_MISMATCH
+	
+ k8s -- Invalid TLS -- Associate TLS with the Certificate
+ 
+ Try Incognito window in Web Browser .. to (un)safely open (known) / internal websites
+ 
+--------------------------------------------------------------------

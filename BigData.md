@@ -49,6 +49,14 @@
 	   - spark.metrics.conf.*.source.jvm.class=org.apache.spark.metrics.source.JvmSource 
 
 
+```java
+
+import org.apache.spark.sql.SparkSession;
+
+SparkSession.builder().appName("EmailAlerts").setMaster("local[*]").config("key", "value").getOrCreate();
+
+```
+
 #### Zeppelin Notebook
 
 %livy2 -- Zeppelin Notebook

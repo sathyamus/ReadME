@@ -202,6 +202,17 @@ workflow.xml
 
 ### Ribbon
   - Rule based load balancing
+  
+  
+### Timeouts, very important while interacting with remote systems
+
+  - RestTemplate default timeouts
+    - By default, resttemplate uses timeout property from JDK installed on the machine which is always infinite in not overridden. 
+	- To override the default JVM timeout, we can pass these properties during JVM start.
+	
+	-Dsun.net.client.defaultConnectTimeout=<TimeoutInMiliSec>
+    -Dsun.net.client.defaultReadTimeout=<TimeoutInMiliSec>
+
 --------------------------------------------
 
 Samples

@@ -28,3 +28,15 @@ https://apps.support.sap.com/sap/support/knowledge/en/2604240
 https://stackoverflow.com/questions/30817934/extended-server-name-sni-extension-not-sent-with-jdk1-8-0-but-send-with-jdk1-7
 
 Custom HostnameVerifier disables SNI extension
+
+3. java.lang.OutOfMemoryError: Metaspace
+
+Cause : 
+Permgen Leak in JAXB due to recreation of JAXBContexts
+
+https://issues.apache.org/jira/browse/CXF-2939
+
+Resolution : 
+
+-Dcom.sun.xml.bind.v2.bytecode.ClassTailor.noOptimize=true
+

@@ -1,0 +1,38 @@
+[{
+	"itemId": "123",
+	"itemType": "product",
+	"itemName": "Kayak",
+	"matchesDescription": "true",
+	"arrivedOnTime": "true",
+	"qualityScore": "5",
+	"designScore": "4",
+	"priceIsRight": "false"
+},
+{
+	"itemId": "456",
+	"itemType": "service",
+	"itemName": "Warranty Service",
+	"fairValue": "true",
+	"goodDuration": "true",
+	"difficultToUse": "5",
+	"friendlyService": "4"
+},
+{
+	"itemId": "789",
+	"itemType": "service",
+	"itemName": "Financing",
+	"fairValue": "false",
+	"goodDuration": "true",
+	"difficultToUse": "3",
+	"friendlyService": "4"
+},
+{
+	"itemId": "101",
+	"itemType": "product",
+	"itemName": "Climbing Boots",
+	"matchesDescription": "true",
+	"arrivedOnTime": "true",
+	"qualityScore": "5",
+	"designScore": "4",
+	"priceIsRight": "false"
+}]

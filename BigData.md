@@ -149,3 +149,11 @@ len(moviecsv)
  VM Instances 
   - Spot
   - Pay-as-you-use (On Demand)
+
+
+#### Monitoring
+  - HDInsight
+    - Cluster health and availability
+	- Resource utilization and performance
+	- Job status and logs
+

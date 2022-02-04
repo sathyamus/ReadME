@@ -157,3 +157,17 @@ len(moviecsv)
 	- Resource utilization and performance
 	- Job status and logs
 
+
+#### Package a JAR containing your application
+  
+  $ mvn package
+  ...
+  [INFO] Building jar: {..}/{..}/target/EmailAlerts-1.0.jar
+
+#### Use spark-submit to run your application
+```sh
+$ YOUR_SPARK_HOME/bin/spark-submit \
+  --class "EmailAlerts" \
+  --master local[3] \
+  target/EmailAlerts-1.0.jar
+``` 

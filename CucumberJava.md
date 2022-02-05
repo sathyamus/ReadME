@@ -8,8 +8,6 @@
 @Format("yyyy-MM-dd")
 ```
 
-#### Date Format
-
 #### Sample feature file
 ```java
   Given I visit "/login"
@@ -83,7 +81,22 @@ mvn archetype:generate                      \
    "-DinteractiveMode=false"
 ```
 
+#### Cucumber Reports
+
+```sh
+# src/test/resources/cucumber.properties
+cucumber.publish.enabled=true
+```
+
 #### Cucumber Java
    - https://cucumber.io/docs/cucumber/api/
    - https://github.com/cucumber/cucumber-jvm/tree/main/java#data-tables
+   - https://cucumber.io/docs/guides/10-minute-tutorial/#verify-cucumber-installation
+
+#### Cucumber - Enabling PDF export
+   - https://mkolisnyk.github.io/cucumber-reports/pdf-export
+   - https://ghchirp.tech/2224/
+   - https://github.com/maximehamm/tzatziki
+   - https://plugins.jetbrains.com/plugin/16289-cucumber-/
+   - https://github.com/Arnauld/tzatziki
 

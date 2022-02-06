@@ -171,3 +171,13 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
   --master local[3] \
   target/EmailAlerts-1.0.jar
 ``` 
+
+
+https://cloudxlab.com/blog/how-does-yarn-interact-with-zookeeper-to-support-high-availability/
+
+https://cloudxlab.com/blog/how-to-use-a-libary-in-apache-spark-and-process-avro-data-format/
+
+https://cloudxlab.com/blog/big-data-solution-apache-hadoop-and-spark/
+
+https://cloudxlab.com/blog/introduction-to-big-data-and-distributed-computing/
+

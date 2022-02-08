@@ -1,5 +1,10 @@
 # BigData
 
+ - HDI Cluster
+   - access to most Hadoop secured services requires user to be authenticated by Kerberos.
+      kinit
+	  klist
+	  kdestroy
  - Ambari
    - Memory view
    - Node health

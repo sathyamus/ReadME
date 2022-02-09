@@ -110,12 +110,28 @@ len(moviecsv)
 
  - Oozie is not able to show the log and getting 500 Internal Server Error
    Solution : Re-start Oozie service
-   
+ 
+  oozie job log <co-ord_job_id>
+  yarn logs -applicationId <Application ID> -am ALL
+
  - Head Node 
   /var/log/oozie
   /var/log/spark2
   ps -ef | grep oozie
   ps -ef | grep spark
+
+ - Ambari Server status (Requires sudo privilleges)
+   ambari-server status
+
+ - Ambari Log locations
+   /var/log/ambari-server/ambari-server.log
+   /var/log/ambari-agent/ambari-agent.log
+
+ - Zookeeper
+   cat /etc/hosts
+   cat /etc/zookeeper/conf/zoo.conf
+   
+
    
 #### HDFS
 

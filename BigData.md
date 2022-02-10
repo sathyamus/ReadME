@@ -130,7 +130,19 @@ len(moviecsv)
  - Zookeeper
    cat /etc/hosts
    cat /etc/zookeeper/conf/zoo.conf
-   
+   - To start
+     python /opt/startup_scripts/startup_hdinsight_zookeeper.py
+
+     lsof -i :2182
+
+  - Name Node
+    hdfs dfsadmin -safemode get
+    - To identify, whether any of the head nodes are in safe mode or not
+    hdfs dfsadmin -D "fs.default.name=hdfs://mycluster/" -safemode get
+    - To Recover from safemode any of the head nodes are in safe mode
+    hdfs dfsadmin -D "fs.default.name=hdfs://mycluster/" -safemode leave
+    - Log locations
+      /var/log/hadoop/hdfs
 
    
 #### HDFS

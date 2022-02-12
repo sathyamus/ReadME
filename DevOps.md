@@ -1,5 +1,9 @@
 # DevOps
 
+ --> Isolate below processes
+ - Release
+ - Deployment 
+
  - Development
    - Developing of application
    - Testing

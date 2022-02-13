@@ -1,8 +1,9 @@
 # DevOps
 
  --> Isolate below processes
- - Release
- - Deployment 
+ - Build (validate product quality)
+ - Deployment (validate runtime stability)
+ - Release (validate feature usage)
 
  - Development
    - Developing of application
@@ -117,7 +118,9 @@
  - Repos
  - Pipelines
  - Test Plans
- - Artifacts
+ - Artifacts, Stages, and Gates
+ - Jobs and Tasks
+ - Continuous Deployment Trigger
 
 ### Key Points for Monitoring Chain Applications
  - Monitoring Dashboard to view applications

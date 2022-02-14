@@ -144,6 +144,9 @@ len(moviecsv)
     - Log locations
       /var/log/hadoop/hdfs
 
+  - YARN service is DOWN
+    Both Yarn services in both headnodes went down.
+    From Ambari ... perform restart of any Yarn service ...
    
 #### HDFS
 

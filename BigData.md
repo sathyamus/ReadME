@@ -147,6 +147,11 @@ len(moviecsv)
   - YARN service is DOWN
     Both Yarn services in both headnodes went down.
     From Ambari ... perform restart of any Yarn service ...
+
+  - Ambari ... LDAP Auth sync issues
+    sudo ambari-server sync-ldap --all
+    sudo service ambari-server restart
+    sudo systemctl restart ambari-server
    
 #### HDFS
 

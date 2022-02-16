@@ -92,6 +92,9 @@ cucumber.publish.enabled=true
    - https://cucumber.io/docs/cucumber/api/
    - https://github.com/cucumber/cucumber-jvm/tree/main/java#data-tables
    - https://cucumber.io/docs/guides/10-minute-tutorial/#verify-cucumber-installation
+   
+#### Best practices for scenario writing
+   - https://support.smartbear.com/cucumberstudio/docs/tests/best-practices.html
 
 #### Cucumber - Enabling PDF export
    - https://mkolisnyk.github.io/cucumber-reports/pdf-export
@@ -100,3 +103,9 @@ cucumber.publish.enabled=true
    - https://plugins.jetbrains.com/plugin/16289-cucumber-/
    - https://github.com/Arnauld/tzatziki
 
+#### Cucumber 6
+   - https://artofcode.info/2020/10/26/cucumber-6-spring-integration/
+   
+   
+   https://github.com/eugenp/tutorials
+   

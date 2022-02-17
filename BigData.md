@@ -143,6 +143,8 @@ len(moviecsv)
     hdfs dfsadmin -D "fs.default.name=hdfs://mycluster/" -safemode leave
     - Log locations
       /var/log/hadoop/hdfs
+    -- RCA 
+       -- Authentication failures during cluster creation
 
   - YARN service is DOWN
     Both Yarn services in both headnodes went down.

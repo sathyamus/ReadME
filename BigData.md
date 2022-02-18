@@ -145,6 +145,7 @@ len(moviecsv)
       /var/log/hadoop/hdfs
     -- RCA 
        -- Authentication failures during cluster creation
+          (If the Kerberos users list is refreshed after the creation, which is leading to Authentication failures)
 
   - YARN service is DOWN
     Both Yarn services in both headnodes went down.

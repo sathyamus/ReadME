@@ -2,14 +2,18 @@
 
  - HDI Cluster
    - access to most Hadoop secured services requires user to be authenticated by Kerberos.
-      kinit
-	  klist
-	  kdestroy
+      klist
+      kdestroy
+      kinit --principal "${USER}" --keytab "${USER}".keytab
+
  - Ambari
    - Memory view
    - Node health
+
  - Hadoop file system (HDFS)
+
  - Yarn (Yet Another Resource Negotiator)
+
  - Oozie (workflow, coordinator)
    - Oozie wait = true / false
    - Stop Application - cron pattern
@@ -49,9 +53,9 @@
    - Metrics
      - spark.metrics.conf.*.sink.sgmon.class=MonitoringSink
      - spark.metrics.conf.*.sink.sgmon.period=15
-	   - spark.metrics.conf.*.sink.sgmon.unit=seconds
-	   - spark.metrics.conf.*.sink.sgmon.configurationFile=sgmon-spark.properties
-	   - spark.metrics.conf.*.source.jvm.class=org.apache.spark.metrics.source.JvmSource 
+     - spark.metrics.conf.*.sink.sgmon.unit=seconds
+     - spark.metrics.conf.*.sink.sgmon.configurationFile=sgmon-spark.properties
+     - spark.metrics.conf.*.source.jvm.class=org.apache.spark.metrics.source.JvmSource
 
 
 ```java

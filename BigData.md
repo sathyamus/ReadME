@@ -4,7 +4,7 @@
    - access to most Hadoop secured services requires user to be authenticated by Kerberos.
       klist
       kdestroy
-      kinit --principal "${USER}" --keytab "${USER}".keytab
+      kinit ${USER} -kt ${USER}.keytab
 
  - Ambari
    - Memory view
@@ -219,6 +219,9 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
   --master local[3] \
   target/EmailAlerts-1.0.jar
 ``` 
+
+#### Spark-shell
+      spark-shell --principal ${USER} --keytab ${USER}.keytab
 
 
 https://cloudxlab.com/blog/how-does-yarn-interact-with-zookeeper-to-support-high-availability/

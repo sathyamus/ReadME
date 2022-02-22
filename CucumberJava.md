@@ -109,3 +109,8 @@ cucumber.publish.enabled=true
    
    https://github.com/eugenp/tutorials
    
+
+#### IntelliJ Enable plugins
+   - In IntelliJ Ultimate, the required plugins are bundled and enabled by default. ensure that they are switched on.
+   - In IntelliJ Community, the necessary plugins are not bundled, install and enable them (Gherkin, Cucumber for Java).
+

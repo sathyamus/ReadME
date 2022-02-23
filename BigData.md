@@ -75,6 +75,11 @@ SparkSession.builder().appName("EmailAlerts").setMaster("local[*]").config("key"
     val trades = spark.read.parquet("trades.parquet")
     trades.count
 
+    val tradesFilteredOut = "abfss://app@cr/trades/cm"
+    val tradesFiltered = spark.read.parquet("trades.parquet").where("trade_id='12345'").write(tradesFilteredOut)
+    trades.count
+
+
 ``` python
 import pandas as pd ##import pandas, its used for data analysis
 moviecsv = pd.read_csv('https://raw.githubusercontent.com/Dayobam/Data-Literacy-Azure-Databrick-Essentials/main/movies.csv')

@@ -237,6 +237,16 @@ curl host01:$PORT
     cpu: 10m
 	memory: 200Mi
 	
+
+  1 CPU = 1000m
+  
+ - CPU Resources to Containers and Pods
+    - https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/
+ - Assign Memory Resources to Containers and Pods
+    - https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/
+ - Configure Default Memory Requests and Limits for a Namespace
+    - https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/
+
 ----------------------------------------------------------
 
 Sample Docker Images

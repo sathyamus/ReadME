@@ -239,13 +239,20 @@ curl host01:$PORT
 	
 
   1 CPU = 1000m
-  
+
  - CPU Resources to Containers and Pods
-    - https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/
+    - https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/ 
  - Assign Memory Resources to Containers and Pods
-    - https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/
+    - https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/ 
  - Configure Default Memory Requests and Limits for a Namespace
-    - https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/
+    - https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/ 
+
+ - Kubernetes Resource Limits
+    - https://www.densify.com/kubernetes-tools/kubernetes-resource-limits 
+ - Kubernetes best practices: Resource requests and limits
+    - https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-resource-requests-and-limits 
+
+ https://learnk8s.io/setting-cpu-memory-limits-requests
 
 ----------------------------------------------------------
 
@@ -258,5 +265,4 @@ Sample Docker Images
   gcr.io/google-samples/paymentservice@sha256:509bff857bd6f2db727cb50322ed0de6a62bddd82ffad35c9603ac4d98acbc3f
   gcr.io/google-samples/currencyservice
   gcr.io/google-samples/emailservice
-  
 

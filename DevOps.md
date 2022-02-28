@@ -133,3 +133,5 @@
    - Technical - purge data depending on need, size
  - Central storage of Logs (ELK)
  
+#### Azure
+  - ARM Templates (export from resource groups / from resource)

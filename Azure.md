@@ -1,16 +1,16 @@
 ### Azure
 
-=> DevEnv
-=> RDG (Remote Desktop Gateway)
-=> APIM 
-=> PaaS Subscription (Firewall, API mgmt, Key Vaults)
-=> Data Subscription (RAW file system, LAKE file system)
-=> Project Subscription (BigData Resources, AKS running applications, Private storage)
-=> Feed Subscription (Private storage, KAFKA) 
-=> Directory and Subscription Filter
-  - Easily manage the resources
-  - select the default subscriptions
-  - set the subscriptions that you use frequently and unselect the ones that you rarely use
+    => DevEnv
+    => RDG (Remote Desktop Gateway)
+    => APIM 
+    => PaaS Subscription (Firewall, API mgmt, Key Vaults)
+    => Data Subscription (RAW file system, LAKE file system)
+    => Project Subscription (BigData Resources, AKS running applications, Private storage)
+    => Feed Subscription (Private storage, KAFKA) 
+    => Directory and Subscription Filter
+      - Easily manage the resources
+      - select the default subscriptions
+      - set the subscriptions that you use frequently and unselect the ones that you rarely use
 
 - Virtual Machines
   - Create a resource -> search 'Windows Server'
@@ -87,13 +87,13 @@
   - Load balancing rules
   
 - Storage Account
-   Subscription :  Choose your subscription
-   Resource group :  myRGStorage (create new)
-   Storage account name : storageaccountxxxx
-   Location : (US) East US
-   Performance : Standard
-   Account kind : StorageV2 (general purpose v2)
-   Replication : Locally redundant storage (LRS)
+     Subscription :  Choose your subscription
+     Resource group :  myRGStorage (create new)
+     Storage account name : storageaccountxxxx
+     Location : (US) East US
+     Performance : Standard
+     Account kind : StorageV2 (general purpose v2)
+     Replication : Locally redundant storage (LRS)
 
   - Blob service
      - Containers
@@ -143,5 +143,5 @@
   - Power BI Mobile apps
   
 ### Getting the list of Resources registered for respective subscription  
-  az provider list > provider_list.txt
-  az provider list --query "[].namespace" -o tsv | ForEach-Object { az provider register -n $_}
+    az provider list > provider_list.txt
+    az provider list --query "[].namespace" -o tsv | ForEach-Object { az provider register -n $_}

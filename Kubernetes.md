@@ -240,6 +240,9 @@ curl host01:$PORT
 
   1 CPU = 1000m
 
+ - When the CPU limit is reached, the container is throttled.
+ - When the Memory limit is reached, the Pod is killed and restarted.
+
  - CPU Resources to Containers and Pods
     - https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/ 
  - Assign Memory Resources to Containers and Pods

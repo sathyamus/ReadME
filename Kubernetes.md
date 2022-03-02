@@ -162,6 +162,7 @@
   * kubens my-namespace
 
 #### K8s config YAML file
+
   - metadata
   - specification
   - status (automatically generated and added by Kuberenetes)
@@ -178,6 +179,7 @@
     - Deployment metadata lable is also connected with service spec selector and deployment template metadata label
 
 #### Namespaces
+
   - Structure your components
   - Avoid conflicts between teams
   - Shares services between different environments
@@ -225,7 +227,11 @@ curl host01:$PORT
   * Post-start
   * Readiness probe
   * Affinity / Anti-affinity
-
+  * Liveness
+    httpGet
+  * Readiness
+    httpGet
+    - Failure threshold should be higher than the Readiness threshold.
 
 ----------------------------------------------------------
 

@@ -177,7 +177,9 @@ len(moviecsv)
 
 #### Kafka
   - Group
-  - Topic
+  - Topic 
+    - Same topic, different group .. 
+    - Add filters in code to consume them, best approach to try with multi-instance
   - Produce message
   - Consume message
 

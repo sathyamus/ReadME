@@ -219,6 +219,7 @@ curl host01:$PORT
   `
 
 #### Scaling Resources
+  - For Optimum scheduling, should use less resources (CPU, Memory)
   * kubectl scale --replicas=3 pod-name
 
 

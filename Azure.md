@@ -74,8 +74,11 @@
 - Virtual Networking 
   - Configure Azure DNS
 
-- Monitoring 
+- Monitoring Resources
   - Azure Network Watcher
+  - Application Insights
+  - Azure Monitor logs search
+  - Azure Data studo logs search
 
 - Data Protection 
   - Azure Site Recovery between Azure regions

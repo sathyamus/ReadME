@@ -78,6 +78,8 @@
   - Azure Network Watcher
   - Application Insights
   - Azure Monitor logs search
+    - Alerts rules
+    - Action Group
   - Azure Data studo logs search
 
 - Data Protection 

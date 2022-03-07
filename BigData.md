@@ -230,6 +230,17 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
 #### Spark-shell
       spark-shell --principal ${USER} --keytab ${USER}.keytab
 
+#### Kerberos Authentication
+   -> Creating keytab
+   ktutil
+    addent -password -p <user_name> -k 1 -e aes128-cts
+    addent -password -p <user_name> -k 1 -e aes256-cts
+   wkt s_sathya.keytab
+   quit
+
+
+
+
 
 https://cloudxlab.com/blog/how-does-yarn-interact-with-zookeeper-to-support-high-availability/
 

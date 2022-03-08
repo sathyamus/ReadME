@@ -232,14 +232,14 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
 
 #### Kerberos Authentication
    -> Creating keytab
-   ktutil
-    addent -password -p <user_name> -k 1 -e aes128-cts
-    addent -password -p <user_name> -k 1 -e aes256-cts
-   wkt s_sathya.keytab
-   quit
+       ktutil
+        addent -password -p <user_name> -k 1 -e aes128-cts
+        addent -password -p <user_name> -k 1 -e aes256-cts
+       wkt s_sathya.keytab
+       quit
 
-
-
+   -> List Keytab encryption types
+       klist -ekt s_sathya.keytab
 
 
 https://cloudxlab.com/blog/how-does-yarn-interact-with-zookeeper-to-support-high-availability/

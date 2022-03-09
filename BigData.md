@@ -241,6 +241,12 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
    -> List Keytab encryption types
        klist -ekt s_sathya.keytab
 
+   -> Verification of Keytab
+       klist
+       kdestroy
+       kinit <user_name>
+        Password for <user_name>: 
+       klist -e
 
 https://cloudxlab.com/blog/how-does-yarn-interact-with-zookeeper-to-support-high-availability/
 

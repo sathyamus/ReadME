@@ -248,6 +248,15 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
         Password for <user_name>: 
        klist -e
 
+#### Kerberos Authentication Issues
+   -> the client is being asked for a password, but the Kafka client code does not currently support obtaining a password from the user. not available to garner authentication information from the user.
+
+   Solution : If any Java application is giving above error, and its JVM version is not supported with latest AES 128 / 256 encryption type.
+    -> Upgrade the JVM version to JDK8 202+
+    -> Verify Keytab has right encryption types
+    -> If unable to upgrade to JDK8 202+, then keytab should have AES 128 instead of AES 256.
+
+
 https://cloudxlab.com/blog/how-does-yarn-interact-with-zookeeper-to-support-high-availability/
 
 https://cloudxlab.com/blog/how-to-use-a-libary-in-apache-spark-and-process-avro-data-format/

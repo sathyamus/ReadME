@@ -1,4 +1,4 @@
 ### Memory Tuning
 
- --> Java Memory Options
- --> Spark metrics configuration
+ --> [Java Memory Options](JavaMemoryOptions.md)
+ --> [Spark metrics configuration](BigData.md)

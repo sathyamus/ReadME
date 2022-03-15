@@ -1,9 +1,9 @@
 # BigData
 
  - HDI Cluster
-   - access to most Hadoop secured services requires user to be authenticated by Kerberos.
-      klist
-      kdestroy
+   - access to most Hadoop secured services requires user to be authenticated by Kerberos. \
+      klist \
+      kdestroy \
       kinit ${USER} -kt ${USER}.keytab
 
  - Ambari
@@ -28,6 +28,7 @@
      and restart will happen only after the task completion, so that task will be un-interrupted.
 	 
  - RAW -- ReadOnly
+ - LAKE -- Sharing data
  - Parquet -- Post Normalization (Modifying columns, removing, updaing data etc)
    - Metadata, occupies less memory 
 
@@ -48,6 +49,7 @@
    - Partition
      - Default no of partition for spark is 200 
      - Default partitions can be changed using spark.sql.shuffle.partitions configuration setting
+     - dataSet.repartition(1).write(..) -- will improve the performance
    - Configuration
    
    - Metrics
@@ -112,8 +114,8 @@ len(moviecsv)
  - Oozie is not able to authenticate to send the request to spark
    Solution : AD connection was lost and could not restore, restart NameNode for the fix.
    
-   oozie job -oozie http://namenodeip:11000/oozie -info 0000101-1234-oozie-oozi-W
-   oozie job -oozie http://namenodeip:11000/oozie -log 0000101-1234-oozie-oozi-W
+   oozie job -oozie http://namenodeip:11000/oozie -info 0000101-1234-oozie-oozi-W \
+   oozie job -oozie http://namenodeip:11000/oozie -log 0000101-1234-oozie-oozi-W \
    oozie job -oozie http://namenodeip:11000/oozie -config job.properties -run
 
  - Oozie is not able to show the log and getting 500 Internal Server Error

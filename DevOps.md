@@ -135,3 +135,9 @@
  
 #### Azure
   - ARM Templates (export from resource groups / from resource)
+
+#### Package Managers
+  - Chocolate (choco)
+    - choco list
+    - choco install pgadmin4
+

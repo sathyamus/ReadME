@@ -9,3 +9,5 @@ az account list // Get a list of subscriptions for the logged in account. (autog
 az group list --query "[?location=='westus']" // List all resource groups located in the West US region.
 
 az account set --subscription "Azure Pass2 - Sponsorship"
+
+az storage fs file list --account-name=sathyadatalake -f lake --path /app/data/sathya/dev --recursive:false --auth-mode login --out table

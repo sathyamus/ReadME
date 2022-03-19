@@ -198,6 +198,7 @@ workflow.xml
 ### Feign Retry
 
 ### Spring RetryTemplate
+  - If you don't specify content-type as application/json, application/xml will be the default content type because of dependency.
 
 ### Ribbon
   - Rule based load balancing

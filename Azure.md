@@ -150,3 +150,8 @@
 ### Getting the list of Resources registered for respective subscription  
     az provider list > provider_list.txt
     az provider list --query "[].namespace" -o tsv | ForEach-Object { az provider register -n $_}
+
+### Ways to retrieve files from Azure storage account
+   - Storage explorer (in Organizations, we need to check the access / proxy etc)
+   - azure CLI
+   - connect to edge node -> Kerberos authentication -> hdfs get 

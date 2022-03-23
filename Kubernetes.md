@@ -161,6 +161,11 @@
   * install kubectx --
   * kubens my-namespace
 
+## K9S CLI
+    - Kubernetes CLI To Manage Your Clusters In Style!
+    - https://k9scli.io/
+
+
 #### K8s config YAML file
 
   - metadata

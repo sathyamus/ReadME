@@ -52,6 +52,9 @@
    - SQL Server Management studio 
    - Toad
  - Cmder -> Console Emulator
+   - Git for Windows (by default)
+   - Themes
+   - Portability (copy, paste ctrl + c, v)
 
 #### Deployment Pipeline
  - Spark HDI Cluster

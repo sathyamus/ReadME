@@ -164,6 +164,7 @@
 ## K9S CLI
     - Kubernetes CLI To Manage Your Clusters In Style!
     - https://k9scli.io/
+    - Allows to manage OnPrem, Azure Kubernetes clusters with interactive shell
 
 
 #### K8s config YAML file

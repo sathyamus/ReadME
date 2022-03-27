@@ -270,6 +270,8 @@ curl host01:$PORT
 
  https://learnk8s.io/setting-cpu-memory-limits-requests
 
+
+
 ----------------------------------------------------------
 
 Sample Docker Images
@@ -282,3 +284,8 @@ Sample Docker Images
   gcr.io/google-samples/currencyservice
   gcr.io/google-samples/emailservice
 
+
+----------------------------------------------------------
+
+ https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/
+ https://gregorsuttie.com/2021/01/20/aks-zero-to-hero-series-for-everyone/

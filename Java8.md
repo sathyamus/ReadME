@@ -14,3 +14,7 @@
    - Change in the Count of objects
  - Reduce
    - Performing aggregations
+ - Collection Framework is not the right place to implement map/filter/reduce to avoid the duplicate data.
+ - By definition, once stream is created its empty.
+ - Does not duplicate the data, no additional load on CPU, memory.
+

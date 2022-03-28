@@ -8,6 +8,9 @@
  - Map 
    - Changing the type 
    - Count of objects will remain same
- - Reduce (filter)
+   - Respects the order
+ - Filter
    - Type of objects remains same
    - Change in the Count of objects
+ - Reduce
+   - Performing aggregations

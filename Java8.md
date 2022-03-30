@@ -18,4 +18,9 @@
  - Collection Framework is not the right place to implement map/filter/reduce to avoid the duplicate data.
  - By definition, once stream is created its empty.
  - Does not duplicate the data, no additional load on CPU, memory.
+ - Works almost in similar way, when we do iterator
+
+ - Intermediate operations
+   - Methods, that create another stream
+
 

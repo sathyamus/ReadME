@@ -20,7 +20,8 @@
  - Does not duplicate the data, no additional load on CPU, memory.
  - Works almost in similar way, when we do iterator
 
- - Intermediate operations
+ - Intermediate operations / Non-Terminal operations
    - Methods, that create another stream
-
+ - Terminal operations
+   - Method, that produce a result
 

@@ -23,6 +23,8 @@
  - By definition, once stream is created its empty.
  - Does not duplicate the data, no additional load on CPU, memory.
  - Works almost in similar way, when we do iterator.
+ - Forbidden to call non-terminal operations on same stream multiple times.
+   - Will get error as "Stream has already been operated upon or closed"
 
  - Intermediate operations / Non-Terminal operations
    - Methods, that create another stream

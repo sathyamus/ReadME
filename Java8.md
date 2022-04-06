@@ -4,6 +4,12 @@
  - Lambda
  - Predicates
  
+### Features
+ - String.intern(..)
+   - If you decide to internalize strings is that the intern() method is relatively expensive.
+   - Interned Strings live in PermGen space, which is usually quite small; you may run into an OutOfMemoryError with plenty of free heap space.
+   - In *JDK 7*, interned strings are no longer allocated in the permanent generation of the Java heap, but are instead allocated in the main part of the Java heap (known as the young and old generations), along with the other objects created by the application. 
+
 #### Streams
 
  - Map 

@@ -355,6 +355,13 @@ sdf.format(cal.getTime);
 
 --------------------------------------------------------------------
 
+ReentrantLock (java.util.concurrent.locks.ReentrantLock)
+ - A reentrant mutual exclusion Lock with the same basic behavior and semantics as the implicit monitor lock accessed using synchronized methods and statements, but with extended capabilities.
+ - Provides synchronization to methods while accessing shared resources.
+ - Allows threads to enter into the lock on a resource more than once.
+
+--------------------------------------------------------------------
+
 https://crontab.cronhub.io/
 
 0 00 1 * * *

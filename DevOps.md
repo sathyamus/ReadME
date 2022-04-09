@@ -55,6 +55,7 @@
    - Git for Windows (by default)
    - Themes
    - Portability (copy, paste ctrl + c, v)
+ - Postman (REST calls, OAuth2, Basic credentials, can generate code snippets for curl, python etc)
 
 #### Deployment Pipeline
  - Spark HDI Cluster

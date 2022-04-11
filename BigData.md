@@ -175,6 +175,7 @@ len(moviecsv)
    
    * hdfs dfs -get abfss://raw@sn00private.dfs.core.windows.net/sathya/trades/product_type=email/date=20211205/email.json .
    * hdfs dfs -get abfss://lake@sn00private.dfs.core.windows.net/sathya/trades/product_type=email/date=20211205/email.parquet .
+   * hdfs dfs -put --from source_path_and_file --to dest_path_and_file
 
 #### Kafka
   - Group

@@ -411,3 +411,12 @@ Unsupported protocol
  Try Incognito window in Web Browser .. to (un)safely open (known) / internal websites
  
 --------------------------------------------------------------------
+
+SpringBootAdmin (SBA)
+  - Can be used to monitor / modify configurational parameters
+  - Modify logging level
+  - View Memory settings
+  - View logs
+
+--------------------------------------------------------------------
+

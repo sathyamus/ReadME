@@ -420,3 +420,10 @@ SpringBootAdmin (SBA)
 
 --------------------------------------------------------------------
 
+IntelliJ Ultimate 
+  - HTTP Client
+    - Create, edit, and execute HTTP requests directly in the IntelliJ IDEA code editor.
+
+ https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
+ 
+--------------------------------------------------------------------

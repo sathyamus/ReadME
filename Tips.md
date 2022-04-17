@@ -421,7 +421,7 @@ SpringBootAdmin (SBA)
 --------------------------------------------------------------------
 
 IntelliJ Ultimate 
-  - HTTP Client
+  - HTTP Client for REST calls
     - Create, edit, and execute HTTP requests directly in the IntelliJ IDEA code editor.
     - HTTP requests are stored in .http and .rest files
     - Alternatively, use live templates. In the editor, you can press Ctrl+J to view the list of available templates.

@@ -22,3 +22,13 @@ select uo.created,uo.last_ddl_time \
 from user_objects uo \
 where uo.object_name='MY_VIEW' and uo.object_type='VIEW';
 
+### Oracle : Issues
+
+ORA-28040 : No matching authentication protocol
+
+To fix the above error, we need to set the below properties in DB, then JDBC connection will not give above exception.
+
+sql_client_version=8
+SQLNET.ALLOWED_LOGON_VERSION_CLIENT = 8
+SQLNET.ALLOWED_LOGON_VERSION_SERVER = 8
+

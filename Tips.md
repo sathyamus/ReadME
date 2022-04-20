@@ -430,3 +430,17 @@ IntelliJ Ultimate
  https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
 
 --------------------------------------------------------------------
+
+try-with-resources Statement
+
+The try-with-resources statement is a try statement that declares one or more resources.
+
+```Java
+  static String readFirstLineFromFile(String path) throws IOException {
+      try (FileReader fr = new FileReader(path);
+           BufferedReader br = new BufferedReader(fr)) {
+          return br.readLine();
+      }
+```  
+
+--------------------------------------------------------------------

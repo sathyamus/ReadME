@@ -443,4 +443,9 @@ The try-with-resources statement is a try statement that declares one or more re
       }
 ```  
 
+Suppressed Exceptions
+
+An exception can be thrown from the block of code associated with the try-with-resources statement.
+
+
 --------------------------------------------------------------------

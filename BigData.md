@@ -259,6 +259,13 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
     -> Verify Keytab has right encryption types
     -> If unable to upgrade to JDK8 202+, then keytab should have AES 128 instead of AES 256.
 
+#### HDFS / ADSL2 Storage account Issues
+   -> If any issues, with File System, then while performing hdfs operations, we will get the readTimeout, and write errors.
+
+   *Solution* : Microsoft support may move the folders to good node and will remove un-healthy node from the nodes list.
+
+
+
 
 
 https://cloudxlab.com/blog/how-does-yarn-interact-with-zookeeper-to-support-high-availability/

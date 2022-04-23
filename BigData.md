@@ -264,7 +264,10 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
 
    *Solution* : Microsoft support may move the folders to good node and will remove un-healthy node from the nodes list.
 
-
+###### HDFS / ADSL2 Storage account Latency Issues
+   -> When performing file delete operations with too many files, we may notice the latency.
+      -> If the user is super user then, ackle valuation is skipped.
+      -> Instead of deleting a folder with huge number of files, first delete the files then folder will avoid this issue.
 
 
 

@@ -449,3 +449,13 @@ An exception can be thrown from the block of code associated with the try-with-r
 
 
 --------------------------------------------------------------------
+
+RequestHeader :
+
+Default value for required is true, so not to block the caller of API, we need to make sure, to set as required false (non-blocking).
+
+```java
+    @RequestHeader(value = "run-id", required = false) String runId
+```
+
+--------------------------------------------------------------------

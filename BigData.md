@@ -260,6 +260,8 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
     -> If unable to upgrade to JDK8 202+, then keytab should have AES 128 instead of AES 256.
 
 #### HDFS / ADSL2 Storage account Issues
+   -> Operation could not be completed within the specified time., 500, PUT
+   -> InvalidAbfsRestOperationException   --> java.net.SocketTimeoutException : Read timed out
    -> If any issues, with File System, then while performing hdfs operations, we will get the readTimeout, and write errors.
 
    *Solution* : Microsoft support may move the folders to good node and will remove un-healthy node from the nodes list.

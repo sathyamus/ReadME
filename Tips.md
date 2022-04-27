@@ -460,5 +460,7 @@ Default value for required is true, so not to block the caller of API, we need t
 
 Feign client ... setting Headers
 
+  https://programmer.ink/think/feign-dynamic-setting-header-and-principle.html
+  https://fullstackdeveloper.guru/2020/05/15/how-to-send-multiple-headers-using-open-feign/
 
 --------------------------------------------------------------------

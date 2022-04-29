@@ -56,6 +56,7 @@
    - Themes
    - Portability (copy, paste ctrl + c, v)
  - Lens -> Kubernetes IDE
+   - GUI Portal to view Pods from multiple namespaces
  - Postman (REST calls, OAuth2, Basic credentials, can generate code snippets for curl, python etc)
 
 #### Deployment Pipeline

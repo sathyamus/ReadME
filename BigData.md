@@ -271,7 +271,12 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
       -> If the user is super user then, ackle valuation is skipped.
       -> Instead of deleting a folder with huge number of files, first delete the files then folder will avoid this issue.
 
+##### MapReduce Paradigm
 
+  Map
+      The map function, also referred to as the map task, processes a single key/value input pair and produces a set of intermediate key/value pairs.
+  Reduce
+      The reduce function, also referred to as the reduce task, consists of taking all key/value pairs produced in the map phase that share the same intermediate key and producing zero, one, or more data items.
 
 https://cloudxlab.com/blog/how-does-yarn-interact-with-zookeeper-to-support-high-availability/
 

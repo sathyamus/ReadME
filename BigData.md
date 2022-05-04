@@ -278,6 +278,13 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
   Reduce
       The reduce function, also referred to as the reduce task, consists of taking all key/value pairs produced in the map phase that share the same intermediate key and producing zero, one, or more data items.
 
+##### HDI Cluster
+   -> Horizontal scaling
+   -> Low commodity hardware
+   -> Driver (High RAM, Low Storage)
+   -> Executor (Low RAM, High Storage)
+
+
 https://cloudxlab.com/blog/how-does-yarn-interact-with-zookeeper-to-support-high-availability/
 
 https://cloudxlab.com/blog/how-to-use-a-libary-in-apache-spark-and-process-avro-data-format/

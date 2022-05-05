@@ -281,8 +281,9 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
 ##### HDI Cluster
    -> Horizontal scaling
    -> Low commodity hardware
-   -> Driver (High RAM, Low Storage)
-   -> Executor (Low RAM, High Storage)
+   -> Master nodes runs Driver program (High RAM, Low Storage)
+   -> Worker node runs Executor (Task) (Low RAM, High Storage)
+   -> Cluster manager
 
 
 https://cloudxlab.com/blog/how-does-yarn-interact-with-zookeeper-to-support-high-availability/

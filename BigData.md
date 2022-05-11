@@ -285,6 +285,10 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
    -> Worker node runs Executor (Task) (Low RAM, High Storage)
    -> Cluster manager
 
+##### Access Apache Hadoop YARN application logs on Linux-based HDInsight
+  https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-access-yarn-app-logs-linux
+  https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-collect-debug-heap-dump-linux
+
 
 https://cloudxlab.com/blog/how-does-yarn-interact-with-zookeeper-to-support-high-availability/
 

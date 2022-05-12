@@ -112,6 +112,9 @@ len(moviecsv)
 #### HDI cluster issues
 
  - Oozie is not able to authenticate to send the request to spark
+   GSS initiate failed
+   JA009 : Couldn't setup connection for oozie
+   JA009 : Operation category WRITE is not supported in state standby.
    Solution : AD connection was lost and could not restore, restart NameNode for the fix.
    
    oozie job -oozie http://namenodeip:11000/oozie -info 0000101-1234-oozie-oozi-W \

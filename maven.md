@@ -77,3 +77,6 @@ mvn help:effective-pom -Dverbose=true > effectivePom-email-api.txt
    </relocation>
  </relocations>
 
+#### Options to execute tests in parallel 
+
+https://maven.apache.org/surefire/maven-surefire-plugin/examples/fork-options-and-parallel-execution.html

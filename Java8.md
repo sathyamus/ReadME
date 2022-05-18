@@ -39,3 +39,9 @@
  - Terminal operations
    - Method, that produce a result
    - All operations on stream are applied in this step / stage
+
+
+### Java References 
+  - https://github.com/manjunath5496/Java-Programming-Books
+  - https://github.com/Developer-Y/all-things-java/blob/master/README.md
+  - https://raw.githubusercontent.com/manjunath5496/Java-Programming-Books/master/java(5).pdf

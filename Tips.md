@@ -387,6 +387,14 @@ log4j2 config :
  
 --------------------------------------------------------------------
 
+Excluding Logs : As TcpIpConnection has more INFO logs, now setting filter to WARN as below.
+
+ <logger name ="com.hazelcast.nio.tcp.TcpIpConnection">
+      <level value="WARN"/>
+ </logger>
+
+--------------------------------------------------------------------
+
 KeyGen
 
 ```sh

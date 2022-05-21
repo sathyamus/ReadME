@@ -472,3 +472,12 @@ Feign client ... setting Headers
   https://fullstackdeveloper.guru/2020/05/15/how-to-send-multiple-headers-using-open-feign/
 
 --------------------------------------------------------------------
+
+Hazelcast
+
+NetworkConfig networkConfig = config.getNetworkConfig();
+
+networkConfig.setReuseAddress(true).setPortAutoIncrement(true).setPortCount(20);
+
+--------------------------------------------------------------------
+

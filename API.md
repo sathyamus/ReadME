@@ -217,3 +217,10 @@ workflow.xml
 
 Samples
     https://github.com/GoogleCloudPlatform/microservices-demo
+
+Principles & Best practices of REST API Design
+    https://medium.com/dev-genius/best-practice-and-cheat-sheet-for-rest-api-design-6a6e12dfa89f
+
+REST: Good Practices for API Design
+    https://medium.com/hashmapinc/rest-good-practices-for-api-design-881439796dc9
+

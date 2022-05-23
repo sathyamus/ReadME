@@ -479,5 +479,20 @@ NetworkConfig networkConfig = config.getNetworkConfig();
 
 networkConfig.setReuseAddress(true).setPortAutoIncrement(true).setPortCount(20);
 
+    Consider logging new HTTP connections with DEBUG or lower level
+    https://github.com/hazelcast/hazelcast/issues/10924
+
+    you can configure your logging framework to log at WARN level for these classes :
+    com.hazelcast.nio.tcp.SocketAcceptorThread
+    com.hazelcast.nio.tcp.TcpIpConnectionManager
+    com.hazelcast.nio.tcp.TcpIpConnection
+    Unfortunately that also means that you won't be able to see connection lifecycle information on client and members.
+
+
+    Excessive logging when using liveness/readiness scripts in Kubernetes, etc.
+    https://github.com/hazelcast/hazelcast/issues/12687
+
+
+
 --------------------------------------------------------------------
 

@@ -496,4 +496,44 @@ networkConfig.setReuseAddress(true).setPortAutoIncrement(true).setPortCount(20);
 
 --------------------------------------------------------------------
 
-IntelliJ
+IntelliJ Error when running unit test : Could not find or load main class ${surefireArgLine}
+
+    IntelliJ 14.1.6 with mvn 3.3.9 Preferences -> Build,Execution,Deployment -> Build Tools -> Maven -> Running Tests
+    Intellij 2018 : File > Settings > Build, Execution, Deployment > Build Tools > Maven > Running Tests
+    For IntelliJ 2019 and above Settings-> Build,Execution,Deployment -> Build Tools -> Maven -> Running Tests
+
+Uncheck argLine
+
+
+"pom.xml" : configuration for maven-surefire-plugin:
+    <argLine>-Xms256m -Xmx1024m -XX:PermSize=48m -XX:MaxPermSize=128m ${unitArgLine}</argLine>
+
+Update of pom.xml solved my problem.
+    <argLine>${surefire.argLine}</argLine>
+
+    <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>    
+            <version>2.18.1</version>                 
+            <configuration>
+                <parallel>classes</parallel>
+                <threadCount>10</threadCount>
+                <workingDirectory>${project.build.directory}</workingDirectory>   
+                <jvm>${env.JDK1_8_HOME}\bin\java</jvm>   
+                <argLine>${surefire.argLine}</argLine>
+            </configuration>
+            <dependencies>
+                <dependency>
+                    <groupId>org.apache.maven.surefire</groupId>
+                    <artifactId>surefire-junit4</artifactId>
+                    <version>2.18.1</version>
+                </dependency>
+            </dependencies>
+     </plugin>
+
+--------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------
+

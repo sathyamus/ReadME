@@ -458,6 +458,29 @@ An exception can be thrown from the block of code associated with the try-with-r
 
 --------------------------------------------------------------------
 
+Handling InterruptedException
+
+```Java
+  public void run() {
+      try {
+          Thread.sleep(1000);
+      } catch (InterruptedException e) {
+          Thread.currentThread().interrupt();  //set the flag back to <code>true
+      } 
+  }
+```  
+do one of three things.
+  1. Propagate the InterruptedException
+  2. Restore the Interrupt (catch the InterruptedException and restore the interrupt status by calling the interrupt() method on the currentThread)
+  3. Ignore the interruption within method, but restore the status upon exit 
+
+References : 
+    - https://www.baeldung.com/java-interrupted-exception
+    - https://programming.guide/java/handling-interrupted-exceptions.html
+    - https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html
+
+--------------------------------------------------------------------
+
 RequestHeader :
 
 Default value for required is true, so not to block the caller of API, we need to make sure, to set as required false (non-blocking).

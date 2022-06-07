@@ -2,6 +2,10 @@
   - Kubernetes, Docker Swarm, Openshift(Redhat), Apache Mesos
   - GKE(Google Container Engine), AWS Elastic Kubernetes Service (EKS), Amazon EC2 Container Service (ECS)
   - Azure AKS Service 
+  --> Features
+      - High Availability
+      - Fault Tolerance
+      - High Scalability
 
 # Kubernetes Tutorial
 

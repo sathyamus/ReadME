@@ -478,6 +478,8 @@ References :
     - https://www.baeldung.com/java-interrupted-exception
     - https://programming.guide/java/handling-interrupted-exceptions.html
     - https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html
+    - https://leon-wtf.github.io/doc/java-concurrency-in-practice.pdf
+    - https://medium.com/javarevisited/6-multithreading-and-concurrency-books-every-java-programmer-should-read-b6a08d2aae54
 
 --------------------------------------------------------------------
 

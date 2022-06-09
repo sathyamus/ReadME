@@ -6,6 +6,8 @@
       - High Availability
       - Fault Tolerance
       - High Scalability
+      - Creates a container network
+      - Manages life cycle of containers
 
 # Kubernetes Tutorial
 

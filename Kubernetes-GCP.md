@@ -11,4 +11,5 @@
     - kubectl delete pod sathyapod 
       - Pod is deleted, its not deleted, as its not used the Deployment controller
     - kubectl create deployment sathyadeployment --image=httpd --replicas=2
-    - watch kubectl get po
+    - watch kubectl get po (output is updated every 2s)
+    - watch kubectl get po -o wide

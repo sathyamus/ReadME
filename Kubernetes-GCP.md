@@ -15,3 +15,6 @@
     - kubectl create deployment sathyadeployment --image=httpd --replicas=2
     - watch kubectl get po (output is updated every 2s)
     - watch kubectl get po -o wide
+
+    - kubectl get deployments
+    - kubectl delete deployment sathyadeployment

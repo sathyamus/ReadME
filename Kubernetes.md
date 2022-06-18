@@ -132,7 +132,10 @@
   * kubectl get pod -o wide
   * kubectl logs pod-label > logs.txt
   * kubectl describe pod pod-name
+
   * kubectl exec -it sn-nginx-depl-864fc9589b-82hps -- bin/bash
+    curl -vk http://localhost:8082/manage/health
+
   * kubectl get pod,svc -n kube-system
 
   * kubectl get nodes
@@ -165,6 +168,8 @@
   * kubectl get configmap -n default
   * kubectl get configmap -o yaml
   * kubectl apply -f mongodb-configmap.yaml --namespace=my-namespace
+  * kubectl create configmap hzc-backup-count --from-literal=HZC_BACKUP_COUNT=2 -n=my-namespace
+  * kubectl create secret generic my-secret --from-literal=MY_SECRET='sathya' -n=my-namespace
 
   * kubectl get namespaces
   * kubectl get namespaces -n default

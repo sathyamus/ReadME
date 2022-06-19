@@ -168,8 +168,12 @@
   * kubectl get configmap -n default
   * kubectl get configmap -o yaml
   * kubectl apply -f mongodb-configmap.yaml --namespace=my-namespace
+
   * kubectl create configmap hzc-backup-count --from-literal=HZC_BACKUP_COUNT=2 -n=my-namespace
   * kubectl create secret generic my-secret --from-literal=MY_SECRET='sathya' -n=my-namespace
+
+  * kubectl get configmap hzc-backup-count -o yaml > hzc-backup-count.yaml
+  * kubectl get secret mon-secret -o yaml > mon-secret.yaml
 
   * kubectl get namespaces
   * kubectl get namespaces -n default

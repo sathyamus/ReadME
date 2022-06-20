@@ -1,0 +1,10 @@
+# SSL
+
+#### Keytool
+  - keytool -v -list -keystore trades-loader.jks
+
+
+#### Keystore - SpringBoot
+
+
+#### Keystore - Tomcat

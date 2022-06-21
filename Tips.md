@@ -495,6 +495,8 @@ Feign client ... setting Headers
 
   https://programmer.ink/think/feign-dynamic-setting-header-and-principle.html
   https://fullstackdeveloper.guru/2020/05/15/how-to-send-multiple-headers-using-open-feign/
+  
+  retryInterval ... 4000ms == 4s .. Frequency in which Retry should bed called
 
 --------------------------------------------------------------------
 

@@ -16,6 +16,7 @@
   
 ## Retryer
   -> If APIs are not accessible, to retry x times for getting the response
+  -> retryInterval ... 4000ms == 4s .. Frequency in which Retry should bed called
   
 ## Feign Hystrix Defaults
 

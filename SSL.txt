@@ -1,6 +1,10 @@
 # SSL
 
-#### Keytool
+#### Certificate Generation
+  - Certificate Signing Request (CSR)
+  - openssl req -config config.conf -new -keyout sathya.key -out sathya.csr
+
+#### Verify CSR using Java(Keytool)
   - keytool -v -list -keystore trades-loader.jks
 
 

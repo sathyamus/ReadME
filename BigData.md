@@ -264,17 +264,20 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
     -> Verify Keytab has right encryption types
     -> If unable to upgrade to JDK8 202+, then keytab should have AES 128 instead of AES 256.
 
-#### HDFS / ADSL2 Storage account Issues
+#### HDFS / ADSL Gen2 Storage account Issues
    -> Operation could not be completed within the specified time., 500, PUT
    -> InvalidAbfsRestOperationException   --> java.net.SocketTimeoutException : Read timed out
    -> If any issues, with File System, then while performing hdfs operations, we will get the readTimeout, and write errors.
 
    *Solution* : Microsoft support may move the folders to good node and will remove un-healthy node from the nodes list.
 
-###### HDFS / ADSL2 Storage account Latency Issues
+###### HDFS / ADSL Gen2 Storage account Latency Issues
    -> When performing file delete operations with too many files, we may notice the latency.
+      -> -> Operation could not be completed within the specified time., 500, DELETE
       -> If the user is super user then, ackle valuation is skipped.
       -> Instead of deleting a folder with huge number of files, first delete the files then folder will avoid this issue.
+	  -> If the Storage Account has huge volume of objects, due to this recursive checking of rights, will cause huge delay.
+
 
 ##### MapReduce Paradigm
 

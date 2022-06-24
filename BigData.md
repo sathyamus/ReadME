@@ -278,6 +278,7 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
       -> Instead of deleting a folder with huge number of files, first delete the files then folder will avoid this issue.
 	  -> If the Storage Account has huge volume of objects, due to this recursive checking of rights, will cause huge delay.
 
+   *Solution* : Assign Storage Blob Data Owner / super user rights, to avoid the recursive process to checking rights on each object during delete of an object.
 
 ##### MapReduce Paradigm
 

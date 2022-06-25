@@ -280,6 +280,11 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
 
    *Solution* : Assign Storage Blob Data Owner / super user rights, to avoid the recursive process to checking rights on each object during delete of an object.
 
+  PS : Remove unwanted temprary folders / empty folders.
+       Focus on regular purging.
+       Focus on compaction.
+	   Try coalesce / repartiton (may add little more time to the run of the spark job)
+
 ##### MapReduce Paradigm
 
   Map

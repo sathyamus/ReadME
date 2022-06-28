@@ -23,3 +23,10 @@
 		 - DNS re-direction
 
 #### Keystore - Tomcat
+
+server:
+  port: 8443
+  ssl:
+    key-store: sathya-dev.jks
+	key-store-password: changeit
+	key-password: change

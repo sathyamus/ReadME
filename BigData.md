@@ -239,24 +239,27 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
 
 #### Kerberos Authentication
    -> Creating keytab
-       ktutil
+
+      ktutil
         addent -password -p <user_name> -k 1 -e aes128-cts
         addent -password -p <user_name> -k 1 -e aes256-cts
        wkt s_sathya.keytab
        quit
 
    -> List Keytab encryption types
+
        klist -ekt s_sathya.keytab
 
    -> Verification of Keytab
+
        klist
        kdestroy
        kinit <user_name>
-        Password for <user_name>: 
+        Password for <user_name>:
        klist -e
 
 #### Kerberos Authentication Issues
-   -> the client is being asked for a password, but the Kafka client code does not currently support obtaining a password from the user. not available to garner authentication information from the user.
+   -> The client is being asked for a password, but the Kafka client code does not currently support obtaining a password from the user. not available to garner authentication information from the user.
 
    *Solution* : If any Java application is giving above error, and its JVM version is not supported with latest AES 128 / 256 encryption type.
     -> jdk1.8.0_66

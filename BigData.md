@@ -261,38 +261,38 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
 #### Kerberos Authentication Issues
    -> The client is being asked for a password, but the Kafka client code does not currently support obtaining a password from the user. not available to garner authentication information from the user.
 
-   *Solution* : If any Java application is giving above error, and its JVM version is not supported with latest AES 128 / 256 encryption type.
-    -> jdk1.8.0_66
-    -> Upgrade the JVM version to JDK8 202+
-    -> Verify Keytab has right encryption types
+   *Solution* : If any Java application is giving above error, and its JVM version is not supported with latest AES 128 / 256 encryption type. \
+    -> jdk1.8.0_66 \
+    -> Upgrade the JVM version to JDK8 202+ \
+    -> Verify Keytab has right encryption types \
     -> If unable to upgrade to JDK8 202+, then keytab should have AES 128 instead of AES 256.
 
 #### HDFS / ADSL Gen2 Storage account Issues
-   -> Operation could not be completed within the specified time., 500, PUT
-   -> InvalidAbfsRestOperationException   --> java.net.SocketTimeoutException : Read timed out
+   -> Operation could not be completed within the specified time., 500, PUT \
+   -> InvalidAbfsRestOperationException   --> java.net.SocketTimeoutException : Read timed out \
    -> If any issues, with File System, then while performing hdfs operations, we will get the readTimeout, and write errors.
 
    *Solution* : Microsoft support may move the folders to good node and will remove un-healthy node from the nodes list.
 
-###### HDFS / ADSL Gen2 Storage account Latency Issues
-   -> When performing file delete operations with too many files, we may notice the latency.
-      -> -> Operation could not be completed within the specified time., 500, DELETE
-      -> If the user is super user then, ackle valuation is skipped.
-      -> Instead of deleting a folder with huge number of files, first delete the files then folder will avoid this issue.
-	  -> If the Storage Account has huge volume of objects, due to this recursive checking of rights, will cause huge delay.
+##### HDFS / ADSL Gen2 Storage account Latency Issues
+   -> When performing file delete operations with too many files, we may notice the latency. \
+      -> -> Operation could not be completed within the specified time., 500, DELETE \
+      -> If the user is super user then, ackle valuation is skipped. \
+      -> Instead of deleting a folder with huge number of files, first delete the files then folder will avoid this issue. \
+	  -> If the Storage Account has huge volume of objects, due to this recursive checking of rights, will cause huge delay. 
 
    *Solution* : Assign Storage Blob Data Owner / super user rights, to avoid the recursive process to checking rights on each object during delete of an object.
 
-  PS : Remove unwanted temprary folders / empty folders.
-       Focus on regular purging.
-       Focus on compaction.
+  PS : Remove unwanted temprary folders / empty folders. \
+       Focus on regular purging. \
+       Focus on compaction. \
 	   Try coalesce / repartiton (may add little more time to the run of the spark job)
 
 ##### MapReduce Paradigm
 
-  Map
-      The map function, also referred to as the map task, processes a single key/value input pair and produces a set of intermediate key/value pairs.
-  Reduce
+  Map \
+      The map function, also referred to as the map task, processes a single key/value input pair and produces a set of intermediate key/value pairs. \
+  Reduce \
       The reduce function, also referred to as the reduce task, consists of taking all key/value pairs produced in the map phase that share the same intermediate key and producing zero, one, or more data items.
 
 ##### HDI Cluster

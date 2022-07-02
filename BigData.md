@@ -296,10 +296,10 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
       The reduce function, also referred to as the reduce task, consists of taking all key/value pairs produced in the map phase that share the same intermediate key and producing zero, one, or more data items.
 
 ##### HDI Cluster
-   -> Horizontal scaling
-   -> Low commodity hardware
-   -> Master nodes runs Driver program (High RAM, Low Storage)
-   -> Worker node runs Executor (Task) (Low RAM, High Storage)
+   -> Horizontal scaling \
+   -> Low commodity hardware \
+   -> Master nodes runs Driver program (High RAM, Low Storage) \
+   -> Worker node runs Executor (Task) (Low RAM, High Storage) \
    -> Cluster manager
 
 ##### Access Apache Hadoop YARN application logs on Linux-based HDInsight

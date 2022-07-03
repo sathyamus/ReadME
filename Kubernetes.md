@@ -181,6 +181,12 @@
   * install kubectx --
   * kubens my-namespace
 
+## k8s tls setup
+   - Prerequisites 
+     - CSR (Certificate Signing Request) , witn CNAME, OU, Org, Subject Alternateive Name
+     - PEM / crt
+   kubectl create secret tls "tls-sathya-dev" --cert "sathya-dev.pem" --key "sathya-dev.key" -n my-namespace
+
 ## K9S CLI
     - Kubernetes CLI To Manage Your Clusters In Style!
     - https://k9scli.io/

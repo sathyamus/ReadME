@@ -15,7 +15,7 @@
 
 #### Keystore - k8s
     - kubectl create secret tls tls-${app_name}-{env} --cert=${app_pem_file}.pem --key=${app_private_key} -n=${k8s-namespace}
-	- kubectl create secret tls tls-${app_name}-{env} --cert ${app_pem_file}.pem --key ${app_private_key} -n ${k8s-namespace}
+	  - kubectl create secret tls tls-${app_name}-{env} --cert ${app_pem_file}.pem --key ${app_private_key} -n ${k8s-namespace}
 
    -> Focus : 
          - Missing configuration (configMaps, secrets)

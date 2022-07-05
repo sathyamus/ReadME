@@ -35,6 +35,10 @@
  - Deploy IT from XL Deploy
  - Autosys from CA - Scheduling tool
  - Jenkins, ArgoCD
+ - Sonar / SonarQube
+   - Automatic code review tool to detects bugs, vulnerabilities and code smells.
+ - Checkmarx 
+   - Static and Interactive application security testing
  - Docker
  - Vault
  - Kuberenetes

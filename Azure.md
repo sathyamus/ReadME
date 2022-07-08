@@ -149,8 +149,13 @@
   
 - Azure Database for PostgreSQL
   - Available Tiers (Basic, GeneralPurpose, MemoryOptimized)
-  - Single server
-  - Flexible server
+  - Single server (underlying OS Windows)
+  - Flexible server (underlying OS Linux)
+    - Start / Stop
+    - Buit-in connection pooler
+    - AZ selection for application colocation
+    - High Availability - Zone redundant HA, Samezone HA
+  - Azure metrics (%CPU, Memory, Storage, IO)
 
 
 ### Getting the list of Resources registered for respective subscription  

@@ -157,6 +157,14 @@
     - High Availability - Zone redundant HA, Samezone HA
   - Azure metrics (%CPU, Memory, Storage, IO)
 
+- Azure Advisor
+  - Provides the suggestions to optimize the cost of the resources
+    - Suggests to reserve resources for longer period (3Y) etc
+
+- Azure Dashboards
+  - Used to create various metrics and alerts
+    - DBs / VMs created / deleted in x days
+    - DBs / VMs re-sized in x days
 
 ### Getting the list of Resources registered for respective subscription  
     az provider list > provider_list.txt

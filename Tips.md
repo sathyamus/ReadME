@@ -395,6 +395,10 @@ Excluding Logs : As TcpIpConnection has more INFO logs, now setting filter to WA
 
 --------------------------------------------------------------------
 
+Excluding Logs : logback : JaninoEventEvaluator
+
+--------------------------------------------------------------------
+
 KeyGen
 
 ```sh

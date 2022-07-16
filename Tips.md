@@ -395,7 +395,34 @@ Excluding Logs : As TcpIpConnection has more INFO logs, now setting filter to WA
 
 --------------------------------------------------------------------
 
+logback config : -Dlogback.configurationFile
+
 Excluding Logs : logback : JaninoEventEvaluator
+
+
+https://logback.qos.ch/manual/filters.html#JaninoEventEvaluator
+
+<configuration>
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <filter class="ch.qos.logback.core.filter.EvaluatorFilter">      
+      <evaluator> <!-- defaults to type ch.qos.logback.classic.boolex.JaninoEventEvaluator -->
+        <expression>return message.contains("billing");</expression>
+      </evaluator>
+      <OnMismatch>NEUTRAL</OnMismatch>
+      <OnMatch>DENY</OnMatch>
+    </filter>
+    <encoder>
+      <pattern>
+        %-4relative [%thread] %-5level %logger - %msg%n
+      </pattern>
+    </encoder>
+  </appender>
+
+  <root level="INFO">
+    <appender-ref ref="STDOUT" />
+  </root>
+</configuration>
 
 --------------------------------------------------------------------
 

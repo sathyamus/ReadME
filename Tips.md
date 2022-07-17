@@ -401,9 +401,9 @@ Excluding Logs : logback : JaninoEventEvaluator
 
 
 https://logback.qos.ch/manual/filters.html#JaninoEventEvaluator
+http://janino-compiler.github.io/janino/
 
 <configuration>
-
   <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
     <filter class="ch.qos.logback.core.filter.EvaluatorFilter">      
       <evaluator> <!-- defaults to type ch.qos.logback.classic.boolex.JaninoEventEvaluator -->
@@ -423,6 +423,15 @@ https://logback.qos.ch/manual/filters.html#JaninoEventEvaluator
     <appender-ref ref="STDOUT" />
   </root>
 </configuration>
+
+
+Maven dependency :
+
+<dependency>
+    <groupId>org.codehaus.janino</groupId>
+    <artifactId>janino</artifactId>
+    <version>***</version>
+</dependency>
 
 --------------------------------------------------------------------
 

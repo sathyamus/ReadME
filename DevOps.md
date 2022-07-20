@@ -40,6 +40,9 @@
  - Checkmarx 
    - Static and Interactive application security testing
  - Docker
+ - Docker Desktop 
+   - WSL 2 backend
+   - BIOS-level hardware virtualization support must be enabled
  - Vault
  - Kuberenetes
     - Sysdig - Sysdig Monitor provides cloud monitoring at scale with full Prometheus compatibility.

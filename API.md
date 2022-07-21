@@ -213,6 +213,11 @@ workflow.xml
     -Dsun.net.client.defaultConnectTimeout=<TimeoutInMiliSec>
     -Dsun.net.client.defaultReadTimeout=<TimeoutInMiliSec>
 
+### Rate-Limit
+  - Rate-Limit an API or Throttling in springboot
+  - Rate Limiting a Spring API using Bucket4j
+  - Reselience4J
+
 --------------------------------------------
 
 Samples

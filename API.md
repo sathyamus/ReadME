@@ -217,6 +217,8 @@ workflow.xml
   - Rate-Limit an API or Throttling in springboot
   - Rate Limiting a Spring API using Bucket4j
   - Reselience4J
+  - Rate-Limit an API query : Throttling
+      https://www.progress.com/blogs/how-to-rate-limit-an-api-query-throttling-made-easy
 
 --------------------------------------------
 

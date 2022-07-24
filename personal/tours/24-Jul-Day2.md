@@ -1,10 +1,10 @@
-### Cordelia Tour Day 2
+### Cordelia Tour Day 2 (Cordelia at Sea)
 
-  - SBC --> MAS
-  - Stay at IRCTC Retiring room (Chennai Central)
-  - Cordelia Boarding point 2pm
-	Boarding at 
-			Ship : Empress
-			Itinerary : Chennai-At Sea-Chennai
-			Departure : Chennai Sat, 23-Jul-2022 06:00 PM
-			Arrival : Chennai Mon, 25-Jul-2022 08:00 AM
+  - Breakfast at Deck10
+  - Activities
+  - Lunch
+  - Drinks at Chairman's club
+  - Rock climbing
+  - Dinner
+	- Kids premier show
+	- Adults premier show

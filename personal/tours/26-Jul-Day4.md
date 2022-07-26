@@ -6,6 +6,7 @@
     - Shore Temple
     - Pancha rathas
     - Krishna's butter ball
+  - Visit to Crocodile park
   - Lunch @ A2B
   - Checkout @ VGP by 3pm
   - Reach Chennai Central

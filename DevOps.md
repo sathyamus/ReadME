@@ -31,6 +31,10 @@
 
 ### Tools
  - Liquibase - Track, Version, and Deploy database schema changes
+ - Databases
+   - Oracle
+   - MySQL
+   - Audit String .. Mongo / Casandra .. with Retention time (say 3 months)
  - Business Objects
  - Deploy IT from XL Deploy
  - Autosys from CA - Scheduling tool

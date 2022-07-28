@@ -47,6 +47,7 @@
     - We can use these as environment variables or as a properties file
   - Volumes
     - Storage on local machine
+    - shared drive / external location
     - remote (outside of K8s cluster)
     - K8s doesn't manage the data persistance
   - Deployments

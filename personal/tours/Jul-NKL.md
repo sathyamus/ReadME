@@ -1,4 +1,5 @@
 ### NKL
   - Jul 29 -> Aug 01
   - SBC -> KCG -> NKL
-  - Dad annual ceremony 
+  - Jul 30 -> Dad annual ceremony
+  - Jul 31 -> At Home

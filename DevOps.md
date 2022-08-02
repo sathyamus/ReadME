@@ -10,6 +10,7 @@
    - Testing
    - Tools
      - IDE (Eclipse, STS, IntelliJ, VS Code, Atom)
+     - Remote Coding for Collaborative development
      - Text Editors (Notepad++, Sublime Text, Bracket) :: Install plug-ins for addon behaviours
      - JIRA, Asana
      - Tomcat, JBoss, Websphere

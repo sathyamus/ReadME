@@ -174,3 +174,6 @@
    - Storage explorer (in Organizations, we need to check the access / proxy etc)
    - azure CLI
    - connect to edge node -> Kerberos authentication -> hdfs get 
+
+### Azure Portal login
+   - Accounts to be synchronized to login, if not, reachout to respective team to add / synchronize.

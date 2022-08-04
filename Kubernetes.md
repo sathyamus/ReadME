@@ -41,13 +41,14 @@
     - External configuration of application
     - No credentials
     - We can use these as environment variables or as a properties file
+    - Namespace resource limits
   - Secret
     - To store secret data
     - Base64 encoded
     - We can use these as environment variables or as a properties file
   - Volumes
     - Storage on local machine
-    - shared drive / external location
+    - shared drive / external location, volumeMount (common share location)
     - remote (outside of K8s cluster)
     - K8s doesn't manage the data persistance
   - Deployments

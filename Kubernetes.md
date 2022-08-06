@@ -29,6 +29,7 @@
     - Each Pod gets its own IP
     - Only interacts with Kubernetes layer
     - New IP address on re-creation
+    - UCP view has cpu, memory utilization
   - Service
     - Permanent IP address
     - Load Balancer

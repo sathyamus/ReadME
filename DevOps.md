@@ -51,6 +51,8 @@
  - Vault
  - Kuberenetes
     - Sysdig - Sysdig Monitor provides cloud monitoring at scale with full Prometheus compatibility.
+      - Dashboards
+      - Teams config (managing access to Dashboards)
     - K9S
  - Ansible - open-source tool to automate apps and IT infrastructure
  - Prometheus - open-source metrics and alerting monitoring solution

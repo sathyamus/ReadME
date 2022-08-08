@@ -441,6 +441,11 @@ Maven dependency :
 
 --------------------------------------------------------------------
 
+Enhancing logs with UID, notification information
+AOP Aspect, aspectjweaver
+
+--------------------------------------------------------------------
+
 KeyGen
 
 ```sh

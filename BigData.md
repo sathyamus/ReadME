@@ -45,6 +45,8 @@
 
    - Dataset .. persist / unpersist 
      - For making available to share with nodes for that thread
+     - Reducing partitions 
+          Dataset<Row> enrichDs = dataset.repartition(5)
 	 
    - Partition
      - Default no of partition for spark is 200 

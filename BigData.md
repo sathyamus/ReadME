@@ -47,6 +47,7 @@
      - For making available to share with nodes for that thread
      - Reducing partitions 
           Dataset<Row> enrichDs = dataset.repartition(5)
+          repartition(1) taking more time than repartition(5) or repartition(20)
 	 
    - Partition
      - Default no of partition for spark is 200 

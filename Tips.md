@@ -488,6 +488,9 @@ IntelliJ Ultimate
 
  https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
 
+ IntelliJIdea 2019 : View / Modify recent Projects list 
+     C:\Users\SN\.IntelliJIdea2019.2\config\options\recentProjects.xml ... 
+
 --------------------------------------------------------------------
 
 try-with-resources Statement

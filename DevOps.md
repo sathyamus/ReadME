@@ -155,6 +155,7 @@
    - Functional - No limit
    - Technical - purge data depending on need, size
  - Central storage of Logs (ELK)
+ - Chatbot (Skype alerts)
  
 #### Azure
   - ARM Templates (export from resource groups / from resource)

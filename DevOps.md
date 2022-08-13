@@ -65,6 +65,7 @@
    - Azure Data Studio
    - SQL Server Management studio 
    - Toad
+   - mongoDB Compass
  - Cmder -> Console Emulator
    - Git for Windows (by default)
    - Themes

@@ -72,6 +72,7 @@
    - Portability (copy, paste ctrl + c, v)
  - Lens -> Kubernetes IDE
    - GUI Portal to view Pods from multiple namespaces
+   - Supports proxy inside Corporate environment
  - Postman (REST calls, OAuth2, Basic credentials, can generate code snippets for curl, python etc)
  - Remote Desktop Gateway (RDG or RD Gateway) is a Windows Server role that provides a secure encrypted connection to the server via RDP. It enhances control by removing all remote user access to your system and replaces it with a point-to-point remote desktop connection.
 

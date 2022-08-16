@@ -107,6 +107,8 @@
  - Prestart / Poststart 
  - Readiniess probes
  - Helm - Packaging manager
+   - Managing Deployments
+   - Environment specific configuration
 
 ### Blue Green
  - Traffic Manager

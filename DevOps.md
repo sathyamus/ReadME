@@ -161,6 +161,7 @@
    - Technical - purge data depending on need, size
  - Central storage of Logs (ELK)
  - Chatbot (Skype alerts)
+ - On Any component failure or other avoid to push duplicate logs, to not increasing the Elastic index size.
  
 #### Azure
   - ARM Templates (export from resource groups / from resource)

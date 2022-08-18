@@ -156,6 +156,7 @@
  - Runtime
  - Running processes
  - Traceability of each request by Business process, date, id etc for Unique params
+ - UniqueID / UID to easily recognize the each call of API
  - Retention of the data
    - Functional - No limit
    - Technical - purge data depending on need, size

@@ -83,6 +83,13 @@ SparkSession.builder().appName("EmailAlerts").setMaster("local[*]").config("key"
     val tradesFiltered = spark.read.parquet("trades.parquet").where("trade_id='12345'").write(tradesFilteredOut)
     trades.count
 
+    // Reading parquet and creating temporary SQL table
+    val trades = spark.read.parquet("trades.parquet")
+    trades.registerTempTable("temp")
+
+
+    %sql
+    select * from temp limit 10
 
 ``` python
 import pandas as pd ##import pandas, its used for data analysis

@@ -177,3 +177,7 @@
 
 ### Azure Portal login
    - Accounts to be synchronized to login, if not, reachout to respective team to add / synchronize.
+
+### Accessing azure resources in Corporate environment
+   - Proxy : Bypass / key to access azure resources
+   - Reverse Proxy : azure resource to be accessed as OnPrem

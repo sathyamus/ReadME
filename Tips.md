@@ -113,9 +113,29 @@ ExecutorService executorService3 = Executors.newScheduledThreadPool(10);
 
 --------------------------------------------------------------------
 
+Git Tools :
+ - TortoiceGit
+ - Git bash
+ - sourcetreeapp
+
+--------------------------------------------------------------------
+
 Git : SSL setup
  - Download Certificate from Certificate Authority 
  - git config --global --add http.sslcainfo /c/Homeware/cacerts/cacerts-2.0.cer
+
+--------------------------------------------------------------------
+
+Git
+
+```sh
+   git config --global -add http.sslVersion tlsv1.2
+   git config --global -l
+   git config -l
+```
+
+In TortoiceGit, if the git Version is not good in the path then Settings --> General -> select the right git binary location.
+This will fix any SSL issues.
 
 --------------------------------------------------------------------
 
@@ -123,13 +143,6 @@ Git : Automatic deletion of head branches after the merge
  - Git -> Repository -> Settings 
  - select the checkbox to Automatic deletion of head branches after the merge
 
---------------------------------------------------------------------
-
-Git Tools :
- - TortoiceGit
- - Git bash
- - sourcetreeapp
- 
 --------------------------------------------------------------------
 
 Git Fetch / Merge :
@@ -172,19 +185,6 @@ Git user management  / Git Personal Access token(PAT) :
 Git -> Administration :  
   -> Webhooks
   -> Pull Request Decoration by provider 
-
---------------------------------------------------------------------
-
-Git
-
-```sh
-   git config --global -add http.sslVersion tlsv1.2
-   git config --global -l
-   git config -l
-```
-
-In TortoiceGit, if the git Version is not good in the path then Settings --> General -> select the right git binary location.
-This will fix any SSL issues.
 
 --------------------------------------------------------------------
 

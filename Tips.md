@@ -188,6 +188,13 @@ Git -> Administration :
 
 --------------------------------------------------------------------
 
+Git File path loo long errors
+
+```sh
+   git config --global core.longpaths true
+```
+--------------------------------------------------------------------
+
 GitLab : 
 
 cd existing_repo

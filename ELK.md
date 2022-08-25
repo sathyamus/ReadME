@@ -7,6 +7,11 @@
   - Agrregation
   - Sub-aggregation
   - Terms
+  - Index management
+    - rollover-policy
+      - 30 / 60 days for long term retention
+      - 7 days for short term
+    - Index phase ... hot ... cold
 
 - Kibana
   - Saved search

@@ -1,5 +1,11 @@
 ### Azure CLI
 
+### Installation over corporate network
+		envinstall miniconda3
+		envinstall px (proxy tool)
+		envinstall az (azure cli)
+		envinstall kubectl
+
 az login
 az login --tenant 123456-c6d2-471c-9056-2df44d5b2d1f
 

@@ -246,6 +246,8 @@ Custom Http Headers
 
 --------------------------------------------------------------------
 
+#### Spark dynamic Allocation of memory 
+
 ```sh
    spark.shuffle.service.enabled=true 
    spark.dynamicAllocation.enabled=true 

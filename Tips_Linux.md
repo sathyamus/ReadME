@@ -41,3 +41,12 @@ get *
 quit
 ```
 
+### Finding # of lines from large file
+```sh
+wc -l filename
+```
+
+### Extracting # of lines from large file
+```sh
+sed -n '3405159,3465158p;3465159q' filename > newfile
+```

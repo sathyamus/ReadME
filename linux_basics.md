@@ -32,8 +32,7 @@ tail -20 file1
 
 head -20 file2
 
-find . -name '*.txt' => find all the text files in the current directory
-find / -name '*.txt' 
+
 
 grep word file1 file2
 grep -r word dir1
@@ -46,7 +45,12 @@ Permissions =>
     -/d rwx rwx rwx
     chmod u+x file1
     chmod u-x file2
+	chmod g+w file1
     4 is for Read, 2 is for Write and 1 is for Execute permission.
+
+	chmod u+r,u+w,g+r,g+w file1
+    or
+	chmod u+rw,g+rw file2
 
 sudoedit => list of sudoers can be edited with this command.
 
@@ -98,5 +102,11 @@ Redirecting the output
 
 which java
 
+Searching files by name
+	find . -name '*.txt' => find all the text files in the current directory
+	find / -name '*.txt'
 
+Searching files by size
+	find . -size -1M
+	
 `

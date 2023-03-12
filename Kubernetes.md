@@ -315,6 +315,6 @@ Sample Docker Images
 
 
 ----------------------------------------------------------
-
+ https://www.altexsoft.com/blog/kubernetes-pros-cons/
  https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/
  https://gregorsuttie.com/2021/01/20/aks-zero-to-hero-series-for-everyone/

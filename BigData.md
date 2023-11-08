@@ -198,7 +198,13 @@ len(moviecsv)
     - Same topic, different group .. 
     - Add filters in code to consume them, best approach to try with multi-instance
   - Produce message
+      - Push manual notification
+	      /usr/hdp/current/kafka-broker/bin/kafka-console-producer.sh --bootstrap-server $KAFKA_BROKER --topic notif_message_v1 --producer-property security.protocol=SASL_SSL --producer-property ssl.endpoint.identification.algorithm= < filtered_notif.json
   - Consume message
+      - Purge messages
+	      /usr/hdp/current/kafka-broker/bin/kafka-console-consumer.sh --bootstrap-server $KAFKA_BROKER --topic notif_message_v1 --consumer-property security.protocol=SASL_SSL --consumer-property ssl.endpoint.identification.algorithm= consumer-property group.id=notif_prd > backup_purged_notif.json
+	      /usr/hdp/current/kafka-broker/bin/kafka-console-consumer.sh --bootstrap-server $KAFKA_BROKER --topic notif_message_v1 --consumer-property security.protocol=SASL_SSL --consumer-property ssl.endpoint.identification.algorithm= --from-begining > backup_all_purged_notif.json
+		  
 
 #### Kafka Issues
   - Not able to consume / deliver messages 

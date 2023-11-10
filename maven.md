@@ -80,3 +80,9 @@ mvn help:effective-pom -Dverbose=true > effectivePom-email-api.txt
 #### Options to execute tests in parallel 
 
 https://maven.apache.org/surefire/maven-surefire-plugin/examples/fork-options-and-parallel-execution.html
+
+#### Purge Local Repository to fix build issues
+```sh
+mvn dependency:purge-local-repository
+mvn dependency:purge-local-repository clean install
+```

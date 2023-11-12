@@ -1,4 +1,4 @@
-# Cybersecurity
+# CyberSecurity
 
 certlm.msc -> View Certificates
 

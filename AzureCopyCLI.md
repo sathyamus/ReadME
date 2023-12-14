@@ -16,3 +16,5 @@
 
 	# If you have the access to both the storage-accounts (different / same subscriptions) then above SAS token is not mandatory.
 	azcopy copy 'https://<source-storage-account-name>.<blob or dfs>.core.windows.net/<container-name>/path/to/folder/*' 'https://<destination-storage-account-name>.<blob or dfs>.core.windows.net/<container-name>/path/to/folder/' 
+
+	Refer to : https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-blobs-copy

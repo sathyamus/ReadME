@@ -69,7 +69,11 @@
 
 - Azure Storage
   - Storage account
-  - Feeder 
+  - Feeder
+  - Storage Explorer Application
+    - Connects to different storage accounts from different subscriptions.
+    - Generate SAS token
+	- Generate azcopy path
 
 - Virtual Networking 
   - Configure Azure DNS

@@ -170,6 +170,9 @@
     - DBs / VMs created / deleted in x days
     - DBs / VMs re-sized in x days
 
+- Eventhub
+   Azure Event Hubs is a native data-streaming service in the cloud that can stream millions of events per second, with low latency, from any source to any destination. Event Hubs is compatible with Apache Kafka. It enables you to run existing Kafka workloads without any code changes.
+
 ### Getting the list of Resources registered for respective subscription  
     az provider list > provider_list.txt
     az provider list --query "[].namespace" -o tsv | ForEach-Object { az provider register -n $_}

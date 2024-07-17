@@ -43,3 +43,11 @@
   - FileBeat
   - MetricBeat
   - HeartBeat
+
+- Uptime monitoring
+      The Uptime app is for viewing result data from lightweight monitors running through Heartbeat and configured with a traditional heartbeat.yml file. This is for TCP, HTTP or ICMP monitors that you have configured and run from your own infrastructure with Heartbeat natively.
+   - HTTP monitor
+   - ICMP monitor
+   - TCP monitor
+   - TLS Certificates
+   Read : https://www.elastic.co/guide/en/observability/current/uptime-intro.html

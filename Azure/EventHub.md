@@ -39,3 +39,6 @@
 
  Features and terminology in Azure Event Hubs
  - https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-features
+
+ Features and terminology in Azure Event Hubs
+ - https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/messaging

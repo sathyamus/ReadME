@@ -78,7 +78,9 @@
    - Supports proxy inside Corporate environment
    - Easy access to many of the kubectl operations
  - Postman (REST calls, OAuth2, Basic credentials, can generate code snippets for curl, python etc)
+ - Insomnia, Bruno (REST clients)
  - Remote Desktop Gateway (RDG or RD Gateway) is a Windows Server role that provides a secure encrypted connection to the server via RDP. It enhances control by removing all remote user access to your system and replaces it with a point-to-point remote desktop connection.
+ - PDF24 Creator (all tools as offline version) (https://tools.pdf24.org/en/creator)
 
 #### Deployment Pipeline
  - Spark HDI Cluster

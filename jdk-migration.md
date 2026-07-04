@@ -11,7 +11,8 @@
  - cannot access class sun.nio.ch.DirectBuffer (in module java.base) because module java.base does not export sun.nio.ch to unnamed module
    Fix : add VM argument ... --add-exports java.base/sun.nio.ch=ALL-UNNAMED
 
- - class org.apache.spark.storage.StorageUtils$ (in unnamed module) cannot access class sun.nio.ch.DirectBuffer (in module java.base)
+ - class org.apache.spark.storage.StorageUtils$ (in unnamed module) cannot access class sun.nio.ch.DirectBuffer (in module java.base) because module java.base does not export sun.nio.ch to unnamed module
+   This error occurs because of running Apache Spark on Java 16 or higher (such as Java 17, 21 or 25)
    Fix : add VM argument ... --add-exports java.base/sun.nio.ch=ALL-UNNAMED
 
  - unfinished stubbing detected here then return () may be missing 
